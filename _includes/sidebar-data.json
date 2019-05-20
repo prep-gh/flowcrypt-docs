@@ -76,6 +76,12 @@
                 ]
               }
             ]
+          },
+          {
+            "title": "Encrypted Contact Page",
+            "urls": [
+              "/content/guide/send-and-receive/encrypted-contact-page.html"
+            ]
           }
         ]
       },
@@ -98,6 +104,12 @@
         ]
       },
       {
+        "title": "Manage Public Keys",
+        "urls": [
+          "/technical/manage-public-keys.html"
+        ]
+      },
+      {
         "title": "FlowCrypt Attester",
         "urls": [
           "/technical/attester.html"
@@ -108,11 +120,35 @@
         "urls": [
           "/technical/security.html"
         ]
+      }
+    ]
+  },
+  {
+    "title": "For Business",
+    "is_top_level": true,
+    "items": [
+      {
+        "title": "Group management",
+        "urls": [
+          "/business/group-management.html"
+        ]
       },
       {
-        "title": "Public Key Management",
+        "title": "GDPR",
         "urls": [
-          "/technical/public-key-management.html"
+          "/business/gdpr.html"
+        ]
+      },
+      {
+        "title": "HIPAA",
+        "urls": [
+          "/business/hipaa.html"
+        ]
+      },
+      {
+        "title": "Enterprise",
+        "urls": [
+          "/business/enterprise.html"
         ]
       }
     ]
