@@ -414,3 +414,17 @@ a {
     line-height: 12px;
     text-align: right;
 }
+
+.main-content {
+  div.screenshot {
+    img {
+      opacity: 0.5;
+      border: 1px solid $cl_green;
+      background-color: rgba(49, 162, 23, 0.05);
+      padding: 8px;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}

@@ -20,7 +20,7 @@ Click the **FlowCrypt icon** in the top right corder of your browser to set up F
 
 {{ "settingup/startusingFC-clicklogo" | screenshot }}
 
-Click **Continue with Gmail**:
+The following screen will show up. Click **Continue with Gmail**:
 
 {{ "settingup/setupflowcrypt2" | screenshot }}
 
@@ -32,7 +32,11 @@ Click allow on the next screen:
 
 {{ "settingup/flowcryptbrowserextensionapprove" | screenshot }}
 
-If this is your very first time using FlowCrypt, you will be presented with two choices (if you already set up FlowCrypt before and now you are doing it again on a second device, see [Setting up FlowCrypt on another device](another-device) instead):
+If this is your very first time using FlowCrypt, you will be presented with two choices
+
+{{site.data.alerts.callout_info}}
+If this is not your first time setting up FlowCrypt on this account, you may see a recovery prompt instead. See [Setting up FlowCrypt on another device](another-device.html).
+{{site.data.alerts.end}}
 
 {{ "settingup/setupflowcryptnewencryptionkey" | screenshot }}
 

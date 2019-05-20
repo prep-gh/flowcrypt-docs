@@ -16,3 +16,5 @@ After you click **Continue with Gmail** during installation, you will be present
 Here, enter your Pass Phrase (must be the same as when you initially set up FlowCrypt on this account) and click **Recover Account**.
 
 {{ "settingup/allset" | screenshot }}
+
+You can now read your encrypted emails on both devices.

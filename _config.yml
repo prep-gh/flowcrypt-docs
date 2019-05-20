@@ -1,5 +1,5 @@
 site_title: FlowCrypt Docs
-url: "https://flowcrypt.com"
+url: "https://flowcrypt.com/"
 
 homepage_title: FlowCrypt Docs
 baseurl: "/docs"
@@ -8,7 +8,10 @@ destination: _site/docs
 plugins:
 - jekyll-sitemap
 
-highlighter: rouge
+liquid:
+  error_mode: strict
+  strict_filters: true
+  strict_variables: true
 
 markdown: kramdown
 kramdown:

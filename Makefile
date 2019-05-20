@@ -43,7 +43,7 @@ build: bootstrap
 .PHONY: serve
 serve: bootstrap
 	scss css/customstyles.scss css/customstyles.css
-	bundle exec jekyll serve --port 4000 --incremental --trace
+	bundle exec jekyll serve --port 4000 --trace
 
 .PHONY: test
 test: bootstrap

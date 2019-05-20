@@ -16,7 +16,11 @@ Add emails of your recipients. You can also search your contacts by entering the
 
 {{ "compose/search-contacts" | screenshot }}
 
-{{ "The contacts search does not produce the exact same results as searching your contacts directly on Google. Some contacts may be missing or harder to find. We will be improving this soon.<br><br>If you cannot find a contact, copy their whole email address." | note }}
+{{site.data.alerts.callout_info}}
+The contacts search does not produce the exact same results as searching your contacts directly on Google. Some contacts may be missing or harder to find. We will be improving this soon.
+
+If you cannot find a contact, copy their whole email address.
+{{site.data.alerts.end}}
 
 The green color symbolises that the recipient has FlowCrypt (or compatible OpenPGP software) installed. This is the most conveniend scenario.
 
