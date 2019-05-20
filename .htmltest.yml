@@ -1,0 +1,5 @@
+DirectoryPath: "_site"
+ExternalTimeout: 30
+IgnoreURLs:
+  - http://localhost:4000
+IgnoreInternalEmptyHash: true

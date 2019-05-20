@@ -1,0 +1,31 @@
+site_title: FlowCrypt Docs
+url: "https://flowcrypt.com"
+
+homepage_title: FlowCrypt Docs
+baseurl: "/docs"
+destination: _site/docs
+
+gems:
+- jekyll-sitemap
+
+highlighter: rouge
+markdown: redcarpet
+
+redcarpet:
+  extensions:
+  - disable_indented_code_blocks
+  - no_intra_emphasis
+  - tables
+  - with_toc_data
+  - jekyll-redirect-from
+
+exclude: ["ci", "vendor", "config.yml", ".gitignore", ".htmltest.yml", ".jekyll-metadata", ".vale.ini", "bootstrap", "build.sh", "scripts", "Gemfile", "Gemfile.lock", "LICENSE", "Makefile", "navgoco_license", "README.md"]
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      sidebar_data: "sidebar-data.json"

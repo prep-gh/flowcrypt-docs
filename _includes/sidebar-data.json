@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Getting Started",
+    "is_top_level": true,
+    "items": [
+      {
+        "title": "FlowCrypt Overview",
+        "urls": [
+          "/content/getting-started/overview.html"
+        ]
+      },
+      {
+        "title": "Install FlowCrypt",
+        "urls": [
+          "/content/getting-started/install.html"
+        ]
+      },
+      {
+        "title": "Send and receive email",
+        "urls": [
+          "/content/getting-started/send-and-receive.html"
+        ]
+      },
+      {
+        "title": "Troubleshooting",
+        "urls": [
+          "/content/getting-started/troubleshooting.html"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Technical Docs",
+    "is_top_level": true,
+    "items": [
+      {
+        "title": "Specifications",
+        "urls": [
+          "/technical/specifications.html"
+        ]
+      },
+      {
+        "title": "FlowCrypt Attester",
+        "urls": [
+          "/technical/attester.html"
+        ]
+      },
+      {
+        "title": "Security",
+        "urls": [
+          "/technical/security.html"
+        ]
+      },
+      {
+        "title": "Public Key Management",
+        "urls": [
+          "/technical/public-key-management.html"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Questions",
+    "is_top_level": true,
+    "items": [
+      {
+        "title": "Frequently asked",
+        "urls": [
+          "https://flowcrypt.com/blog/questions"
+        ]
+      }
+    ]
+  }
+]

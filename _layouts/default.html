@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% include head.html %}
+</head>
+
+<body>
+  {% for hash in page.allowed_hashes %}
+  <a id="{{ hash }}" style="display: none"></a>
+  {% endfor %}
+  {% include topnav.html %}
+  <div id="content">
+    <div id="main-content">
+      <div class="sidebar-row">
+        {% if page.no_sidebar == true %}
+        <div class="content-col no-sidebar main-content">
+          {% else %}
+          {% include sidebar.html %}
+          <div class="content-col main-content {% if page.url == '/' %}content-col--landing{% endif %} {% if page.toc != true %}no-toc{% endif %}">
+            {% endif %}
+            {{content}}
+          </div>
+          {% if page.toc == true %}
+          <div class="toc-col">
+            <div id="toc-right"></div>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    <div id="credits">Content © FlowCrypt Limtied<br>Layout from <a href="https://cockroachlabs.com" target="_blank">Cockroach Labs</a>,<a
+        href="https://raw.githubusercontent.com/cockroachdb/docs/c957205e6f4478fd9db1481289addc8f5c2e3d16/LICENSE" target="_blank">CC Attr 4.0</a>, edited</div>
+    <script src="{{ 'js/tocRightScrollHighlight.js' | relative_url }}"></script>
+</body>
+
+</html>

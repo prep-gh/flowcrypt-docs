@@ -1,0 +1,13 @@
+*~
+.*.swp
+.DS_Store
+generate/generate
+Railroad.jar
+.sass-cache
+_site
+.jekyll-metadata
+bootstrap
+vendor/
+tmp/
+css/customstyles.css
+css/customstyles.css.map

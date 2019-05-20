@@ -1,0 +1,24 @@
+
+# FlowCrypt Docs
+
+FlowCrypt documentation available at (not yet available)
+
+## Contributing
+
+If you see an error in this documentation, feel free to open an issue or a Pull Request to have it fixed.
+
+```
+git clone https://github.com/FlowCrypt/flowcrypt-docs.git
+cd flowcrypt-docs
+make bootstrap
+make serve
+make test
+```
+
+### Credits
+
+Layout, theme, some scripts and styles were originally adapted from [CockroachDB Docs](https://github.com/cockroachdb/docs) under [Creative Commons Attribution 4.0 International License](https://raw.githubusercontent.com/cockroachdb/docs/c957205e6f4478fd9db1481289addc8f5c2e3d16/LICENSE), modified, also available in `LICENSE_roach_docs`.
+
+Sidebar license in `LICENSE_navgoco.md`
+
+Some elements reused from Cayman Jekyll Theme.
