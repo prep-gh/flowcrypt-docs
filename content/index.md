@@ -14,28 +14,28 @@ FlowCrypt is an email solution that lets you work with end-to-end encrypted mess
     <div class="col-xs-12 col-sm-6 col-lg-4">
       <p class="landing-column-title">Getting Started</p>
       <div class="landing-column-content">
-        <p><a href="/docs/">FlowCrypt Overview</a></p>
-        <p><a href="/docs/">Install FlowCrypt</a></p>
-        <p><a href="/docs/">Send and receive email</a></p>
-        <p><a href="/docs/">Troubleshooting</a></p>
+        <p><a href="guide/overview.html">FlowCrypt Overview</a></p>
+        <p><a href="guide/setup/install.html">Install FlowCrypt</a></p>
+        <p><a href="guide/send-and-receive/">Send and receive email</a></p>
+        <p><a href="guide/troubleshoot">Troubleshooting</a></p>
       </div>
     </div>
     <div class="col-xs-12 col-sm-6 col-lg-4">
       <p class="landing-column-title">Technical docs</p>
       <div class="landing-column-content">
-        <p><a href="/docs/">Specifications</a></p>
-        <p><a href="/docs/">FlowCrypt Attester</a></p>
-        <p><a href="/docs/">Security</a></p>
-        <p><a href="/docs/">Public key management</a></p>
-        <p><a href="/docs/">Compatibility</a></p>
+        <p><a href="tbd">Specifications</a></p>
+        <p><a href="tbd">FlowCrypt Attester</a></p>
+        <p><a href="tbd">Security</a></p>
+        <p><a href="tbd">Public key management</a></p>
+        <p><a href="tbd">Compatibility</a></p>
       </div>
     </div>
     <div class="col-xs-12 col-sm-6 col-lg-4">
       <p class="landing-column-title">Extras</p>
       <div class="landing-column-content">
-        <p><a href="/docs/">Encrypted Contact Page</a></p>
-        <p><a href="/docs/">Questions</a></p>
-        <p><a href="/docs/">Enterprise integration</a></p>
+        <p><a href="tbd">Encrypted Contact Page</a></p>
+        <p><a href="tbd">Questions</a></p>
+        <p><a href="tbd">Enterprise integration</a></p>
       </div>
     </div>
   </div>

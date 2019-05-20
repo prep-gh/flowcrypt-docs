@@ -1,30 +1,88 @@
 [
   {
+    "title": "Docs Home",
+    "is_top_level": true,
+    "urls": [
+      "/content/"
+    ]
+  },
+  {
     "title": "Getting Started",
     "is_top_level": true,
     "items": [
       {
         "title": "FlowCrypt Overview",
         "urls": [
-          "/content/getting-started/overview.html"
+          "/content/guide/overview.html"
         ]
       },
       {
         "title": "Install FlowCrypt",
         "urls": [
-          "/content/getting-started/install.html"
+          "/content/guide/setup/install.html"
         ]
       },
       {
         "title": "Send and receive email",
-        "urls": [
-          "/content/getting-started/send-and-receive.html"
+        "items": [
+          {
+            "title": "Encrypted emails overview",
+            "urls": [
+              "/content/guide/send-and-receive/index.html"
+            ]
+          },
+          {
+            "title": "Sending encrypted email",
+            "items": [
+              {
+                "title": "Send to a FlowCrypt user",
+                "urls": [
+                  "/content/guide/send-and-receive/send-to-flowcrypt.html"
+                ]
+              },
+              {
+                "title": "Send to other PGP software",
+                "urls": [
+                  "/content/guide/send-and-receive/send-to-other-pgp-software.html"
+                ]
+              },
+              {
+                "title": "Send to anyone else",
+                "urls": [
+                  "/content/guide/send-and-receive/send-password-protected.html"
+                ]
+              },
+              {
+                "title": "Encrypted reply",
+                "urls": [
+                  "/content/guide/send-and-receive/encrypted-reply.html"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Opening encrypted email",
+            "items": [
+              {
+                "title": "Open with FlowCrypt",
+                "urls": [
+                  "/content/guide/send-and-receive/open-email-with-flowcrypt.html"
+                ]
+              },
+              {
+                "title": "Open password protected email",
+                "urls": [
+                  "/content/guide/send-and-receive/open-password-protected.html"
+                ]
+              }
+            ]
+          }
         ]
       },
       {
         "title": "Troubleshooting",
         "urls": [
-          "/content/getting-started/troubleshooting.html"
+          "/content/guide/troubleshoot/index.html"
         ]
       }
     ]
