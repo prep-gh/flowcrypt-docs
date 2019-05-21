@@ -23,19 +23,19 @@ FlowCrypt is an email solution that lets you work with end-to-end encrypted mess
     <div class="col-xs-12 col-sm-6 col-lg-4">
       <p class="landing-column-title">Technical docs</p>
       <div class="landing-column-content">
-        <p><a href="tbd">Specifications</a></p>
-        <p><a href="tbd">FlowCrypt Attester</a></p>
-        <p><a href="tbd">Security</a></p>
-        <p><a href="tbd">Public key management</a></p>
-        <p><a href="tbd">Compatibility</a></p>
+        <p><a href="technical/specifications.html">Specifications</a></p>
+        <p><a href="technical/attester.html">FlowCrypt Attester</a></p>
+        <p><a href="technical/security.html">Security</a></p>
+        <p><a href="technical/manage-private-keys.html">Public key management</a></p>
+        <p><a href="technical/openpgp-compatibility.html">Compatibility</a></p>
       </div>
     </div>
     <div class="col-xs-12 col-sm-6 col-lg-4">
       <p class="landing-column-title">Extras</p>
       <div class="landing-column-content">
-        <p><a href="tbd">Encrypted Contact Page</a></p>
-        <p><a href="tbd">Questions</a></p>
-        <p><a href="business/enterprise.html">Enterprise integration</a></p>
+        <p><a href="guide/send-and-receive/encrypted-contact-page.html">Encrypted Contact Page</a></p>
+        <p><a href="help/faq.html">Questions</a></p>
+        <p><a href="business/enterprise.html">Enterprise</a></p>
       </div>
     </div>
   </div>

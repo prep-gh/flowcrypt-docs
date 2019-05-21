@@ -1,9 +1,3 @@
----
-title: FlowCrypt Basic Settings
-summary: FlowCrypt Basic Settings
-toc: true
----
-
 
 Settings PUBLIC KEY
 {{ "basicsettings/clickrenew" | screenshot }}

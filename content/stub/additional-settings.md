@@ -1,16 +1,15 @@
----
-title: Addtional Settings
-summary: Addtional Settings
-toc: true
----
 
 {{ "FCsettings/clickonencryptedinboxandclicksettinglogo" | screenshot }}
 
 {{ "addtionalsettings/FCsettings" | screenshot }}
 
-Getting in touch with FlowCrypt developers.{{ "addtionalsettings/sendmessagetoFCdevelopers" | screenshot }}
+Getting in touch with FlowCrypt developers.
 
-Type in your question or feedback here and click send.{{ "addtionalsettings/typeyourhelpmessagehere" | screenshot }}
+{{ "addtionalsettings/sendmessagetoFCdevelopers" | screenshot }}
+
+Type in your question or feedback here and click send.
+
+{{ "addtionalsettings/typeyourhelpmessagehere" | screenshot }}
 
 {{ "addtionalsettings/clicksend" | screenshot }}
 

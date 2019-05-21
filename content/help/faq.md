@@ -98,7 +98,7 @@ You'll need to communicate that password to the recipient(through some other mea
 >
 > It would be great to get more documentation on why the extension needs to get permission to access the mailbox. Assurance (I hope that's the case) that no outside system will use this access. In short, something more for the crypto/privacy inclined folks (which might be the primary user base) so that they feel better.
 
-Some of what you're looking for is at <a href="/privacy">flowcrypt.com/privacy</a>
+Some of what you're looking for is at <a href="https://flowcrypt.com/privacy">flowcrypt.com/privacy</a>
 
 The access to Gmail is because FlowCrypt works a lot more like Thunderbird (that needs direct access to the mail server from your machine) although it's disguised as a Mailvelope-like plugin (for convenience).
 
@@ -114,7 +114,7 @@ The email access tokens are kept strictly on your device, and will not be shared
 >
 > This plugin needs access to my inbox. Will it make a copy of my data and send to your server?
 
-Your personal emails stay on your device. You can also see <a href="/privacy">flowcrypt.com/privacy</a>.
+Your personal emails stay on your device. You can also see <a href="https://flowcrypt.com/privacy">flowcrypt.com/privacy</a>.
 
 The only things that servers are needed for is the kind of things that make this work - eg when you are writing someone, the plugin will check with the servers to see if the other person is using encryption. The same way, when you installed it, it noted that your email is capable of receiving encrypted messages.
 
@@ -131,7 +131,7 @@ It's the same as setting up a new email client on your computer or phone - it wi
 
 It's the same as setting up a new email client on your computer or phone - it will need access to your email to be able to pull the emails to your computer and show them to you (except in FlowCrypt's case, it also encrypts and decrypts them using PGP end-to-end encryption).
 
-There are a few resources that may help. One is <a href="/privacy">flowcrypt.com/privacy</a> (email access token section):
+There are a few resources that may help. One is <a href="https://flowcrypt.com/privacy">flowcrypt.com/privacy</a> (email access token section):
 
 *ACCESS TOKEN needed to access user's email is exclusively stored in LOCAL APP on user's LOCAL MACHINE, no exceptions. ACCESS TOKEN is used solely within LOCAL APP for user authentication, sending and receiving of MESSAGES and other related actions that make LOCAL APP work smoothly.*
 

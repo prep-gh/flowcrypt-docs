@@ -40,6 +40,6 @@ If this is not your first time setting up FlowCrypt on this account, you may see
 
 {{ "settingup/setupflowcryptnewencryptionkey" | screenshot }}
 
-If this is the first time you are using encryption on this account, click [New Encryption Key](new-private-key.md).
+If this is the first time you are using encryption on this account, click [New Encryption Key](new-private-key.html).
 
-Else if you have used OpenPGP encryption software from another vendor in the past and want to import your previous private key, see [Use My Own Private Key](import-private-key.md).
+Else if you have used OpenPGP encryption software from another vendor in the past and want to import your previous private key, see [Use My Own Private Key](import-private-key.html).

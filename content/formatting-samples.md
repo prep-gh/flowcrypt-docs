@@ -43,5 +43,5 @@ Some table:
 
 ## Buttons
 
-<a href="start-a-local-cluster.html"><button>Insecure</button></a>
-<a href="start-a-local-cluster.html"><button>Secure</button></a>
+<a href="/docs/content/"><button>Btn 1</button></a>
+<a href="/docs/content/"><button>Btn 2</button></a>

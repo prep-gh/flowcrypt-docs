@@ -45,7 +45,7 @@ Manual gives you full control over how your key is handled.
 
 Simple setup will by default protect your key with your pass phrase, then store it in your inbox. The security of your key then depends on the strength of your pass phrase - that is why FlowCrypt requires such a long pass phrase when you are creating a new key.
 
-Please also see <a href="/privacy">our Privacy Policy</a> - it's very readable.
+Please also see <a href="https://flowcrypt.com/privacy">our Privacy Policy</a> - it's very readable.
 
 The code itself is publicly available: <a href="https://github.com/FlowCrypt">github.com/FlowCrypt</a>
 
@@ -63,5 +63,3 @@ On top of that, if they are using FlowCrypt, they should (as well as you) go to 
 
 This is military grade end-to-end encryption. It won't fail you in itself, the weak links are the underlying system, the device, the people, etc.
 
-<img src="https://imgs.xkcd.com/comics/security.png" />
-(borrowed from: <a href="https://xkcd.com/">xkcd.com</a>)

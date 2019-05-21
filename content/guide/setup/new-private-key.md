@@ -6,7 +6,7 @@ toc: true
 
 | Prerequisities
 |:---
-| You have already installed flowcrypt by following [Install FlowCrypt](install)
+| You have already installed flowcrypt by following [Install FlowCrypt](install.html)
 
 On the setup screen, click **New Encryption Key**:
 

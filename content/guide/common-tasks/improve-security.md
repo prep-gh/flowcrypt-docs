@@ -12,3 +12,6 @@ summary: Simple things that improve your system's security
 etc
 
 link to security page
+
+<img src="https://imgs.xkcd.com/comics/security.png" alt="security comic" />
+(borrowed from: <a href="https://xkcd.com/">xkcd.com</a>)

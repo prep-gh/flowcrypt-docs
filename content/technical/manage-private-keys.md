@@ -34,7 +34,7 @@ Depending on your setup, it will either find the appropriate key automatically (
 
 > Good Morning! Where is the key pair for FlowCrypt stored?
 
-For desktop browser extension, it's stored in browser local extension storage. Depending how you set it up, there may also be a backup, see <a href="/privacy">flowcrypt.com/privacy</a>. Specifically:
+For desktop browser extension, it's stored in browser local extension storage. Depending how you set it up, there may also be a backup, see <a href="https://flowcrypt.com/privacy">flowcrypt.com/privacy</a>. Specifically:
 
 **Handling of PRIVATE KEYs**
 

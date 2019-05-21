@@ -15,7 +15,7 @@ summary: FlowCrypt Attester Documentation
 
 Simply add <b>attester.flowcrypt.com</b> or <b>https://attester.flowcrypt.com</b> as a keyserver in the settings of whatever OpenPGP software you use. This will allow your software to start pulling public keys of FlowCrypt users seamlessly.
 
-If that doesn't work, please write us so that we can find out why. Meanwhile you can always download individual keys from <a href="/lookup">FlowCrypt Attester Lookup</a>.
+If that doesn't work, please write us so that we can find out why. Meanwhile you can always download individual keys from <a href="https://flowcrypt.com/lookup">FlowCrypt Attester Lookup</a>.
 
 ## Sync with keyservers
 
