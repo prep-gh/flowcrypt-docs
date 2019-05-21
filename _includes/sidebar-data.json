@@ -128,6 +128,12 @@
             "urls": [
               "/content/guide/common-tasks/improve-security.html"
             ]
+          },
+          {
+            "title": "Get a Paid Subscription",
+            "urls": [
+              "/content/guide/common-tasks/paid-subscription.html"
+            ]
           }
         ]
       }
