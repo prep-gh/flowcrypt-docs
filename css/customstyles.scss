@@ -453,5 +453,25 @@ a {
     border-radius: 4px;
     background-color: white;
   }
+  
+  table.vertical th {
+    height: 160px;
+    white-space: nowrap;
+    border: none;
+    font-weight: normal;
+    > span {
+      display: inline-block;
+      transform: translate(25px, 51px) rotate(315deg);
+      width: 20px;
+      position: relative;
+      top: 75px;
+      left: -8px;
+      font-weight: normal;
+      > span {
+        border-bottom: 1px solid #ccc;
+        padding: 5px 0;
+      }
+    }
+  }
 
 }

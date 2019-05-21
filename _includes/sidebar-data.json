@@ -116,6 +116,12 @@
         ]
       },
       {
+        "title": "OpenPGP Compatibility",
+        "urls": [
+          "/content/technical/openpgp-compatibility.html"
+        ]
+      },
+      {
         "title": "Other platforms",
         "urls": [
           "/content/technical/other-platforms.html"
@@ -205,18 +211,6 @@
             "title": "communicate one time password",
             "urls": [
               "/content/answer/communicate-one-time-password.html"
-            ]
-          },
-          {
-            "title": "data privacy",
-            "urls": [
-              "/content/answer/data-privacy.html"
-            ]
-          },
-          {
-            "title": "emailing protonmail",
-            "urls": [
-              "/content/answer/emailing-protonmail.html"
             ]
           },
           {
