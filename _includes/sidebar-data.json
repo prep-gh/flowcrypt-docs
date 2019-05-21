@@ -74,12 +74,6 @@
                 "urls": [
                   "/content/guide/send-and-receive/send-password-protected.html"
                 ]
-              },
-              {
-                "title": "Encrypted reply",
-                "urls": [
-                  "/content/guide/send-and-receive/encrypted-reply.html"
-                ]
               }
             ]
           },
@@ -233,25 +227,25 @@
           {
             "title": "Cannot read email",
             "urls": [
-              "/content/troubleshoot/cannot-read-email.html"
+              "/content/help/cannot-read-email.html"
             ]
           },
           {
             "title": "Forgot pass phrase",
             "urls": [
-              "/content/troubleshoot/forgot-pass-phrase.html"
+              "/content/help/forgot-pass-phrase.html"
             ]
           },
           {
             "title": "Compatibility issue",
             "urls": [
-              "/content/troubleshoot/compatibility.html"
+              "/content/help/compatibility.html"
             ]
           },
           {
             "title": "Rare errors",
             "urls": [
-              "/content/troubleshoot/rare-errors.html"
+              "/content/help/rare-errors.html"
             ]
           }
         ]
@@ -260,65 +254,23 @@
         "title": "Questions",
         "items": [
           {
-            "title": "FAQ",
+            "title": "Frequent questions",
             "urls": [
-              "/content/answer/faq.html"
+              "/content/help/faq.html"
             ]
           },
           {
-            "title": "can recipient decrypt email when not using gmail or chrome",
+            "title": "Rare questions",
             "urls": [
-              "/content/answer/can-recipient-decrypt-email-when-not-using-gmail-or-chrome.html"
-            ]
-          },
-          {
-            "title": "communicate one time password",
-            "urls": [
-              "/content/answer/communicate-one-time-password.html"
-            ]
-          },
-          {
-            "title": "exporting from gpg suite mac",
-            "urls": [
-              "/content/answer/exporting-from-gpg-suite-mac.html"
-            ]
-          },
-          {
-            "title": "forgot",
-            "urls": [
-              "/content/answer/forgot.html"
-            ]
-          },
-          {
-            "title": "import public key",
-            "urls": [
-              "/content/answer/import-public-key.html"
-            ]
-          },
-          {
-            "title": "missing default gmail signature in footer of message",
-            "urls": [
-              "/content/answer/missing-default-gmail-signature-in-footer-of-message.html"
-            ]
-          },
-          {
-            "title": "password encrypted message expiration",
-            "urls": [
-              "/content/answer/password-encrypted-message-expiration.html"
-            ]
-          },
-          {
-            "title": "pgp basics",
-            "urls": [
-              "/content/answer/pgp-basics.html"
-            ]
-          },
-          {
-            "title": "view original message",
-            "urls": [
-              "/content/answer/view-original-message.html"
+              "/content/help/raq.html"
             ]
           }
+        ]
+      },
+      {
+        "title": "Contact",
+        "urls": [
+          "/content/help/contact.html"
         ]
       }
     ]

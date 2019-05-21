@@ -4,9 +4,7 @@ Template: article
 Description: FlowCrypt PGP Email Encryption Knowledge Base: My contact sent me a public PGP encrypt key. How and where do I use it?
 ---
 
-# My contact sent me a public PGP encrypt key. How and where do I use it?
-
-> My contact sent me a public PGP encrypt key. How and where do I use it?
+[...] explain
 
 You would take the public key you received from them and copy it into FlowCrypt Settings -> Additional Settings -> Contacts -> Bulk import.
 

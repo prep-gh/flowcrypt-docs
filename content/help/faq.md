@@ -1,10 +1,45 @@
 ---
-Title: Frequently asked questions
-description: FlowCrypt FAQ - Frequently Asked Questions
+title: Frequently asked questions
+summary: FlowCrypt FAQ - Frequently Asked Questions
 toc: true
 ---
 
 ## Encryption
+
+### Can recipient decrypt email when not using Gmail or Chrome?
+
+> I opened Gmail in Mac Safari and the email was encrypted. I could not read it.
+>
+> But when I opened it in Chrome, it auto-decrypt and I could read the email.
+> 
+> Does this mean that when I send encrypted email and if the recipient uses Safari, he won't be able to read the email? And if he/she has FlowCrypt and Chrome, it will auto-decrypt?
+
+When the recipient has FlowCrypt or any other compatible PGP software set up, they can read it anywhere they set it up. For example, you have set it up in your Chrome browser, which means you can read encrypted email in that browser. If there is an extension that works with Safari, you could set it up there, too. Our own product roadmap includes apps for Chrome, Firefox, Thunderbird, Outlook app, Android, iOS and more. You'll need to have some sort of compatible software on every platform that you plan to use encrypted messages on.
+
+**However**, when you send someone an encrypted message and FlowCrypt Secure Compose window indicates that the recipient does not use encryption, the message will be encrypted using a different mechanism (simple password encryption). The recipient see a link in the they receive. Following the link will allow them to decrypt the message **if** they know the password that you encrypted the message with. Such messages can be opened using any modern browser, so it doesn't matter which browser or email provider the recipient uses.
+
+In short, if someone has PGP set up, they can communicate with you smoothly only when using devices that they have it set up on. If they don't have anything set up, they can open your messages on any device, but they will need to know the password to open each message each time.
+
+Last thing to note is that such simple password-protected messages expire (get deleted) in 3 days by default. Paid users can choose expiration date. Messages sent between users that have FlowCrypt or similar software set up on each side do not expire at all.
+
+### My contact sent me a public PGP encrypt key. How and where do I use it?
+
+see [...] import public key
+
+### FlowCrypt PGP usage basics
+
+> I've gone through the set-up steps, but am now looking for a basic description of how this pgp works on my recepients' end of things.
+>
+> Do I need to give them a key, or will they be able to read my emails without it?
+>
+> Is the passphrase that I created when setting up the account the same key that I would need to give my recepients for them to read my emails?
+
+If the recipient has encryption set up, nothing special is needed. Just use the "Secure Compose" to write them an encrypted message.
+
+Your pass phrase that you set up earlier should always stay private, don't share that with anyone.
+
+Anytime you write someone who doesn't seem to have encryption set up, the recipient email will turn grey (in Secure Compose). These messages will have to be protected with an additional password that you share with the recipient (you'll be prompted for one if needed).
+
 
 ### Which messages will be encrypted? Do my friends have to use this too?
 
@@ -19,6 +54,19 @@ What I do is this:
  - if I'm sending something sensitive, I'd use Secure Compose even if the other person doesn't have encryption set up, and then communicate a password to them to use to open the message
  - everything else (chitchatting) I'll use standard compose
 
+### How to communicate a messae password to recipient?
+
+> I sent an encrypted email. It had me choose a one time password for the recipient to use to access the email. How do I inform the recipient of the one time password in a secure way?
+
+It depends on your use case and the relationship with the recipient. You could call it to them - that's about the best.
+
+For less sensitive things, you could send it over some other medium such as text it to them, skype it, etc.
+
+WhatsApp or Signal are great apps to use because they are encrypted.
+
+I'm working on a system that will not require you to communicate that password, and hope to release that sometime in the future.
+
+**Warning: please do not send one-time passwords over email.**
 
 ### Are attachments also encrypted?
 
