@@ -10,7 +10,7 @@ toc: true
 | Programming languages | TypeScript, JavaScript |
 | Release Channel | Stable (Production ready) |
 
-### Core functionality (Browser Extension)
+### Core functionality (browser)
 
 1. Import OpenPGP private keys created by customer’s legacy software
 2. Send OpenPGP encrypted emails to other FlowCrypt users
@@ -18,7 +18,7 @@ toc: true
 4. Decrypt and view OpenPGP encrypted emails received from other FlowCrypt users
 5. Decrypt and download OpenPGP encrypted attachments received from other FlowCrypt users
 
-### Additional functionality (Browser Extension)
+### Additional functionality (browser)
 
 1. Send encrypted email to users of other OpenPGP compatible software
 2. Send encrypted attachments to users of other OpenPGP compatible software
@@ -29,7 +29,7 @@ toc: true
 7. Look up public keys of other FlowCrypt users
 8. Verify that public key records match installed private key
 
-### Known limitations (Browser Extension)
+### Known limitations (browser)
 
 1. Attachments cannot exceed 25MB per email
 2. Messages and attachments encrypted for public key that does not match user’s private key cannot be opened
@@ -39,7 +39,7 @@ toc: true
 
 Please see [Known Limitations](limitations.html) for a more specific list.
 
-### Required system configuration (Browser Extension)
+### Required system configuration (browser)
 
 1. Modern, up-to-date Operating System: Windows 7 or newer, MacOS 10.14 or newer
 2. Up to date Google Chrome browser
@@ -51,11 +51,11 @@ Please see [Known Limitations](limitations.html) for a more specific list.
 8. Minimum dual core x86 CPU
 9. Stable internet connection, working mouse, keyboard and monitor
 
-### Environment deprecation (Browser Extension)
+### Environment deprecation (browser)
 
 The latest three major stable versions of Google Chrome will remain supported. Google Chrome 69, 68 and 67 are supported at the time of writing. Google Chrome 66 and below is deprecated at the time of writing.
 
-### Open Source Software (Browser Extension)
+### Open Source Software (browser)
 
 List of OSS used by and distributed with FlowCrypt Browser Extension.
 
@@ -90,7 +90,7 @@ https://github.com/inexorabletash/text-encoding |  https://github.com/inexorable
 As of now, flowcrypt android app is still in early development. It is published for early evaluation and feedback only. FlowCrypt makes no guarantees related to FlowCrypt Android App until there is a production stable version available.
 {{site.data.alerts.end}}
 
-### Core functionality (Android App)
+### Core functionality (android)
 
 1. Import OpenPGP private keys created by customer’s legacy software (not implemented yet)
 2. Send OpenPGP encrypted emails to other FlowCrypt users
@@ -99,14 +99,14 @@ As of now, flowcrypt android app is still in early development. It is published 
 5. Decrypt and download OpenPGP encrypted attachments received from other FlowCrypt users (not implemented yet)
 
 
-### Additional functionality (Android App)
+### Additional functionality (android)
 
 1. Manually change or update public keys in application Contacts (not implemented yet)
 2. View information about user’s public key (not implemented yet)
 3. Look up public keys of other FlowCrypt users
 4. Verify that public key records match installed private key
 
-### Known limitations (Android App)
+### Known limitations (android)
 
 1. Attachments cannot exceed 3MB per email
 2. Messages and attachments encrypted for public key that does not match user’s private key cannot be opened
@@ -115,7 +115,7 @@ As of now, flowcrypt android app is still in early development. It is published 
 5. May not be compatible with all OpenPGP software from other vendors.
 6. Before FlowCrypt Android App is available in production stable version, it may contain security flaws, be slow, unstable and may not work as intended.
 
-### Miscellaneous (Android App)
+### Miscellaneous (android)
 
 Because FlowCrypt Android App is still in early development, certain aspects of the software cannot be fully established yet but will be established and documented as FlowCrypt Android App becomes available for production use. These include:
 
