@@ -100,25 +100,31 @@
       {
         "title": "Specifications",
         "urls": [
-          "/technical/specifications.html"
+          "/content/technical/specifications.html"
+        ]
+      },
+      {
+        "title": "Known limitations",
+        "urls": [
+          "/content/technical/limitations.html"
         ]
       },
       {
         "title": "Manage Public Keys",
         "urls": [
-          "/technical/manage-public-keys.html"
+          "/content/technical/manage-public-keys.html"
         ]
       },
       {
         "title": "FlowCrypt Attester",
         "urls": [
-          "/technical/attester.html"
+          "/content/technical/attester.html"
         ]
       },
       {
         "title": "Security",
         "urls": [
-          "/technical/security.html"
+          "/content/technical/security.html"
         ]
       }
     ]
@@ -130,25 +136,25 @@
       {
         "title": "Group management",
         "urls": [
-          "/business/group-management.html"
+          "/content/business/group-management.html"
         ]
       },
       {
         "title": "GDPR",
         "urls": [
-          "/business/gdpr.html"
+          "/content/business/gdpr.html"
         ]
       },
       {
         "title": "HIPAA",
         "urls": [
-          "/business/hipaa.html"
+          "/content/business/hipaa.html"
         ]
       },
       {
         "title": "Enterprise",
         "urls": [
-          "/business/enterprise.html"
+          "/content/business/enterprise.html"
         ]
       }
     ]
