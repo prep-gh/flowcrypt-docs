@@ -84,12 +84,6 @@
             ]
           }
         ]
-      },
-      {
-        "title": "Troubleshooting",
-        "urls": [
-          "/content/guide/troubleshoot/index.html"
-        ]
       }
     ]
   },
@@ -119,6 +113,12 @@
         "title": "FlowCrypt Attester",
         "urls": [
           "/content/technical/attester.html"
+        ]
+      },
+      {
+        "title": "Other platforms",
+        "urls": [
+          "/content/technical/other-platforms.html"
         ]
       },
       {
@@ -160,13 +160,215 @@
     ]
   },
   {
-    "title": "Questions",
+    "title": "Help",
     "is_top_level": true,
     "items": [
       {
-        "title": "Frequently asked",
-        "urls": [
-          "https://flowcrypt.com/blog/questions"
+        "title": "Troubleshooting",
+        "items": [
+          {
+            "title": "Cannot read email",
+            "urls": [
+              "/content/troubleshoot/cannot-read-email.html"
+            ]
+          },
+          {
+            "title": "Forgot pass phrase",
+            "urls": [
+              "/content/troubleshoot/forgot-pass-phrase.html"
+            ]
+          },
+          {
+            "title": "Compatibility issue",
+            "urls": [
+              "/content/troubleshoot/compatibility.html"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Questions",
+        "items": [
+          {
+            "title": "FAQ",
+            "urls": [
+              "/content/answer/faq.html"
+            ]
+          },
+          {
+            "title": "can recipient decrypt email when not using gmail or chrome",
+            "urls": [
+              "/content/answer/can-recipient-decrypt-email-when-not-using-gmail-or-chrome.html"
+            ]
+          },
+          {
+            "title": "communicate one time password",
+            "urls": [
+              "/content/answer/communicate-one-time-password.html"
+            ]
+          },
+          {
+            "title": "data privacy",
+            "urls": [
+              "/content/answer/data-privacy.html"
+            ]
+          },
+          {
+            "title": "emailing protonmail",
+            "urls": [
+              "/content/answer/emailing-protonmail.html"
+            ]
+          },
+          {
+            "title": "exporting from gpg suite mac",
+            "urls": [
+              "/content/answer/exporting-from-gpg-suite-mac.html"
+            ]
+          },
+          {
+            "title": "forgot",
+            "urls": [
+              "/content/answer/forgot.html"
+            ]
+          },
+          {
+            "title": "import public key",
+            "urls": [
+              "/content/answer/import-public-key.html"
+            ]
+          },
+          {
+            "title": "key distribution",
+            "urls": [
+              "/content/answer/key-distribution.html"
+            ]
+          },
+          {
+            "title": "level of protection",
+            "urls": [
+              "/content/answer/level-of-protection.html"
+            ]
+          },
+          {
+            "title": "local storage access fix",
+            "urls": [
+              "/content/answer/local-storage-access-fix.html"
+            ]
+          },
+          {
+            "title": "missing default gmail signature in footer of message",
+            "urls": [
+              "/content/answer/missing-default-gmail-signature-in-footer-of-message.html"
+            ]
+          },
+          {
+            "title": "missing sending address",
+            "urls": [
+              "/content/answer/missing-sending-address.html"
+            ]
+          },
+          {
+            "title": "multiple devices keys",
+            "urls": [
+              "/content/answer/multiple-devices-keys.html"
+            ]
+          },
+          {
+            "title": "other pgp software",
+            "urls": [
+              "/content/answer/other-pgp-software.html"
+            ]
+          },
+          {
+            "title": "password encrypted message expiration",
+            "urls": [
+              "/content/answer/password-encrypted-message-expiration.html"
+            ]
+          },
+          {
+            "title": "pgp basics",
+            "urls": [
+              "/content/answer/pgp-basics.html"
+            ]
+          },
+          {
+            "title": "prepaying for a year",
+            "urls": [
+              "/content/answer/prepaying-for-a-year.html"
+            ]
+          },
+          {
+            "title": "recipient no pgp",
+            "urls": [
+              "/content/answer/recipient-no-pgp.html"
+            ]
+          },
+          {
+            "title": "safety access to google",
+            "urls": [
+              "/content/answer/safety-access-to-google.html"
+            ]
+          },
+          {
+            "title": "two encrypted contact forms",
+            "urls": [
+              "/content/answer/two-encrypted-contact-forms.html"
+            ]
+          },
+          {
+            "title": "verifying fingerprints or keywords",
+            "urls": [
+              "/content/answer/verifying-fingerprints-or-keywords.html"
+            ]
+          },
+          {
+            "title": "view original message",
+            "urls": [
+              "/content/answer/view-original-message.html"
+            ]
+          },
+          {
+            "title": "what are keywords and fingerprints",
+            "urls": [
+              "/content/answer/what-are-keywords-and-fingerprints.html"
+            ]
+          },
+          {
+            "title": "what is pubkey",
+            "urls": [
+              "/content/answer/what-is-pubkey.html"
+            ]
+          },
+          {
+            "title": "where are cryptup settings",
+            "urls": [
+              "/content/answer/where-are-cryptup-settings.html"
+            ]
+          },
+          {
+            "title": "where are private keys stored",
+            "urls": [
+              "/content/answer/where-are-private-keys-stored.html"
+            ]
+          },
+          {
+            "title": "where is private key",
+            "urls": [
+              "/content/answer/where-is-private-key.html"
+            ]
+          },
+          {
+            "title": "which messages will be encrypted",
+            "urls": [
+              "/content/answer/which-messages-will-be-encrypted.html"
+            ]
+          },
+          {
+            "title": "why permission",
+            "urls": [
+              "/content/answer/why-permission.html"
+            ]
+          }
         ]
       }
     ]

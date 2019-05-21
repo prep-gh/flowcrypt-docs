@@ -4,4 +4,4 @@ summary: Sending to other PGP software
 toc: true
 ---
 
-Todo
+[...]
