@@ -4,7 +4,9 @@ summary: Change Pass Phrase
 toc: true
 ---
 
-Go to FlowCrypt Settings and click on SECURITY.
+[...] not reviewed
+
+Go to [FlowCrypt Settings](open-settings.html) and click on SECURITY.
 
 {{ "changepassphrase/flowcryptbasicsettingspage" | screenshot }}
 

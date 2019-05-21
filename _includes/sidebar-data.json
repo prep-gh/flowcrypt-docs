@@ -18,8 +18,31 @@
       },
       {
         "title": "Install FlowCrypt",
-        "urls": [
-          "/content/guide/setup/install.html"
+        "items": [
+          {
+            "title": "Install FlowCrypt",
+            "urls": [
+              "/content/guide/setup/install.html"
+            ]
+          },
+          {
+            "title": "New Private Key",
+            "urls": [
+              "/content/guide/setup/new-private-key.html"
+            ]
+          },
+          {
+            "title": "Import Private Key",
+            "urls": [
+              "/content/guide/setup/import-private-key.html"
+            ]
+          },
+          {
+            "title": "Another device",
+            "urls": [
+              "/content/guide/setup/another-device.html"
+            ]
+          }
         ]
       },
       {
@@ -84,6 +107,35 @@
             ]
           }
         ]
+      },
+      {
+        "title": "Common tasks",
+        "items": [
+          {
+            "title": "Change Pass Phrase",
+            "urls": [
+              "/content/guide/common-tasks/change-pass-phrase.html"
+            ]
+          },
+          {
+            "title": "Open FlowCrypt Settings",
+            "urls": [
+              "/content/guide/common-tasks/open-settings.html"
+            ]
+          },
+          {
+            "title": "Require Pass Phrase",
+            "urls": [
+              "/content/guide/common-tasks/require-pass-phrase.html"
+            ]
+          },
+          {
+            "title": "Improve Security",
+            "urls": [
+              "/content/guide/common-tasks/improve-security.html"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -107,6 +159,12 @@
         "title": "Manage Public Keys",
         "urls": [
           "/content/technical/manage-public-keys.html"
+        ]
+      },
+      {
+        "title": "Manage Private Keys",
+        "urls": [
+          "/content/technical/manage-private-keys.html"
         ]
       },
       {
@@ -189,6 +247,12 @@
             "urls": [
               "/content/troubleshoot/compatibility.html"
             ]
+          },
+          {
+            "title": "Rare errors",
+            "urls": [
+              "/content/troubleshoot/rare-errors.html"
+            ]
           }
         ]
       },
@@ -232,45 +296,9 @@
             ]
           },
           {
-            "title": "key distribution",
-            "urls": [
-              "/content/answer/key-distribution.html"
-            ]
-          },
-          {
-            "title": "level of protection",
-            "urls": [
-              "/content/answer/level-of-protection.html"
-            ]
-          },
-          {
-            "title": "local storage access fix",
-            "urls": [
-              "/content/answer/local-storage-access-fix.html"
-            ]
-          },
-          {
             "title": "missing default gmail signature in footer of message",
             "urls": [
               "/content/answer/missing-default-gmail-signature-in-footer-of-message.html"
-            ]
-          },
-          {
-            "title": "missing sending address",
-            "urls": [
-              "/content/answer/missing-sending-address.html"
-            ]
-          },
-          {
-            "title": "multiple devices keys",
-            "urls": [
-              "/content/answer/multiple-devices-keys.html"
-            ]
-          },
-          {
-            "title": "other pgp software",
-            "urls": [
-              "/content/answer/other-pgp-software.html"
             ]
           },
           {
@@ -286,81 +314,9 @@
             ]
           },
           {
-            "title": "prepaying for a year",
-            "urls": [
-              "/content/answer/prepaying-for-a-year.html"
-            ]
-          },
-          {
-            "title": "recipient no pgp",
-            "urls": [
-              "/content/answer/recipient-no-pgp.html"
-            ]
-          },
-          {
-            "title": "safety access to google",
-            "urls": [
-              "/content/answer/safety-access-to-google.html"
-            ]
-          },
-          {
-            "title": "two encrypted contact forms",
-            "urls": [
-              "/content/answer/two-encrypted-contact-forms.html"
-            ]
-          },
-          {
-            "title": "verifying fingerprints or keywords",
-            "urls": [
-              "/content/answer/verifying-fingerprints-or-keywords.html"
-            ]
-          },
-          {
             "title": "view original message",
             "urls": [
               "/content/answer/view-original-message.html"
-            ]
-          },
-          {
-            "title": "what are keywords and fingerprints",
-            "urls": [
-              "/content/answer/what-are-keywords-and-fingerprints.html"
-            ]
-          },
-          {
-            "title": "what is pubkey",
-            "urls": [
-              "/content/answer/what-is-pubkey.html"
-            ]
-          },
-          {
-            "title": "where are cryptup settings",
-            "urls": [
-              "/content/answer/where-are-cryptup-settings.html"
-            ]
-          },
-          {
-            "title": "where are private keys stored",
-            "urls": [
-              "/content/answer/where-are-private-keys-stored.html"
-            ]
-          },
-          {
-            "title": "where is private key",
-            "urls": [
-              "/content/answer/where-is-private-key.html"
-            ]
-          },
-          {
-            "title": "which messages will be encrypted",
-            "urls": [
-              "/content/answer/which-messages-will-be-encrypted.html"
-            ]
-          },
-          {
-            "title": "why permission",
-            "urls": [
-              "/content/answer/why-permission.html"
             ]
           }
         ]

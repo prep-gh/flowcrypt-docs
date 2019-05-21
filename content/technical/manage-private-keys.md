@@ -1,10 +1,36 @@
 ---
-Title: Where is FlowCrypt private key stored?
-Template: article
-Description: FlowCrypt PGP Email Encryption Knowledge Base: Where is FlowCrypt private key stored?
+title: Managing Private keys with FlowCrypt
+summary: Managing Private keys with FlowCrypt
 ---
 
-# Where is FlowCrypt private key stored?
+[...] where is prv stored + security link
+
+## How do i find my private key?
+
+> How do i find my private key?
+
+You can go to FlowCrypt Settings -> Additional Settings -> Public Key -> show private.
+
+
+## Do I have to set up FlowCrypt on every device?
+
+> Hi, I setup FlowCrypt on a selection of work and personal gmail accounts via my laptop.
+>
+> On my PC I'm getting a prompt for setup again. Do I have to set it up on every device?
+>
+> if so, what does that mean for my public and private keys?
+>
+> thanks
+
+Hello,
+
+yes, you have to set it up on each device individually (you should do this on each device where you want to read your encrypted messages).
+
+A thing to note is that you should not create a new private key on these devices. You should be automatically guided to import the key from your other device.
+
+Depending on your setup, it will either find the appropriate key automatically (and you will only need your pass phrase), or it will ask you to export the key from the original device and import it on the new device during setup.
+
+## Where is FlowCrypt private key stored?
 
 > Good Morning! Where is the key pair for FlowCrypt stored?
 

@@ -4,16 +4,22 @@ summary: Setting up FlowCrypt on another device
 toc: true
 ---
 
+[...] tip good to have several devices
+
+You should set up FlowCrypt on every device where you want to send and receive encrypted email.
+
 | Prerequisities
 |:---
-| You know your Pass Phrase from the previous setup.
+| You know your Pass Phrase from the previous setup. See [Forgotten Pass Phrases](/docs/content/troubleshoot/forgot-pass-phrase.html)
 | You have already installed flowcrypt on a second device by following [Install FlowCrypt](install)
 
-After you click **Continue with Gmail** during installation, you will be presented with:
+## Steps
+
+After you click `Continue with Gmail` during installation, you will be presented with:
 
 {{ "setup/recover" | screenshot }}
 
-Here, enter your Pass Phrase (must be the same as when you initially set up FlowCrypt on this account) and click **Recover Account**.
+Here, enter your Pass Phrase (must be the same as when you initially set up FlowCrypt on this account) and click `Recover Account`.
 
 {{ "settingup/allset" | screenshot }}
 

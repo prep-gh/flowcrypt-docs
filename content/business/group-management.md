@@ -1,11 +1,11 @@
 ---
-Title: Prepaying for a year
-Template: article
-Description: FlowCrypt PGP Email Encryption Knowledge Base: Prepaying for a year
+title: Group Billing and Management
+summary: Group Billing and Management
 ---
 
-# Prepaying for a year
+[...]
 
+# Prepaying for a year
 
 > Is it possible for me to pay for this for my team for a year?
 > Thanks.
