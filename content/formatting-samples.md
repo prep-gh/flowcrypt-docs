@@ -10,16 +10,14 @@ toc: true
 
 #### h4 header
 
-Info box
+{{site.data.i.ok}} {{site.data.i.not}} {{site.data.i.maybe}}
 
-{{site.data.i.ok}}
+{{site.data.box.tip}}
+Success box
+{{site.data.box.end}}
 
 {{site.data.box.info}}
 Info box
-{{site.data.box.end}}
-
-{{site.data.box.success}}
-Success box
 {{site.data.box.end}}
 
 {{site.data.box.warning}}

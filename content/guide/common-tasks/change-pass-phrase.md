@@ -4,42 +4,38 @@ summary: Change Pass Phrase
 toc: true
 ---
 
-[...] not reviewed
-
-Go to [FlowCrypt Settings](open-settings.html) and click on SECURITY.
+Go to [FlowCrypt Settings](open-settings.html) and click on `Security`:
 
 {{ "changepassphrase/flowcryptbasicsettingspage" | screenshot }}
 
-Click on change pass phrase.
+On the `Security` page, click `Change Pass Phrase`:
 
 {{ "changepassphrase/clicksecurity" | screenshot }}
 
-Enter pass phrase. It is recommended that you come up with a pass phrase that says PERFECT. It will take a millenia to crack.
+{{site.data.box.info}}
+If you chose [`Require Pass Phrase to open encrypted email`](require-pass-phrase.html) earlier, you will be required to confirm your previous pass phrase before changing it.
+
+There is no way around that requirement, unless you also have FlowCrypt set up on another device where this option was not selected.
+{{site.data.box.end}}
+
+Enter your new Pass Phrase:
 
 {{ "changepassphrase/choosechangepassphrase" | screenshot }}
 
-Enter your pass phrase one more time. Make sure to note the pass phrase down and keep it securely.
+{{site.data.box.warning}}
+Note your Pass Phrase down for later recovery.
 
-{{ "changepassphrase/choosechangepassphraserepeat" | screenshot }}
+Loss of Pass Phrase can lead to past encrypted emails being forever lost.
+{{site.data.box.end}}
 
-You should back up your key.
+Changing Pass Phrase only affects the device that you are currently using. The Pass Phrase that you use on other devices with FlowCrypt set up will remain the same as before.
 
-{{ "changepassphrase/passphrasechangedsuccessmessage" | screenshot }}
-
-Click Email inbox to back up key now.
+After you have changed your Pass Phrase, you will be prompted to back up your updated Private Key. This step is very important so that you can use your updated Pass Phrase next time you set up FlowCrypt on another device (if you lose your device or it stops working).
 
 {{ "changepassphrase/backupprivatekeyinemail" | screenshot }}
 
-Key backup has been sent to your email.
+Click the green `Back up` buton to finish.
 
-{{ "changepassphrase/gmailreceivedbackup" | screenshot }}
-
-Your FlowCrypt backup email.
-
-{{ "changepassphrase/clickdownloadbackup" | screenshot }}
-
-Download your backup key. 
-
-{{ "changepassphrase/gmailbackupmessageopened" | screenshot }}
-
-
+{{site.data.box.tip}}
+[Enterprise customers](/docs/content/business/enterprise.html) can customize or disable these backup options in favor of their own key management.
+{{site.data.box.end}}

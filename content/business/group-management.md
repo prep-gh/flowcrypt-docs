@@ -3,11 +3,8 @@ title: Group Billing and Management
 summary: Group Billing and Management
 ---
 
-[...]
+FlowCrypt allows your team to be managed under a single billing account. See [billing dashboard](https://flowcrypt.com/billing?page=dashboard).
 
-# Prepaying for a year
+Please see our <a href="https://flowcrypt.com/billing">Group Billing Calculator</a> to purchase a monthly or yearly group subscription.
 
-> Is it possible for me to pay for this for my team for a year?
-> Thanks.
-
-Definitely - please see our <a href="https://flowcrypt.com/billing">Group Billing Calculator</a>.
+[Enterprise customers](enterprise.html) can further manage the security, options and use restrictions of their users.
