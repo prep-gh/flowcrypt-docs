@@ -415,6 +415,15 @@ a {
 }
 
 .main-content {
+  input[type=text], input[type=email] {
+    border: 1px solid #cacaca;
+    height: 32px;
+    padding: 8px;
+  }
+  button {
+    border: 1px solid #cacaca;
+    height: 32px;
+  }
   table {
     margin-bottom: 20px;
     margin-top: 20px;
