@@ -6,6 +6,10 @@ toc: true
 
 ## Encryption
 
+### My contact sent me a public PGP key. How and where do I use it?
+
+see [...] import public key
+
 ### Can recipient decrypt email when not using Gmail or Chrome?
 
 > I opened Gmail in Mac Safari and the email was encrypted. I could not read it.
@@ -22,24 +26,6 @@ In short, if someone has PGP set up, they can communicate with you smoothly only
 
 Last thing to note is that such simple password-protected messages expire (get deleted) in 3 days by default. Paid users can choose expiration date. Messages sent between users that have FlowCrypt or similar software set up on each side do not expire at all.
 
-### My contact sent me a public PGP encrypt key. How and where do I use it?
-
-see [...] import public key
-
-### FlowCrypt PGP usage basics
-
-> I've gone through the set-up steps, but am now looking for a basic description of how this pgp works on my recepients' end of things.
->
-> Do I need to give them a key, or will they be able to read my emails without it?
->
-> Is the passphrase that I created when setting up the account the same key that I would need to give my recepients for them to read my emails?
-
-If the recipient has encryption set up, nothing special is needed. Just use the "Secure Compose" to write them an encrypted message.
-
-Your pass phrase that you set up earlier should always stay private, don't share that with anyone.
-
-Anytime you write someone who doesn't seem to have encryption set up, the recipient email will turn grey (in Secure Compose). These messages will have to be protected with an additional password that you share with the recipient (you'll be prompted for one if needed).
-
 
 ### Which messages will be encrypted? Do my friends have to use this too?
 
@@ -54,32 +40,13 @@ What I do is this:
  - if I'm sending something sensitive, I'd use Secure Compose even if the other person doesn't have encryption set up, and then communicate a password to them to use to open the message
  - everything else (chitchatting) I'll use standard compose
 
-### How to communicate a messae password to recipient?
-
-> I sent an encrypted email. It had me choose a one time password for the recipient to use to access the email. How do I inform the recipient of the one time password in a secure way?
-
-It depends on your use case and the relationship with the recipient. You could call it to them - that's about the best.
-
-For less sensitive things, you could send it over some other medium such as text it to them, skype it, etc.
-
-WhatsApp or Signal are great apps to use because they are encrypted.
-
-I'm working on a system that will not require you to communicate that password, and hope to release that sometime in the future.
-
-**Warning: please do not send one-time passwords over email.**
-
 ### Are attachments also encrypted?
 
-Yes [...]
-
-### Can Google read the contents?
-
-FlowCrypt uses end-to-end encryption that is designed so that only you and your intended recipients can read it, not us and not Google.
-
-When using FlowCrypt in the browser, decrypted messages are being displayed in a separate frame that Google doesn't have access to even if they deliberately tried to. They would first have to somehow update your browser to a different version that includes a deliberate vulnerability (assuming you are using Chrome), which is unlikely.
+Yes, both message and attachments are protected with end-to-end encryption.
 
 ### What happens when recipient doesn't use FlowCrypt or PGP?
 
+You will be asked to [protect the ougoing message with a password](/docs/content/guide/send-and-receive/send-password-protected.html). The recipient will [need the password to open the message](/docs/content/guide/send-and-receive/open-password-protected.html).
 [...] potentially replace with links
 
 > I just received your message. I am really excited to start using this for my medical billing business. When someone receives an encrypted message from me, and they do not use FlowCrypt, how do they open the email?
@@ -91,6 +58,12 @@ You'll need to communicate that password to the recipient(through some other mea
 
 
 ## Privacy
+
+### Can Google read the contents?
+
+FlowCrypt uses end-to-end encryption that is designed so that only you and your intended recipients can read it, not us and not Google.
+
+When using FlowCrypt in the browser, decrypted messages are being displayed in a separate frame that Google doesn't have access to even if they deliberately tried to. They would first have to somehow update your browser to a different version that includes a deliberate vulnerability (assuming you are using Chrome), which is unlikely.
 
 ### Why does the extension need access to email inbox?
 

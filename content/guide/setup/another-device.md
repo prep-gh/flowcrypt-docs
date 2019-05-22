@@ -4,8 +4,6 @@ summary: Setting up FlowCrypt on another device
 toc: true
 ---
 
-[...] tip good to have several devices
-
 You should set up FlowCrypt on every device where you want to send and receive encrypted email.
 
 | Prerequisities
