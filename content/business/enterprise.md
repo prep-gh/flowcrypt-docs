@@ -46,7 +46,10 @@ Integration or enforcement of use of your current key management mechanisms, LDA
 
 ## Custom security rules
 
-In addition to security settings listed in [Domain-wide settings and restrictions](#domain-wide-settings-and-restrictions), you can also enforce use of Private Keys that matche your current Public Key server (which FlowCrypt can integrate with).
+In addition to security settings listed in [Domain-wide settings and restrictions](#domain-wide-settings-and-restrictions), you can also:
+ - enforce use of Private Keys that match records your own Public Key server (which FlowCrypt can integrate with)
+ - disable Private Key export or viewing
+ - enforce pass phrases of certain strength, and more
 
 FlowCrypt will follow a set of security rules that your business or regulatory requirements demand.
 
