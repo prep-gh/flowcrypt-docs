@@ -198,21 +198,21 @@
         ]
       },
       {
-        "title": "GDPR",
+        "title": "Pricing <i class='fa fa-external-link'></i>",
         "urls": [
-          "/content/business/gdpr.html"
+          "https://flowcrypt.com/pricing"
+        ]
+      },
+      {
+        "title": "GDPR <i class='fa fa-external-link'></i>",
+        "urls": [
+          "https://flowcrypt.com/privacy#gdpr"
         ]
       },
       {
         "title": "HIPAA",
         "urls": [
           "/content/business/hipaa.html"
-        ]
-      },
-      {
-        "title": "Pricing <i class='fa fa-external-link'></i>",
-        "urls": [
-          "https://flowcrypt.com/pricing"
         ]
       },
       {
