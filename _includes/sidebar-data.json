@@ -249,9 +249,9 @@
             ]
           },
           {
-            "title": "Rare errors",
+            "title": "Missing alias",
             "urls": [
-              "/content/help/rare-errors.html"
+              "/content/help/missing-alias.html"
             ]
           }
         ]
