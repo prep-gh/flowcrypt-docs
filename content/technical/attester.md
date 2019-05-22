@@ -3,7 +3,7 @@ title: FlowCrypt Attester Documentation
 summary: FlowCrypt Attester Documentation
 ---
 
-[...]
+[...] this page is not ready and not linked
 
 ## Using FlowCrypt Keyserver from other software
 
