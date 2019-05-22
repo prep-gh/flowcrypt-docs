@@ -63,3 +63,9 @@ On top of that, if they are using FlowCrypt, they should (as well as you) go to 
 
 This is military grade end-to-end encryption. It won't fail you in itself, the weak links are the underlying system, the device, the people, etc.
 
+
+# [...] when laptop gets stolen:
+
+Ideally you want to be using full-disk encryption on your laptop, and lock the computer when you leave it. Also, the moment you suspect your laptop stolen or tampered with, you should use another device to log into Google, go to "Connected Apps" and revoke access to "FlowCrypt". That will make these tokens useless.
+
+Last one, you should not use any browser extension with over-reaching permissions such as "manage other extensions".

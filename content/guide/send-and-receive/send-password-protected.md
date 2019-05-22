@@ -6,6 +6,14 @@ toc: true
 
 Not all recipients have OpenPGP software installed when you want to email them. Having encryption set up on both ends offers the most convenient experience, but there is also a mechanism to send encrypted messages to others: password encrypted messages.
 
+{{site.data.box.info}}
+Password encrypted messages will be encrypted on the sender's device, transferred through our servers encrypted, and then delivered to your recipient's browser. Your recipient will need to have the password to decrypt the message in their browser.
+{{site.data.box.end}}
+
+By default, we expire these messages within 3 days of sending, and then delete them from our servers [not long after](https://flowcrypt.com/privacy#message-delivery-and-storage). This is done to protect users who may have used a weak password.
+
+Conversely, messages sent between users who use FlowCrypt or other OpenPGP software (when recipient's Public Key is known) will be transferred directly through email providers like any other email, except encrypted, and will never expire.
+
 ## Sending a password protected message
 
 Open [https://mail.google.com](https://mail.google.com){:target="_blank"} in the same browser where you installed FlowCrypt.
