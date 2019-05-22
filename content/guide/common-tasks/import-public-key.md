@@ -1,7 +1,6 @@
 ---
-Title: My contact sent me a public PGP encrypt key. How and where do I use it?
-Template: article
-Description: FlowCrypt PGP Email Encryption Knowledge Base: My contact sent me a public PGP encrypt key. How and where do I use it?
+title: My contact sent me a public PGP encrypt key. How and where do I use it?
+summary: FlowCrypt PGP Email Encryption Knowledge Base - My contact sent me a public PGP encrypt key. How and where do I use it?
 ---
 
 [...] explain

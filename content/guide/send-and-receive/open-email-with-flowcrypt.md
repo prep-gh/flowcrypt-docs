@@ -16,4 +16,4 @@ Message will be automatically decrypted, just like when viewing any other email:
 
 {{ "openingemailwithFC/readingencryptedemail" | screenshot }}
 
-Next, take a look at [Send and receive overview](.)
+Next, take a look at [Send and receive overview](index.html)

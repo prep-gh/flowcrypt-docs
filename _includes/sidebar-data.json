@@ -128,12 +128,6 @@
             "urls": [
               "/content/guide/common-tasks/improve-security.html"
             ]
-          },
-          {
-            "title": "Get a Paid Subscription",
-            "urls": [
-              "/content/guide/common-tasks/paid-subscription.html"
-            ]
           }
         ]
       }
@@ -213,6 +207,12 @@
         "title": "HIPAA",
         "urls": [
           "/content/business/hipaa.html"
+        ]
+      },
+      {
+        "title": "Pricing",
+        "urls": [
+          "/content/business/pricing.html"
         ]
       },
       {

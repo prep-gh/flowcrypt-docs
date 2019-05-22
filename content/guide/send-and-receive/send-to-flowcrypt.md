@@ -32,4 +32,4 @@ You can now compose your encrypted message and add attachments.
 
 Finally, click **Encrypt and Send** to send the message.
 
-Next, take a look at [Opening email with FlowCrypt installed](opening-an-email-with-flowcrypt-installed) or [Send and receive overview](.)
+Next, take a look at [Opening email with FlowCrypt installed](open-email-with-flowcrypt.html) or [Send and receive overview](index.html)

@@ -29,4 +29,4 @@ After clicking **Create and Save**, you are done setting up:
 Remember to note the pass phrase down! Every day, users email us that they forgot their pass phrase and can no longer read their encrypted email. We cannot help them, their encrypted emails are forever lost. Don't be that person. Note your pass phrase down.
 {{site.data.alerts.end}}
 
-To learn how to use FlowCrypt, go to [sending and receiving encrypted email](../send-and-receive)
+To learn how to use FlowCrypt, go to [sending and receiving encrypted email](../send-and-receive/index.html)

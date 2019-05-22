@@ -10,4 +10,4 @@ summary: Group Billing and Management
 > Is it possible for me to pay for this for my team for a year?
 > Thanks.
 
-Definitely - please see our <a href="/billing">Group Billing Calculator</a>.
+Definitely - please see our <a href="https://flowcrypt.com/billing">Group Billing Calculator</a>.

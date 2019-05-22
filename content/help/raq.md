@@ -26,7 +26,7 @@ Gmail does not share default signatures with 3rd party apps, so you will need to
 
 To set a footer, use the button marked in green below (this is the bottom of secure compose window): 
 
-<img class="screen" src="/img/posts/faq/email-signature-footer-icon.png">
+{{ "compose/email-signature-footer-icon" | screenshot }}
 
 Note that, when using FlowCrypt, attaching a signature in email footer for every outgoing message is a feature reserved for paid users.
 

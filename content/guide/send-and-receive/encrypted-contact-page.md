@@ -31,4 +31,4 @@ Also let me know if you just want to switch it to the other email address, or ha
 
 In the future, it will be possible to use your plugin to manage more than one encrypted contact page yourself.
 
-*Note to readers: Encrypted contact page allows you to receive encrypted messages from the web. See my <a href="/me/tom">contact page</a>.*
+*Note to readers: Encrypted contact page allows you to receive encrypted messages from the web. See my <a href="https://flowcrypt.com/me/tom">contact page</a>.*
