@@ -6,7 +6,7 @@ toc: true
 
 FlowCrypt servers customers of all sizes, from SMB to deployments within enterprises with tens of thousands of employees.
 
-| FlowCrypt | Free | Paid | Enterprise |
+| FlowCrypt | <span style="width:80px;display:inline-block;">Free<span> | <span style="width:80px;display:inline-block;">Paid</span> | <span style="width:80px;display:inline-block;">Enterprise</span> |
 |---|
 | Encrypted messages conveniently from Gmail interface | {{site.data.i.ok}}| {{site.data.i.ok}}| {{site.data.i.ok}} |
 | Receive messages + files through Encrypted Contact Page |{{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | 
@@ -25,6 +25,7 @@ FlowCrypt servers customers of all sizes, from SMB to deployments within enterpr
 | Customization | {{site.data.i.not}} | {{site.data.i.not}} | {{site.data.i.ok}} |
 | Auditing | {{site.data.i.not}} | {{site.data.i.not}} | {{site.data.i.ok}} |
 | [SLA](#sla) | {{site.data.i.not}} | {{site.data.i.not}} | {{site.data.i.ok}} |
+| Pricing | free | [$5/mon/user](https://flowcrypt.com/pricing)<br>+ discounts | [Contact us](#contact-us) |
 
 ## Domain-wide settings and restrictions
 
