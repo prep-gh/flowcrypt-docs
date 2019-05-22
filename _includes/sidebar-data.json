@@ -162,9 +162,9 @@
         ]
       },
       {
-        "title": "FlowCrypt Attester",
+        "title": "FlowCrypt Attester <i class='fa fa-external-link'></i>",
         "urls": [
-          "/content/technical/attester.html"
+          "https://flowcrypt.com/attester/"
         ]
       },
       {
