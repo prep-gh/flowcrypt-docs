@@ -17,6 +17,12 @@
       margin-top: 5px;
     }
 
+    &.tier-2 a i {
+      position: relative;
+      top: 1px;
+      padding-left: 4px;
+    }
+
     &:not(.tier-1) {
       margin-top: 0;
       text-transform: none;

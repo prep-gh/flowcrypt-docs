@@ -210,9 +210,9 @@
         ]
       },
       {
-        "title": "Pricing",
+        "title": "Pricing <i class='fa fa-external-link'></i>",
         "urls": [
-          "/content/business/pricing.html"
+          "https://flowcrypt.com/pricing"
         ]
       },
       {
