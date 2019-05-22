@@ -4,31 +4,26 @@ summary: Allow other people to contact you easily and securely
 toc: true
 ---
 
-[...]
+Contact page allows anyone to send you encrypted messages and files without having to install any software. Their message will be encrypted in their browser before sending, and delivered to your email.
 
-{{ "enablecontactpage/clickonflowcryptlogoandclickonsettinglogo" | screenshot }}
+## Enable Encrypted Contact Page
 
-Go to Additional Settings and click Contact. 
-Click on Encrypted Contact Page.
-{{ "enablecontactpage/flowcryptbasicsettings" | screenshot }}
+Go to [FlowCrypt Settings](open-settings.html) -> `Encrypted Contact Page`:
 
-{{ "enablecontactpage/encryptedcontactpage" | screenshot }}
+{{ "contact-page/settings-button" | screenshot }}
 
-{{ "enablecontactpage/contactsandtheirpublickey" | screenshot }}
+On the following page, click `Get trial` on the bottom:
 
-Click and download on cryptup-backup file.
-{{ "enablecontactpage/clickonbackupfile" | screenshot }}
+{{site.data.box.info}}
+Encrypted Contact Page is a free feature and does not require a paid subscription. It will ask you to enable the trial because that way the software can easily verify your email address.
 
+We will be improving this so that users don't have to go through the trial signup unnecessarily.
+{{site.data.box.end}}
 
-### Can I set up two encrypted contact forms?
+{{ "contact-page/settings-page" | screenshot }}
 
+When done, you will see a link to your Encrypted Contact Page that you can share with others. You will also be able to customize the name, picture and description showing on your contact page.
 
-> If I am using FlowCrypt with two gmail accounts, is there a way to get two encrypted contact forms? or is there a way to switch which email account gets the contact form? I signed up for the advanced account and I can't figure out the answers to these two issues.
+Example at [https://flowcrypt.com/me/tom](https://flowcrypt.com/me/tom):
 
-Sure, let me know which email address is it currently on, and which one would you like to set up - I will do it manually.
-
-Also let me know if you just want to switch it to the other email address, or have two different links that go to different emails - I can do either.
-
-In the future, it will be possible to use your plugin to manage more than one encrypted contact page yourself.
-
-*Note to readers: Encrypted contact page allows you to receive encrypted messages from the web. See my <a href="https://flowcrypt.com/me/tom">contact page</a>.*
+{{ "contact-page/contact-page" | screenshot }}

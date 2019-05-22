@@ -12,3 +12,5 @@ After that, use Secure Compose to send them a message.
 If you received their Public Key over email, FlowCrypt should automatically detect this and offer you to import it.
 
 Also, most of the time, you don't need to do this at all - just try to put their email into Secure Compose, and it may find their public key automatically.
+
+{{ "enablecontactpage/contactsandtheirpublickey" | screenshot }}
