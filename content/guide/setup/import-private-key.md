@@ -10,9 +10,9 @@ toc: true
 
 This is for users who have used OpenPGP through software from another vendor, already received several encrypted messages through this other software, and would like to import their keys into FlowCrypt to be able to read previous encrypted messages. 
 
-{{site.data.alerts.callout_info}}
+{{site.data.box.info}}
 If you are new to encryption, you should instead [Create a new Private Key](new-private-key.html).
-{{site.data.alerts.end}}
+{{site.data.box.end}}
 
 On the setup screen, click on **Use my own Private Key**.
 

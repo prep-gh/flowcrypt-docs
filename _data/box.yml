@@ -1,0 +1,4 @@
+success: '<div class="bs-callout bs-callout--success" markdown="1"><div class="bs-callout__label">Tip:</div>'
+info: '<div class="bs-callout bs-callout--info" markdown="1"><div class="bs-callout__label">Note:</div>'
+warning: '<div class="bs-callout bs-callout--danger" markdown="1"><div class="bs-callout__label">Warning:</div>'
+end: '</div>'

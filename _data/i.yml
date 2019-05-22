@@ -1,0 +1,3 @@
+ok: '<span style="color: green">✓</span>'
+maybe: '<span style="color: gray">●&nbsp;</span>'
+not: '<span style="color: red">✕</span>'

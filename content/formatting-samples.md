@@ -12,17 +12,19 @@ toc: true
 
 Info box
 
-{{site.data.alerts.callout_info}}
+{{site.data.i.ok}}
+
+{{site.data.box.info}}
 Info box
-{{site.data.alerts.end}}
+{{site.data.box.end}}
 
-{{site.data.alerts.callout_success}}
+{{site.data.box.success}}
 Success box
-{{site.data.alerts.end}}
+{{site.data.box.end}}
 
-{{site.data.alerts.callout_danger}}
+{{site.data.box.warning}}
 Danger box
-{{site.data.alerts.end}}
+{{site.data.box.end}}
 
 ## Code
 

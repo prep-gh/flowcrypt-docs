@@ -18,13 +18,13 @@ Try to view the message on the same device where you installed FlowCrypt, on the
 
 It should be readable there.
 
-{{site.data.alerts.callout_info}}
+{{site.data.box.info}}
 This also happens when you email one of your Google email aliases, if that actually leads to a different inbox where FlowCrypt is not installed.
 
 Because it's your own alias, FlowCrypt thinks the recipient has FlowCrypt installed. If that's not true (on that email address), you will not be able to read the received message.
 
 To try [emailing people who don't have FlowCrypt installed](../guide/send-and-receive/send-password-protected.html), choose a recipient that is not your Gmail alias.
-{{site.data.alerts.end}}
+{{site.data.box.end}}
 
 ## Problem: My key cannot open the message
 
@@ -52,7 +52,7 @@ Clicking `Load from backup` will take you to a screen where you can import your 
 
 You will need to enter the pass phrase that you used when the backup was created (this may be different than your current pass phrase), then click `Load key from backup`.
 
-{{site.data.alerts.callout_info}}
+{{site.data.box.info}}
 We cannot recover forgotten Pass Phrases, but you may be able to recover it yourself in certain situations.
 
 A common cause of this issue is when users set up FlowCrypt on one device, and later also set up FlowCrypt on a second device but forgot the Pass Phrase from before, and choose `Skip import and create a new key` during setup.
@@ -60,7 +60,7 @@ A common cause of this issue is when users set up FlowCrypt on one device, and l
 If your scenario is similar to this, and the original device is still functioning and able to read encrypted emails, open the working device and go to `FlowCrypt Settings` -> `Security` -> `Change pass phrase`. It will let you change it without knowing the previous one (ideally change it to the same Pass Phrase you are currently using).
 
 This will then allow you to use the new pass on the the backup screen above (you may need to refresh the page).
-{{site.data.alerts.end}}
+{{site.data.box.end}}
 
 If you don't have any device where the email is still readable, and don't remember your previous Pass Phrase to import the backup, the message will remain unreadable regardless of what you do, but you can prevent this issue from happening to future messages.
 

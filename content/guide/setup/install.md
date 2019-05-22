@@ -34,9 +34,9 @@ Click allow on the next screen:
 
 If this is your very first time using FlowCrypt, you will be presented with two choices
 
-{{site.data.alerts.callout_info}}
+{{site.data.box.info}}
 If this is not your first time setting up FlowCrypt on this account, you may see a recovery prompt instead. See [Setting up FlowCrypt on another device](another-device.html).
-{{site.data.alerts.end}}
+{{site.data.box.end}}
 
 {{ "settingup/setupflowcryptnewencryptionkey" | screenshot }}
 

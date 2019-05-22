@@ -86,9 +86,9 @@ https://github.com/inexorabletash/text-encoding |  https://github.com/inexorable
 | Programming languages |	Java, Kotlin, TypeScript, JavaScript |
 | Release Channel |	Beta (not production ready as of now) |
 
-{{site.data.alerts.callout_danger}}
+{{site.data.box.warning}}
 As of now, flowcrypt android app is still in early development. It is published for early evaluation and feedback only. FlowCrypt makes no guarantees related to FlowCrypt Android App until there is a production stable version available.
-{{site.data.alerts.end}}
+{{site.data.box.end}}
 
 ### Core functionality (android)
 

@@ -25,8 +25,8 @@ After clicking **Create and Save**, you are done setting up:
 
 {{ "settingup/allset" | screenshot }}
 
-{{site.data.alerts.callout_danger}}
+{{site.data.box.warning}}
 Remember to note the pass phrase down! Every day, users email us that they forgot their pass phrase and can no longer read their encrypted email. We cannot help them, their encrypted emails are forever lost. Don't be that person. Note your pass phrase down.
-{{site.data.alerts.end}}
+{{site.data.box.end}}
 
 To learn how to use FlowCrypt, go to [sending and receiving encrypted email](../send-and-receive/index.html)

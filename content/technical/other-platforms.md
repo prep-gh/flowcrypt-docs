@@ -24,8 +24,8 @@ Software may be missing on this list if we didn't have a chance to test it or we
 
 If you know an OpenPGP solution that you think should be included, please let us know (also note why you like it and which other solutions you tested).
 
-{{site.data.alerts.callout_info}}
+{{site.data.box.info}}
 Please consider the `Setup` and `Use` difficulty evaluations as our impression and nothing more. Software complexity is very individual, what seems difficult to us may seem simple to you and vice versa. Every software has both some great solutions and some unintuitive bits, including our own software. This makes evaluating and rating ease of use rather difficult.
-{{site.data.alerts.end}}
+{{site.data.box.end}}
 
 This list does not attempt to be an ultimate resource for finding OpenPGP software. It's rather a list of solutions we have tried and feel comfortable recommending. If you find any factual error, please help us fix it by submitting an issue or PR using the `Contribute` button above.
