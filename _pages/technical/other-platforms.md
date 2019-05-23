@@ -1,6 +1,7 @@
 ---
 title: OpenPGP encryption on other platforms
 summary: Find out which software offers the best interoperability with FlowCrypt
+toc: true
 ---
 
 At the moment, we offer FlowCrypt as a browser extension (for Gmail) and as an Android App (for all email providers).

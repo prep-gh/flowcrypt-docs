@@ -1,6 +1,7 @@
 ---
 title: FlowCrypt OpenPGP Compatibility
 summary: FlowCrypt OpenPGP Compatibility
+toc: true
 ---
 
 FlowCrypt aims to become fully compatible with all OpenPGP compliant email software out there.

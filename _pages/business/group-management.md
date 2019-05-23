@@ -1,6 +1,7 @@
 ---
 title: Group Billing and Management
 summary: Group Billing and Management
+toc: true
 ---
 
 FlowCrypt allows your team to be managed under a single billing account. See [billing dashboard&nbsp;<i class='fa fa-external-link'></i>](https://flowcrypt.com/billing?page=dashboard).
