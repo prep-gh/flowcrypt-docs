@@ -12,7 +12,7 @@ Sometimes though, their Public Key cannot be determined automatically, and you m
 
 If the recipient has already sent your their Public Key over email, you should see a `Save Contact` button. Clicking it will associate their Public Key with the email listed in it, allowing you to send them encrypted messages. See [OpenPGP Compatibility](../../technical/openpgp-compatibility.html).
 
-{{ "compose/received-public-key" | screenshot }}
+{{ "browser/compose/received-public-key" | screenshot }}
 
 Once you click the `Save Contact` button, you can [send them encrypted emails](send-to-flowcrypt.html) the same way as if they used FlowCrypt.
 
@@ -20,11 +20,11 @@ Once you click the `Save Contact` button, you can [send them encrypted emails](s
 
 If you have received the recipient's Public Key through some other means (eg from their website), you can start by clicking `Secure Compose` and entering their email address. It will show in grey color, meaining that their Public Key is not yet known:
 
-{{ "compose/add-their-public-key-button" | screenshot }}
+{{ "browser/compose/add-their-public-key-button" | screenshot }}
 
 Please click the `add their Public Key` button as highlighted above, and you will see:
 
-{{ "compose/add-their-public-key-form" | screenshot }}
+{{ "browser/compose/add-their-public-key-form" | screenshot }}
 
 You can paste their Public Key into the form above, click `OK` and continue composing your encrypted message.
 

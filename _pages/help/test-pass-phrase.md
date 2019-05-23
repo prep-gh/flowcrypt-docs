@@ -7,10 +7,10 @@ toc: true
 Test that you remember passphrase correctly
 
 Go to Additional Settings. Click Test my pass phrase.
-{{ "testthatyourememberpassphrase/gotoadditionalsettings" | screenshot }}
+{{ "browser/testthatyourememberpassphrase/gotoadditionalsettings" | screenshot }}
 
-Enter your pass phrase here.{{ "testthatyourememberpassphrase/passphrasebox" | screenshot }}
+Enter your pass phrase here.{{ "browser/testthatyourememberpassphrase/passphrasebox" | screenshot }}
 
-Click on VERIFY. {{ "testthatyourememberpassphrase/enterpassphrasehere" | screenshot }}
+Click on VERIFY. {{ "browser/testthatyourememberpassphrase/enterpassphrasehere" | screenshot }}
 
-Your pass phrase matches! You are ready! {{ "testthatyourememberpassphrase/passphrasematches" | screenshot }}
+Your pass phrase matches! You are ready! {{ "browser/testthatyourememberpassphrase/passphrasematches" | screenshot }}

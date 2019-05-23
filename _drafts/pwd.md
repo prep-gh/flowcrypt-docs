@@ -6,16 +6,16 @@ toc: true
 
 Click on newly received encrypted email.
 
-{{ "openingemailwpassphrasesetbyFcuser/gotoinboxandclickonnewmail" | screenshot }}
+{{ "browser/openingemailwpassphrasesetbyFcuser/gotoinboxandclickonnewmail" | screenshot }}
 
 Click on enter pass phrase to open this message.
 
-{{ "openingemailwpassphrasesetbyFcuser/enterpassphrasetoopenmessage" | screenshot }}
+{{ "browser/openingemailwpassphrasesetbyFcuser/enterpassphrasetoopenmessage" | screenshot }}
 
 Enter your pass phrase and click OK.
 
-{{ "openingemailwpassphrasesetbyFcuser/enterpassphrasetoopenmessagebox" | screenshot }}
+{{ "browser/openingemailwpassphrasesetbyFcuser/enterpassphrasetoopenmessagebox" | screenshot }}
 
 Wait for email to load. Encrypted email is now ready to read.
 
-{{ "openingemailwpassphrasesetbyFcuser/messageloadingandabletoreadnow" | screenshot }}
+{{ "browser/openingemailwpassphrasesetbyFcuser/messageloadingandabletoreadnow" | screenshot }}

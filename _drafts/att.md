@@ -4,12 +4,22 @@ summary: Opening email attachment
 toc: true
 ---
 
-Open and read your newly received encrypted email.{{ "openingemailattachment/clickonencryptedfileanddownload" | screenshot }}
+Open and read your newly received encrypted email.
 
-Click on attached file. File is read. {{ "openingemailattachment/rightclickandchoosesavelinkas" | screenshot }}
+{{ "browser/openingemailattachment/clickonencryptedfileanddownload" | screenshot }}
 
-Right-click the link and select Save Link As. (tom to change){{ "openingemailattachment/rreadytoread" | screenshot }}
+Click on attached file. File is read.
 
-Attached file is ready to be viewed.{{ "openingemailattachment/clicktoopenfile" | screenshot }}
+{{ "browser/openingemailattachment/rightclickandchoosesavelinkas" | screenshot }}
 
-Viewing the attached file.{{ "openingemailattachment/viewyourattachment" | screenshot }}
+Right-click the link and select Save Link As. (tom to change)
+
+{{ "browser/openingemailattachment/rreadytoread" | screenshot }}
+
+Attached file is ready to be viewed.
+
+{{ "browser/openingemailattachment/clicktoopenfile" | screenshot }}
+
+Viewing the attached file.
+
+{{ "browser/openingemailattachment/viewyourattachment" | screenshot }}

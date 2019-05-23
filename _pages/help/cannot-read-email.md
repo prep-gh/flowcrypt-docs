@@ -10,7 +10,7 @@ There may be various reasons why you cannot read encrypted email, please see bel
 
 This is what the message will look like if you have used FlowCrypt or other OpenPGP software in the past, but it's not installed or not running wherever you are reading the message.
 
-{{ "troubleshooting/jumbledtext" | screenshot }}
+{{ "browser/troubleshooting/jumbledtext" | screenshot }}
 
 Try to view the message on the same device where you installed FlowCrypt, on the same browser, on mail.google.com
 
@@ -34,7 +34,7 @@ You will see the following error when the Private Key installed in FlowCrypt doe
 
 This often happens when users re-install FlowCrypt, but do not remember their previous pass phrase during setup.
 
-{{ "troubleshooting/key-cannot-open" | screenshot }}
+{{ "browser/troubleshooting/key-cannot-open" | screenshot }}
 
 ### Fixing a received message
 
@@ -42,13 +42,13 @@ First thing to try is to see if you can import any Key Backup from the past that
 
 Click `Import Missing Key` on the above screen, and you should see something similar to this:
 
-{{ "troubleshooting/add-private-key" | screenshot }}
+{{ "browser/troubleshooting/add-private-key" | screenshot }}
 
 If `Load from backup` is available and not disabled, the likely reason that you cannot read your message is that it's encrypted for a private key that is not loaded.
 
 Clicking `Load from backup` will take you to a screen where you can import your key:
 
-{{ "troubleshooting/load-private-key-from-backup" | screenshot }}
+{{ "browser/troubleshooting/load-private-key-from-backup" | screenshot }}
 
 You will need to enter the pass phrase that you used when the backup was created (this may be different than your current pass phrase), then click `Load key from backup`.
 
@@ -74,17 +74,17 @@ Attester distributes your Public Key to each new sender that wants to send you a
 
 For this, go to `FlowCrypt Settings` -> `Additional Settings` -> `Attester`. You should see a screen similar to:
 
-{{ "troubleshooting/attester-correct-records" | screenshot }}
+{{ "browser/troubleshooting/attester-correct-records" | screenshot }}
 
 Click `Correct Public Records` and wait for a confirmation email to confirm this update. After that, the screen should whos:
 
-{{ "troubleshooting/attester-submitted" | screenshot }}
+{{ "browser/troubleshooting/attester-submitted" | screenshot }}
 
 #### Ask each sender to update their records of your Public Key
 
 You will want the sender to update their settings and re-send the message.
 
-{{ "troubleshooting/key-cannot-open" | screenshot }}
+{{ "browser/troubleshooting/key-cannot-open" | screenshot }}
 
 Click `Ask Sender to Update`. This will guide you to send your current Public Key back to the sender. When they receive it, they should see a `Udate Contact` button, which they should click (they may need to do this on all of their devices). After that, when they send you a new message, it should be readable.
 

@@ -1,42 +1,42 @@
 
 Settings PUBLIC KEY
-{{ "basicsettings/clickrenew" | screenshot }}
+{{ "browser/basicsettings/clickrenew" | screenshot }}
 
 Settings CONTACTS
-{{ "basicsettings/clickrenew" | screenshot }}
+{{ "browser/basicsettings/clickrenew" | screenshot }}
 
 Settings ATTESTERS
-{{ "basicsettings/clickrenew" | screenshot }}
+{{ "browser/basicsettings/clickrenew" | screenshot }}
 
 Settings FEEDBACK
-{{ "basicsettings/clickrenew" | screenshot }}
+{{ "browser/basicsettings/clickrenew" | screenshot }}
 
 Settings MY KEYS
-{{ "basicsettings/clickrenew" | screenshot }}
+{{ "browser/basicsettings/clickrenew" | screenshot }}
 
 Settings SECURITY
-{{ "basicsettings/clickrenew" | screenshot }}
+{{ "browser/basicsettings/clickrenew" | screenshot }}
 
 Settings TERMS
-{{ "basicsettings/clickrenew" | screenshot }}
+{{ "browser/basicsettings/clickrenew" | screenshot }}
 
-{{ "basicsettings/FCbackupmessage" | screenshot }}
-{{ "basicsettings/backup" | screenshot }}
-{{ "basicsettings/clickaddtionalsettingstogotobasicsettings" | screenshot }}
+{{ "browser/basicsettings/FCbackupmessage" | screenshot }}
+{{ "browser/basicsettings/backup" | screenshot }}
+{{ "browser/basicsettings/clickaddtionalsettingstogotobasicsettings" | screenshot }}
 
-{{ "basicsettings/contactsandtheirpublickeys" | screenshot }}
-{{ "basicsettings/exploringattester" | screenshot }}
-{{ "basicsettings/exploringcontacts" | screenshot }}
-{{ "basicsettings/exploringfeedback" | screenshot }}
-{{ "basicsettings/exploringmykeys" | screenshot }}
-{{ "basicsettings/exploringpublickey" | screenshot }}
-{{ "basicsettings/exploringsecurity" | screenshot }}
-{{ "basicsettings/exploringterms" | screenshot }}
-{{ "basicsettings/letothersencryptforyoueasier" | screenshot }}
-{{ "basicsettings/morebackupoptions" | screenshot }}
-{{ "basicsettings/mykeys" | screenshot }}
-{{ "basicsettings/publickeyinfo" | screenshot }}
-{{ "basicsettings/publickeyinfoforFC" | screenshot }}
-{{ "basicsettings/sendmessagetoFC" | screenshot }}
-{{ "basicsettings/termsandservice" | screenshot }}
-{{ "basicsettings/upgradetoFCadvance" | screenshot }}
+{{ "browser/basicsettings/contactsandtheirpublickeys" | screenshot }}
+{{ "browser/basicsettings/exploringattester" | screenshot }}
+{{ "browser/basicsettings/exploringcontacts" | screenshot }}
+{{ "browser/basicsettings/exploringfeedback" | screenshot }}
+{{ "browser/basicsettings/exploringmykeys" | screenshot }}
+{{ "browser/basicsettings/exploringpublickey" | screenshot }}
+{{ "browser/basicsettings/exploringsecurity" | screenshot }}
+{{ "browser/basicsettings/exploringterms" | screenshot }}
+{{ "browser/basicsettings/letothersencryptforyoueasier" | screenshot }}
+{{ "browser/basicsettings/morebackupoptions" | screenshot }}
+{{ "browser/basicsettings/mykeys" | screenshot }}
+{{ "browser/basicsettings/publickeyinfo" | screenshot }}
+{{ "browser/basicsettings/publickeyinfoforFC" | screenshot }}
+{{ "browser/basicsettings/sendmessagetoFC" | screenshot }}
+{{ "browser/basicsettings/termsandservice" | screenshot }}
+{{ "browser/basicsettings/upgradetoFCadvance" | screenshot }}

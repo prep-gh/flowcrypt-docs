@@ -18,15 +18,15 @@ Conversely, messages sent between users who use FlowCrypt or other OpenPGP softw
 
 Open [https://mail.google.com&nbsp;<i class='fa fa-external-link'></i>](https://mail.google.com){:target="_blank"} in the same browser where you installed FlowCrypt.
 
-{{ "gettingstarted/clicksubjectattest" | screenshot }}
+{{ "browser/gettingstarted/clicksubjectattest" | screenshot }}
 
 Click `Secure Compose` just above the standard Gmail Compose button. The Secure Compose window will show up:
 
-{{ "sendingencryptedemailattachment/clicksecurecompose" | screenshot }}
+{{ "browser/sendingencryptedemailattachment/clicksecurecompose" | screenshot }}
 
 Add recipient email address. If the recipient does not have Flowcrypt installed, the email address will be displayed as grey, suggesting that a message password is needed to send this message.
 
-{{ "settingupFCwithprivatekey/emailtononflowcryptuser" | screenshot }}
+{{ "browser/settingupFCwithprivatekey/emailtononflowcryptuser" | screenshot }}
 
 On the bottom, enter a `one time password` in the input field. Message password should be something that you can share with the recipient.
 
@@ -36,7 +36,7 @@ Do not use your Pass Phrase (that you chose during FlowCrypt Setup). Use some ot
 
 Finally, click `Encrypt and Send`.
 
-{{ "settingupFCwithprivatekey/clickencryptandsendtononFCuser" | screenshot }}
+{{ "browser/settingupFCwithprivatekey/clickencryptandsendtononFCuser" | screenshot }}
 
 ## How to communicate a message password to recipient?
 

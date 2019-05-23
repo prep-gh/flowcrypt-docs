@@ -10,7 +10,7 @@ Contact page allows anyone to send you encrypted messages and files without havi
 
 Go to [FlowCrypt Settings](../common-tasks/open-settings.html) -> `Encrypted Contact Page`:
 
-{{ "contact-page/settings-button" | screenshot }}
+{{ "browser/contact-page/settings-button" | screenshot }}
 
 On the following page, click `Get trial` on the bottom:
 
@@ -20,10 +20,10 @@ Encrypted Contact Page is a free feature and does not require a paid subscriptio
 We will be improving this so that users don't have to go through the trial signup unnecessarily.
 {{site.data.box.end}}
 
-{{ "contact-page/settings-page" | screenshot }}
+{{ "browser/contact-page/settings-page" | screenshot }}
 
 When done, you will see a link to your Encrypted Contact Page that you can share with others. You will also be able to customize the name, picture and description showing on your contact page.
 
 Example at [https://flowcrypt.com/me/tom&nbsp;<i class='fa fa-external-link'></i>](https://flowcrypt.com/me/tom):
 
-{{ "contact-page/contact-page" | screenshot }}
+{{ "browser/contact-page/contact-page" | screenshot }}

@@ -16,14 +16,14 @@ If you are new to encryption, you should instead [Create a new Private Key](new-
 
 On the setup screen, click on **Use my own Private Key**.
 
-{{ "settingup/setupflowcryptnewencryptionkey" | screenshot }}
+{{ "browser/settingup/setupflowcryptnewencryptionkey" | screenshot }}
 
 Import your private key by loading it from a file or pasting armored key directly. Loading from a file is preferred, because copy-pasting and formatting errors are a common source of problems.
 
-{{ "settingupFCwithprivatekey/privatekey" | screenshot }}
+{{ "browser/settingupFCwithprivatekey/privatekey" | screenshot }}
 
 Enter your Pass Phrase and click save.
 
-{{ "settingup/allset" | screenshot }}
+{{ "browser/settingup/allset" | screenshot }}
 
 To learn how to use FlowCrypt, go to [sending and receiving encrypted email](../send-and-receive/index.html)

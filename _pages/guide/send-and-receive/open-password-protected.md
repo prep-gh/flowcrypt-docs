@@ -10,14 +10,14 @@ When you send someone a password protected message (typically recipients who don
 
 When the recipient open the email, they will see a button named `Open Message`:
 
-{{ "openingemailwithoutFC/gotoinbox" | screenshot }}
+{{ "browser/openingemailwithoutFC/gotoinbox" | screenshot }}
 
 The button will take the recipient to a page where they neeed to enter the `message password`:
 
-{{ "openingemailwithoutFC/addpwtoopenencryptedmessage" | screenshot }}
+{{ "browser/openingemailwithoutFC/addpwtoopenencryptedmessage" | screenshot }}
 
 After clicking `Decrypt`, the message (and attachments) will be decrypted:
 
-{{ "openingemailwithoutFC/encryptedemailappears" | screenshot }}
+{{ "browser/openingemailwithoutFC/encryptedemailappears" | screenshot }}
 
 If there were any attachments, the recipient will be able to download them too.

@@ -6,11 +6,11 @@ toc: true
 
 Go to [FlowCrypt Settings](open-settings.html) and click on `Security`:
 
-{{ "changepassphrase/flowcryptbasicsettingspage" | screenshot }}
+{{ "browser/changepassphrase/flowcryptbasicsettingspage" | screenshot }}
 
 On the `Security` page, click `Change Pass Phrase`:
 
-{{ "changepassphrase/clicksecurity" | screenshot }}
+{{ "browser/changepassphrase/clicksecurity" | screenshot }}
 
 {{site.data.box.info}}
 If you chose [`Require Pass Phrase to open encrypted email`](require-pass-phrase.html) earlier, you will be required to confirm your previous pass phrase before changing it.
@@ -20,7 +20,7 @@ There is no way around that requirement, unless you also have FlowCrypt set up o
 
 Enter your new Pass Phrase:
 
-{{ "changepassphrase/choosechangepassphrase" | screenshot }}
+{{ "browser/changepassphrase/choosechangepassphrase" | screenshot }}
 
 {{site.data.box.warning}}
 Note your Pass Phrase down for later recovery.
@@ -32,7 +32,7 @@ Changing Pass Phrase only affects the device that you are currently using. The P
 
 After you have changed your Pass Phrase, you will be prompted to back up your updated Private Key. This step is very important so that you can use your updated Pass Phrase next time you set up FlowCrypt on another device (if you lose your device or it stops working).
 
-{{ "changepassphrase/backupprivatekeyinemail" | screenshot }}
+{{ "browser/changepassphrase/backupprivatekeyinemail" | screenshot }}
 
 Click the green `Back up` buton to finish.
 

@@ -435,6 +435,16 @@ a {
       }
     }
   }
+  div.android div.screenshot {
+    display: inline-block;
+    margin-right: 20px;
+    img {
+      max-width: 280px;
+    }
+  }
+  div.overview div.screenshot img {
+    opacity: 1;
+  }
   code.error {
     color: $red;
     background-color: $red_bg;

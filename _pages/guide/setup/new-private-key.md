@@ -10,20 +10,20 @@ toc: true
 
 On the setup screen, click **New Encryption Key**:
 
-{{ "settingup/setupflowcryptnewencryptionkey" | screenshot }}
+{{ "browser/settingup/setupflowcryptnewencryptionkey" | screenshot }}
 
 Create a pass phrase of your own to protect your encrypted email:
 
-{{ "settingup/setupchooseownpassphrase" | screenshot }}
+{{ "browser/settingup/setupchooseownpassphrase" | screenshot }}
 
 Repeat your new pass phrase once more time:
 
 
-{{ "settingup/typeownpassphrase" | screenshot }}
+{{ "browser/settingup/typeownpassphrase" | screenshot }}
 
 After clicking **Create and Save**, you are done setting up:
 
-{{ "settingup/allset" | screenshot }}
+{{ "browser/settingup/allset" | screenshot }}
 
 {{site.data.box.warning}}
 Remember to note the pass phrase down! Every day, users email us that they forgot their pass phrase and can no longer read their encrypted email. We cannot help them, their encrypted emails are forever lost. Don't be that person. Note your pass phrase down.

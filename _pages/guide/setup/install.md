@@ -14,23 +14,23 @@ Go to [flowcrypt.com&nbsp;<i class='fa fa-external-link'></i>](https://flowcrypt
 
 On Chrome Web Store, click **Add to Chrome**:
 
-{{ "settingup/chromewebstore" | screenshot }}
+{{ "browser/settingup/chromewebstore" | screenshot }}
 
 Click the **FlowCrypt icon** in the top right corder of your browser to set up FlowCrypt:
 
-{{ "settingup/startusingFC-clicklogo" | screenshot }}
+{{ "browser/settingup/startusingFC-clicklogo" | screenshot }}
 
 The following screen will show up. Click **Continue with Gmail**:
 
-{{ "settingup/setupflowcrypt2" | screenshot }}
+{{ "browser/settingup/setupflowcrypt2" | screenshot }}
 
 A new window will pop up. Choose the email address you'd like to use:
 
-{{ "settingup/flowcryptbrowserextension" | screenshot }}
+{{ "browser/settingup/flowcryptbrowserextension" | screenshot }}
 
 Click allow on the next screen:
 
-{{ "settingup/flowcryptbrowserextensionapprove" | screenshot }}
+{{ "browser/settingup/flowcryptbrowserextensionapprove" | screenshot }}
 
 If this is your very first time using FlowCrypt, you will be presented with two choices
 
@@ -38,7 +38,7 @@ If this is your very first time using FlowCrypt, you will be presented with two 
 If this is not your first time setting up FlowCrypt on this account, you may see a recovery prompt instead. See [Setting up FlowCrypt on another device](another-device.html).
 {{site.data.box.end}}
 
-{{ "settingup/setupflowcryptnewencryptionkey" | screenshot }}
+{{ "browser/settingup/setupflowcryptnewencryptionkey" | screenshot }}
 
 If this is the first time you are using encryption on this account, click [New Encryption Key](new-private-key.html).
 

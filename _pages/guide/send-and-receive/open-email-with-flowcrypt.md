@@ -8,12 +8,14 @@ On your laptop or computer, FlowCrypt allows you to view encrypted email directl
 
 Click on the newly received message:
 
-{{ "openingemailwithFC/encryptedemailininbox" | screenshot }}
+{{ "browser/openingemailwithFC/encryptedemailininbox" | screenshot }}
 
 Message will be automatically decrypted, just like when viewing any other email:
 
-{{ "Depending on your settings, you may be asked to enter your pass phrase first." | note }}
+{{data.site.box.info}}
+Depending on your settings, you may be asked to enter your pass phrase first.
+{{data.site.box.end}}
 
-{{ "openingemailwithFC/readingencryptedemail" | screenshot }}
+{{ "browser/openingemailwithFC/readingencryptedemail" | screenshot }}
 
 Next, take a look at [Send and receive overview](index.html)

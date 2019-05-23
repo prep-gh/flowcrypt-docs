@@ -31,6 +31,6 @@ If you see an error when importing a Public Key or a Private Key, such as `This 
 
 `chrome-extension://bnjglocicdkmhmoohhfkfkbbkejdhdgc/chrome/settings/modules/compatibility.htm`
 
-{{ "troubleshooting/test-key-compatibility" | screenshot }}
+{{ "browser/troubleshooting/test-key-compatibility" | screenshot }}
 
 This will locally (within your browser) test the public or private key, and print out diagnostics. You can share the results with us by copying the result and sending it to us at `human@flowcrypt.com`. Please also mention which software created the key, and if it used any special settings.
