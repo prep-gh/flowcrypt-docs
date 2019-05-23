@@ -3,8 +3,6 @@ title: FlowCrypt Docs
 summary: FlowCrypt user guide, manuals, documentation
 toc: true
 contribute: false
-redirect_from:
- - /
 ---
 
 FlowCrypt is an email solution that lets you work with end-to-end encrypted messages securely and easily.
