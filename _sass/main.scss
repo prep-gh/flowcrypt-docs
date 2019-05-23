@@ -392,6 +392,21 @@ h4 {
   font-size: 16px;
 }
 
+@media (max-width: 767px) {
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .contribute .btn-contribute {
+    margin-top: 0px;
+  }
+}
+
 a {
   button {
     color: black;
@@ -408,6 +423,11 @@ a {
     opacity: 0.5;
     line-height: 12px;
     text-align: right;
+    @media (max-width: 767px) {
+      opacity: 0.3;
+      position: absolute;
+      bottom: unset;
+    }
 }
 
 .main-content {

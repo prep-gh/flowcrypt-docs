@@ -17,16 +17,19 @@
 			margin: 0 auto;
 			min-height: 625px;
 			max-width: $max-width;
-		}
+    }
 
 		.content-col {
 			padding-bottom: 100px;
 			max-width: 100%;
 			min-width: 0;
-			padding-top: 105px;
-			// overflow-x: scroll;
 
-			@include at-query($min, $screen-md) {
+      @include at-query($max, $screen-md) { // mobile
+        padding-top: 32px;
+        overflow-x: hidden;
+      }
+
+			@include at-query($min, $screen-md) { // desktop
 				padding-top: 0;
 				min-height: 625px;
 				margin-left: 310px;

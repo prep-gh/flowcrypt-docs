@@ -95,17 +95,17 @@ body.sidenav-open {
   background-color: $cl_gray_light;
   position: relative;
 
-  @include at-query($max, $screen-md) {
+  @include at-query($max, $screen-md) { // mobile
     position: fixed;
     left: 0;
-    top: 115px;
+    top: 60px;
     width: 100%;
     z-index: 2;
     @include groovy(margin-left);
     @include groovy(box-shadow);
   }
 
-  @include at-query($min, $screen-md) {
+  @include at-query($min, $screen-md) { // desktop
     position: fixed;
     top: 100px;
     bottom: 0;
@@ -167,9 +167,9 @@ body.sidenav-open {
 
 .collapsed-header {
   display: none;
-
-  line-height: 20px;
+  line-height: 15px;
   position: absolute;
+  font-size: 14px;
 }
 
 .nav {
