@@ -21,7 +21,7 @@ FlowCrypt is an email solution that lets you work with end-to-end encrypted mess
     <div class="col-xs-12 col-sm-6 col-lg-4">
       <p class="landing-column-title">Technical docs</p>
       <div class="landing-column-content">
-        <p><a href="technical/openpgp-compatibility.html">Compatibility</a></p>
+        <p><a href="technical/openpgp-compatibility.html">OpenPGP Compatibility</a></p>
         <p><a href="technical/manage-public-keys.html">Public Key management</a></p>
         <p><a href="technical/manage-public-keys.html">Manage Private Keys</a></p>
         <p><a href="technical/security.html">Security</a></p>
@@ -30,10 +30,10 @@ FlowCrypt is an email solution that lets you work with end-to-end encrypted mess
     <div class="col-xs-12 col-sm-6 col-lg-4">
       <p class="landing-column-title">FOR BUSINESS</p>
       <div class="landing-column-content">
+      <p><a href="business/enterprise.html">Enterprise</a></p>
         <p><a href="business/group-management.html">Group management</a></p>
-        <p><a href="https://flowcrypt.com/privacy#gdpr">GDPR&nbsp;<i class='fa fa-external-link'></i></a></p>
         <p><a href="https://flowcrypt.com/pricing">Pricing&nbsp;<i class='fa fa-external-link'></i></a></p>
-        <p><a href="business/enterprise.html">Enterprise</a></p>
+        <p><a href="https://flowcrypt.com/privacy#gdpr">GDPR&nbsp;<i class='fa fa-external-link'></i></a></p>
       </div>
     </div>
   </div>
