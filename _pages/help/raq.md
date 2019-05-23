@@ -59,4 +59,4 @@ Some use cases require that the message is available longer then standard 3 day 
 
 Messages sent between people who use encryption don't expire, because they are delivered over email like any other message, plus typically encrypted in a more secure way.
 
-For more details and screenshots see [Sending and receiving encrypted email](/docs/content/guide/send-and-receive/index.html).
+For more details and screenshots see [Sending and receiving encrypted email](/docs/guide/send-and-receive/index.html).

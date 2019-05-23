@@ -37,5 +37,5 @@ After you have changed your Pass Phrase, you will be prompted to back up your up
 Click the green `Back up` buton to finish.
 
 {{site.data.box.tip}}
-[Enterprise customers](/docs/content/business/enterprise.html) can customize or disable these backup options in favor of their own key management.
+[Enterprise customers](/docs/business/enterprise.html) can customize or disable these backup options in favor of their own key management.
 {{site.data.box.end}}

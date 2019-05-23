@@ -8,7 +8,7 @@ You should set up FlowCrypt on every device where you want to send and receive e
 
 | Prerequisities
 |:---
-| You know your Pass Phrase from the previous setup. See [Forgotten Pass Phrases](/docs/content/help/forgot-pass-phrase.html)
+| You know your Pass Phrase from the previous setup. See [Forgotten Pass Phrases](/docs/help/forgot-pass-phrase.html)
 | You have already installed flowcrypt on a second device by following [Install FlowCrypt](install.html)
 
 ## Steps

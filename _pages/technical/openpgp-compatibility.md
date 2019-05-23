@@ -25,7 +25,7 @@ White spaces mean we have not tested this or did not hear from any user who test
 | Receive attachment from | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} |  | {{site.data.i.ok}} |  | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} |  | |
 | Unicode interoperability | {{site.data.i.ok}}* | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} |  |  |  |  | | {{site.data.i.ok}} | | |
 
-**Unicode compatibility between Enigmail and FlowCrypt is well tested, but we have heard of one instance where our Android app was not able to read Japanese text produced by Enigmail, that we were not able to properly investigate. If you experience any issues, please read [compatibility issue - incoming email](http://localhost:4000/docs/content/troubleshoot/compatibility.html#incoming-email-from-other-software) and see if you can get us a sample.*
+**Unicode compatibility between Enigmail and FlowCrypt is well tested, but we have heard of one instance where our Android app was not able to read Japanese text produced by Enigmail, that we were not able to properly investigate. If you experience any issues, please read [compatibility issue - incoming email](/docs/help/compatibility.html#incoming-email-from-other-software) and see if you can get us a sample.*
 
 Please help us complete the table above if you have tested any combinations that we haven't. You can use the `Contribute` button, or email us at `human@flowcrypt.com`.
 

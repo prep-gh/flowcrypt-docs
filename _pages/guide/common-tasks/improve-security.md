@@ -30,4 +30,4 @@ This is one of the best defenses to get you out of trouble when your device is l
 
 ## What's next
 
-More technical document: [FlowCrypt Security](/docs/content/technical/security.html).
+More technical document: [FlowCrypt Security](/docs/technical/security.html).

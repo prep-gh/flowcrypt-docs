@@ -3,7 +3,7 @@
     "title": "Docs Home",
     "is_top_level": true,
     "urls": [
-      "/content/"
+      "/"
     ]
   },
   {
@@ -13,7 +13,7 @@
       {
         "title": "FlowCrypt Overview",
         "urls": [
-          "/content/guide/overview.html"
+          "/guide/overview.html"
         ]
       },
       {
@@ -22,25 +22,25 @@
           {
             "title": "Install FlowCrypt",
             "urls": [
-              "/content/guide/setup/install.html"
+              "/guide/setup/install.html"
             ]
           },
           {
             "title": "New Private Key",
             "urls": [
-              "/content/guide/setup/new-private-key.html"
+              "/guide/setup/new-private-key.html"
             ]
           },
           {
             "title": "Import Private Key",
             "urls": [
-              "/content/guide/setup/import-private-key.html"
+              "/guide/setup/import-private-key.html"
             ]
           },
           {
             "title": "Another device",
             "urls": [
-              "/content/guide/setup/another-device.html"
+              "/guide/setup/another-device.html"
             ]
           }
         ]
@@ -51,7 +51,7 @@
           {
             "title": "Encrypted emails overview",
             "urls": [
-              "/content/guide/send-and-receive/index.html"
+              "/guide/send-and-receive/index.html"
             ]
           },
           {
@@ -60,19 +60,19 @@
               {
                 "title": "Send to a FlowCrypt user",
                 "urls": [
-                  "/content/guide/send-and-receive/send-to-flowcrypt.html"
+                  "/guide/send-and-receive/send-to-flowcrypt.html"
                 ]
               },
               {
                 "title": "Send to other PGP software",
                 "urls": [
-                  "/content/guide/send-and-receive/send-to-other-pgp-software.html"
+                  "/guide/send-and-receive/send-to-other-pgp-software.html"
                 ]
               },
               {
                 "title": "Send to anyone else",
                 "urls": [
-                  "/content/guide/send-and-receive/send-password-protected.html"
+                  "/guide/send-and-receive/send-password-protected.html"
                 ]
               }
             ]
@@ -83,13 +83,13 @@
               {
                 "title": "Open with FlowCrypt",
                 "urls": [
-                  "/content/guide/send-and-receive/open-email-with-flowcrypt.html"
+                  "/guide/send-and-receive/open-email-with-flowcrypt.html"
                 ]
               },
               {
                 "title": "Open password protected email",
                 "urls": [
-                  "/content/guide/send-and-receive/open-password-protected.html"
+                  "/guide/send-and-receive/open-password-protected.html"
                 ]
               }
             ]
@@ -97,7 +97,7 @@
           {
             "title": "Encrypted Contact Page",
             "urls": [
-              "/content/guide/send-and-receive/encrypted-contact-page.html"
+              "/guide/send-and-receive/encrypted-contact-page.html"
             ]
           }
         ]
@@ -108,25 +108,25 @@
           {
             "title": "Change Pass Phrase",
             "urls": [
-              "/content/guide/common-tasks/change-pass-phrase.html"
+              "/guide/common-tasks/change-pass-phrase.html"
             ]
           },
           {
             "title": "Open FlowCrypt Settings",
             "urls": [
-              "/content/guide/common-tasks/open-settings.html"
+              "/guide/common-tasks/open-settings.html"
             ]
           },
           {
             "title": "Require Pass Phrase",
             "urls": [
-              "/content/guide/common-tasks/require-pass-phrase.html"
+              "/guide/common-tasks/require-pass-phrase.html"
             ]
           },
           {
             "title": "Improve Security",
             "urls": [
-              "/content/guide/common-tasks/improve-security.html"
+              "/guide/common-tasks/improve-security.html"
             ]
           }
         ]
@@ -140,25 +140,25 @@
       {
         "title": "Specifications",
         "urls": [
-          "/content/technical/specifications.html"
+          "/technical/specifications.html"
         ]
       },
       {
         "title": "Known limitations",
         "urls": [
-          "/content/technical/limitations.html"
+          "/technical/limitations.html"
         ]
       },
       {
         "title": "Manage Public Keys",
         "urls": [
-          "/content/technical/manage-public-keys.html"
+          "/technical/manage-public-keys.html"
         ]
       },
       {
         "title": "Manage Private Keys",
         "urls": [
-          "/content/technical/manage-private-keys.html"
+          "/technical/manage-private-keys.html"
         ]
       },
       {
@@ -170,19 +170,19 @@
       {
         "title": "OpenPGP Compatibility",
         "urls": [
-          "/content/technical/openpgp-compatibility.html"
+          "/technical/openpgp-compatibility.html"
         ]
       },
       {
         "title": "Other platforms",
         "urls": [
-          "/content/technical/other-platforms.html"
+          "/technical/other-platforms.html"
         ]
       },
       {
         "title": "Security",
         "urls": [
-          "/content/technical/security.html"
+          "/technical/security.html"
         ]
       }
     ]
@@ -194,7 +194,7 @@
       {
         "title": "Group management",
         "urls": [
-          "/content/business/group-management.html"
+          "/business/group-management.html"
         ]
       },
       {
@@ -212,13 +212,13 @@
       {
         "title": "HIPAA",
         "urls": [
-          "/content/business/hipaa.html"
+          "/business/hipaa.html"
         ]
       },
       {
         "title": "Enterprise",
         "urls": [
-          "/content/business/enterprise.html"
+          "/business/enterprise.html"
         ]
       }
     ]
@@ -233,25 +233,25 @@
           {
             "title": "Cannot read email",
             "urls": [
-              "/content/help/cannot-read-email.html"
+              "/help/cannot-read-email.html"
             ]
           },
           {
             "title": "Forgot pass phrase",
             "urls": [
-              "/content/help/forgot-pass-phrase.html"
+              "/help/forgot-pass-phrase.html"
             ]
           },
           {
             "title": "Compatibility issue",
             "urls": [
-              "/content/help/compatibility.html"
+              "/help/compatibility.html"
             ]
           },
           {
             "title": "Missing alias",
             "urls": [
-              "/content/help/missing-alias.html"
+              "/help/missing-alias.html"
             ]
           }
         ]
@@ -262,13 +262,13 @@
           {
             "title": "Frequent questions",
             "urls": [
-              "/content/help/faq.html"
+              "/help/faq.html"
             ]
           },
           {
             "title": "Rare questions",
             "urls": [
-              "/content/help/raq.html"
+              "/help/raq.html"
             ]
           }
         ]
@@ -276,7 +276,7 @@
       {
         "title": "Contact",
         "urls": [
-          "/content/help/contact.html"
+          "/help/contact.html"
         ]
       }
     ]

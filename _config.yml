@@ -5,6 +5,11 @@ homepage_title: FlowCrypt Docs
 baseurl: "/docs"
 destination: _site/docs
 
+collections:
+  pages:
+    output: true
+    permalink: /:path
+
 plugins:
 - jekyll-sitemap
 
