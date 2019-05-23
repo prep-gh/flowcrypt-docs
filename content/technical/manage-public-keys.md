@@ -21,7 +21,15 @@ You only have to do this one time for each recipient that uses non-FlowCrypt Ope
 
 ## Importing other people's Public Keys
 
-You may need to do this if your recipient uses other OpenPGP software. See [sending to other OpenPGP software](../guide/send-and-receive/send-to-other-pgp-software.html)
+You may need to do this if your recipient uses other OpenPGP software. See [sending to other OpenPGP software](../guide/send-and-receive/send-to-other-pgp-software.html).
+
+## Trust on First Use
+
+Our software uses `TOFU: Trust on First Use` mechanism. From the moment you first load (set) your recipeint's Public Key (whether manually or automatically), it will not be replaced until you manually assign another public key to that recipient by clicking `Update Contact` on a receoved Public Key (or in FlowCrypt Settings).
+
+Keys may however be automatically updated if a newer version of the same key was found on FlowCrypt Attester (for example, when key owner extends expiration of the key, or updates key users).
+
+You have to manage your recipient's Public Keys separately on each device, without any sync mechanism across your devices. [Enterprise customers](../business/enterprise.html) may opt into cross-device Public Key synchronisation.
 
 ## Enterprise Public Key management
 

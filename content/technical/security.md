@@ -1,71 +1,48 @@
 ---
 title: FlowCrypt Security
 summary: FlowCrypt Security
+toc: true
 ---
 
-[...]
+## Security overview
 
-OpenPGP security review
+FlowCrypt uses OpenPGP to encrypt messages and attachments on user's device before transferring it over the network or storing with email provider, providing end-to-end encryption at rest as well as in transit.
 
-end-to-end
+This ensures that nobody other than the intended recipient and sender are able to read email contents.
 
-<!-- key strength -->
+Our software uses [OpenPGP.js](https://github.com/openpgpjs/openpgpjs) which is receiving regular security reviews. We also contribute some of our code back to OpenPGP.js for the benefit of other software vendors.
 
-## What FlowCrypt settings to use for maximum security?
+## What is encrypted
 
-> Hello, I'm in a situation where I need to use the maximum security possible. What should I do?
+The following table shows which email parts are encrypted for outgoing messages.
 
-What you want is this:
+| Data | Encrypted | Customization |
+|---|---|
+| Email text body | {{site.data.i.ok}} | |
+| Attachment data | {{site.data.i.ok}} | |
+| Subject | {{site.data.i.not}} | [Enterprise customers](../business/enterprise.html) can customize | 
+| Attachment name | {{site.data.i.not}} | [Enterprise customers](../business/enterprise.html) can customize | 
+| Email footer | {{site.data.i.not}} | [Enterprise customers](../business/enterprise.html) can customize |
+| Recipients and other headers | {{site.data.i.not}} | |
 
-1) have a very strong pass phrase. it should be 20 characters long at a minimum.
+## Key strength and default options
 
-2) choose "always require pass phrase to open encrypted messages"
+Currently, when creating a new key, the default is `4096bit RSA` on FlowCrypt Browser Extension and `2048bit RSA` for keys created in the Android App.
 
-3) when messaging people who don't use FlowCrypt, add a sufficiently strong password that you can communicate to them in some other way (a phone call, or WhatsApp)
+{{site.data.box.info}}
+We are planning to change the default to `2048bit RSA` + `ECC curve25519` combo for newly created keys, with an option to adjust it during setup. [Enterprise customers](../business/enterprise.html) may choose their desired key type and strength across their organisation.
+{{site.data.box.end}}
 
-4) use a full disk encryption on your device with a strong password
+When importing a key, FlowCrypt will use any compatible key supplied by user.
 
-5) eventually move off US based email services
+## Key Management
 
-6) Linux, or at least a Mac, may be a better choice compared to windows
+See [Public Key Management](manage-public-keys.html) and [Manage Private Keys](manage-private-keys.html).
 
-7) very strong passcode on your phone (I use an alphanumeric password)
+## Public Source Code
 
-8) use two factor authentication on all of your online accounts (to receive a text with a code every time you wan to log in, or use Google Authenticator or Authy)
+Our source code is publicly available for review at [github.com/FlowCrypt](https://github.com/FlowCrypt/).
 
-## Security: handling and distributing private keys
+## What's next
 
-[...] enterprise option opt out
-
-> Hey there, an obvious question that would come up from security experts related to your service. How is the private key for these accounts distributed? How do people know that a 3rd party do not have access to our private keys generated through FlowCrypt?
-
-When generating private keys in FlowCrypt, you can either do simple setup or manual setup.
-
-Manual gives you full control over how your key is handled.
-
-Simple setup will by default protect your key with your pass phrase, then store it in your inbox. The security of your key then depends on the strength of your pass phrase - that is why FlowCrypt requires such a long pass phrase when you are creating a new key.
-
-Please also see <a href="https://flowcrypt.com/privacy">our Privacy Policy</a> - it's very readable.
-
-The code itself is publicly available: <a href="https://github.com/FlowCrypt">github.com/FlowCrypt</a>
-
-# What is the level of protection for encrypted emails?
-
-> so let me ask a basic question... if someone gets access to his email account via his computer, what's the level of protection for the encrypted emails?
-
-[...] mention that title, attachment names, etc are visible
-
-The security of end-to-end encryption (when it's strong enough, like PGP) depends on the ends. There's no way around that - it's hard to secure information on a poorly managed device, regardless if it's the sender's or receiver's device.
-
-Firstly, basics need to be in place: using two-factor authentication, strong password when logging into their computer, keeping their device updated and virus free.
-
-On top of that, if they are using FlowCrypt, they should (as well as you) go to FlowCrypt Settings -> Security and select "Always require pass phrase to open encrypted email". That way, if someone gets a hold of their computer, they would still need to know the pass phrase that the person has used to view the encrypted email.
-
-This is military grade end-to-end encryption. It won't fail you in itself, the weak links are the underlying system, the device, the people, etc.
-
-
-# [...] when laptop gets stolen:
-
-Ideally you want to be using full-disk encryption on your laptop, and lock the computer when you leave it. Also, the moment you suspect your laptop stolen or tampered with, you should use another device to log into Google, go to "Connected Apps" and revoke access to "FlowCrypt". That will make these tokens useless.
-
-Last one, you should not use any browser extension with over-reaching permissions such as "manage other extensions".
+Ask `human@flowcrypt.com` if you have any security related questions.
