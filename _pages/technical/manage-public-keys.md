@@ -39,7 +39,7 @@ If you already have your own mechanism for keeping track of Public Keys of your 
 
 If you used other software that managed Public Keys for you using gnupg, you can use the command line to export your previous Public Keys for use in FlowCrypt:
 
-```bash
+```
 gpg --export --armor > all-public-keys.asc
 ```
 

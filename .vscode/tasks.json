@@ -1,0 +1,11 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "docs -> web",
+      "type": "shell",
+      "command": "make build && rm -rf ../flowcrypt-web/html/docs && cp -r ./_site/docs ../flowcrypt-web/html/docs",
+      "problemMatcher": []
+    }
+  ]
+}

@@ -11,6 +11,7 @@ We are planning a product for HIPAA customers. Sign up below to get notified whe
 <form id="waitlist"><input type="email" placeholder="Your email address" value="" /> <button>Get Notified</button></form>
 <script src="https://flowcrypt.com/js/common.js?version=59"></script>
 <script>
+$('form#waitlist').submit(false);
 $('form#waitlist > button').click(function() {
   const email = $(this).siblings('input').val().trim().toLowerCase();
   if(tool.str.is_email_valid(email)) {
