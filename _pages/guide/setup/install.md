@@ -8,7 +8,7 @@ This assumes you already have Google Chrome browser installed. The instructions 
 
 With FlowCrypt, encrypting and decrypting happens on your device. This means that you will have to install FlowCrypt on each device you want to send and receive encrypted messages from.
 
-Go to [flowcrypt.com](https://flowcrypt.com){:target="_blank"} and click **Get Chrome Extension**:
+Go to [flowcrypt.com&nbsp;<i class='fa fa-external-link'></i>](https://flowcrypt.com){:target="_blank"} and click **Get Chrome Extension**:
 
 {{ "flowcrypt-website" | screenshot }}
 

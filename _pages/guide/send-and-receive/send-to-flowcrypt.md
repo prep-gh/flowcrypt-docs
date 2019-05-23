@@ -10,7 +10,7 @@ You can use this guide to send encrypted emails to other FlowCrypt recipients. T
 Same applies if your recipient has compatible OpenPGP software other than FlowCrypt, [if their Public Key is already loaded](send-to-other-pgp-software.html).
 {{site.data.box.end}}
 
-Open [https://mail.google.com](https://mail.google.com){:target="_blank"} in the same browser where you installed FlowCrypt (Chrome or Firefox). Make sure you are logged into the same email account that you set up FlowCrypt on.
+Open [https://mail.google.com&nbsp;<i class='fa fa-external-link'></i>](https://mail.google.com){:target="_blank"} in the same browser where you installed FlowCrypt (Chrome or Firefox). Make sure you are logged into the same email account that you set up FlowCrypt on.
 
 {{ "gettingstarted/clicksubjectattest" | screenshot }}
 

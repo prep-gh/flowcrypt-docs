@@ -10,7 +10,7 @@ Below please find foundational steps to take if you'd like to stay safer.
 
 Even before you embrace encryption, one of the most important things is to make sure to use Two-Factor Authentication (2FA, or also 2-Step Verification) on every online account that supports it, but especially your email account. When set up, you will need more than just your password to log into your Google account (and so will hackers).
 
-Depending on your settings, this second form of verification could be a temporary security code from a 2FA app (such as [Google Authenticator](https://support.google.com/accounts/answer/1066447) or [Authy](https://authy.com/)), or a verification code that you received as a text message. See [Google 2-Step Verification](https://www.google.com/landing/2step/).
+Depending on your settings, this second form of verification could be a temporary security code from a 2FA app (such as [Google Authenticator&nbsp;<i class='fa fa-external-link'></i>](https://support.google.com/accounts/answer/1066447) or [Authy&nbsp;<i class='fa fa-external-link'></i>](https://authy.com/)), or a verification code that you received as a text message. See [Google 2-Step Verification&nbsp;<i class='fa fa-external-link'></i>](https://www.google.com/landing/2step/).
 
 We cannot overstate the importance of 2FA, it is the first thing you should do to protect all your online accounts. Don't just stop at your email account - most online services these days offer 2FA setup. Check their settings or ask their support.
 
@@ -22,11 +22,11 @@ You should set all your devices to [require your pass phrase](require-pass-phras
 
 This is one of the best defenses to get you out of trouble when your device is lost or stolen. When your device storage is encrypted, it is very difficult to extract information from the it without your device pass phrase.
 
-| Windows 10 | [Turn on device encryption](https://support.microsoft.com/en-us/help/4028713/windows-10-turn-on-device-encryption){:target="_blank"} |
-| Apple MacOS | [Use FileVault to encrypt your Mac](https://support.apple.com/en-us/HT204837){:target="_blank"} |
+| Windows 10 | [Turn on device encryption&nbsp;<i class='fa fa-external-link'></i>](https://support.microsoft.com/en-us/help/4028713/windows-10-turn-on-device-encryption){:target="_blank"} |
+| Apple MacOS | [Use FileVault to encrypt your Mac&nbsp;<i class='fa fa-external-link'></i>](https://support.apple.com/en-us/HT204837){:target="_blank"} |
 | Linux, Ubuntu | Install system with `Encrypt the new Ubuntu installation` to enable `LUKS` |
-| Android | [Encrypt Your Android Data](https://support.google.com/nexus/answer/2844831?hl=en){:target="_blank"} and choose a stronger device password |
-| iOS | [How to encrypt your iPhone](https://ssd.eff.org/en/module/how-encrypt-your-iphone){:target="_blank"} |
+| Android | [Encrypt Your Android Data&nbsp;<i class='fa fa-external-link'></i>](https://support.google.com/nexus/answer/2844831?hl=en){:target="_blank"} and choose a stronger device password |
+| iOS | [How to encrypt your iPhone&nbsp;<i class='fa fa-external-link'></i>](https://ssd.eff.org/en/module/how-encrypt-your-iphone){:target="_blank"} |
 
 ## What's next
 

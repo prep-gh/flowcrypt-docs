@@ -17,7 +17,7 @@ If you have improrted your Private Key from other software, it is assumed you wi
 
 If you let FlowCrypt create a key for you, the default option is to back up a protected key in your inbox, so that you can use FlowCrypt on another device just with your secret Pass Phrase. You can click `Show Advanced Settings` during setup for more options.
 
-This is detailed in the [Privacy Policy - Handling of Private Keys](https://flowcrypt.com/privacy#handling-of-private-keys).
+This is detailed in the [Privacy Policy - Handling of Private Keys&nbsp;<i class='fa fa-external-link'></i>](https://flowcrypt.com/privacy#handling-of-private-keys).
 
 {{site.data.box.tip}}
 Enterprise customers can customize or entirely disable key backup for their users.
@@ -31,7 +31,7 @@ To export it: `FlowCrypt Settings` -> `Backup` -> `As a file`
 
 ## Where is FlowCrypt private key stored?
 
-| FlowCrypt Browser Extension | Browser local extension storage ([Chrome](https://developer.chrome.com/apps/storage), [Firefox](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/local)) |
+| FlowCrypt Browser Extension | Browser local extension storage ([Chrome&nbsp;<i class='fa fa-external-link'></i>](https://developer.chrome.com/apps/storage), [Firefox&nbsp;<i class='fa fa-external-link'></i>](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/local)) |
 | FlowCrypt Android App | Encrypted app storage |
 
 Depending how you set up FlowCrypt, there may also be a backup, see [default backup methods](#default-backup-methods) above.

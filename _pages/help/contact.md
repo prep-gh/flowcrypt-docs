@@ -6,11 +6,11 @@ toc: true
 
 Our support can be reached at `human@flowcrypt.com`.
 
-You can also participate in development of our product, report bugs or make suggestions at the [FlowCrypt GitHub Page](https://github.com/FlowCrypt).
+You can also participate in development of our product, report bugs or make suggestions at the [FlowCrypt GitHub Page&nbsp;<i class='fa fa-external-link'></i>](https://github.com/FlowCrypt).
 
 ## Media inquiries
 
-Vector graphic of our logo: [download logo](https://flowcrypt.com/assets/imgs/svgs/flowcrypt-logo.svg)
+Vector graphic of our logo: [download logo&nbsp;<i class='fa fa-external-link'></i>](https://flowcrypt.com/assets/imgs/svgs/flowcrypt-logo.svg)
 
 Please write `human@flowcrypt.com` if you would like questions answered for your article.
 
@@ -18,7 +18,7 @@ We do not seek any paid / sponsored promotional content.
 
 ## About FlowCrypt
 
-FlowCrypt was first released in 2015 to address the horrible state of usability of email encryption. Things have since been improving, also thanks to work by other companies in our space. We are working and looking towards the day when there is no usability difference between encrypted and plain email, so that everyone who cares about privacy can use it easily. To learn more about FlowCrypt, see [our blog](https://flowcrypt.com/blog/).
+FlowCrypt was first released in 2015 to address the horrible state of usability of email encryption. Things have since been improving, also thanks to work by other companies in our space. We are working and looking towards the day when there is no usability difference between encrypted and plain email, so that everyone who cares about privacy can use it easily. To learn more about FlowCrypt, see [our blog&nbsp;<i class='fa fa-external-link'></i>](https://flowcrypt.com/blog/).
 
 We are completely self funded. No venture capital, no outside investments, no government grants. We earn our revenue from enterprise sales (plus a handful of personal or SMB customers who upgrade to a paid plan). 
 

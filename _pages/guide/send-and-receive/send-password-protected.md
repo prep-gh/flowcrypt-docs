@@ -16,7 +16,7 @@ Conversely, messages sent between users who use FlowCrypt or other OpenPGP softw
 
 ## Sending a password protected message
 
-Open [https://mail.google.com](https://mail.google.com){:target="_blank"} in the same browser where you installed FlowCrypt.
+Open [https://mail.google.com&nbsp;<i class='fa fa-external-link'></i>](https://mail.google.com){:target="_blank"} in the same browser where you installed FlowCrypt.
 
 {{ "gettingstarted/clicksubjectattest" | screenshot }}
 

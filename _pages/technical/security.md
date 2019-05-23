@@ -10,7 +10,7 @@ FlowCrypt uses OpenPGP to encrypt messages and attachments on user's device befo
 
 This ensures that nobody other than the intended recipient and sender are able to read email contents.
 
-Our software uses [OpenPGP.js](https://github.com/openpgpjs/openpgpjs) which is receiving regular security reviews. We also contribute some of our code back to OpenPGP.js for the benefit of other software vendors.
+Our software uses [OpenPGP.js&nbsp;<i class='fa fa-external-link'></i>](https://github.com/openpgpjs/openpgpjs) which is receiving regular security reviews. We also contribute some of our code back to OpenPGP.js for the benefit of other software vendors.
 
 ## What is encrypted
 
@@ -41,7 +41,7 @@ See [Public Key Management](manage-public-keys.html) and [Manage Private Keys](m
 
 ## Public Source Code
 
-Our source code is publicly available for review at [github.com/FlowCrypt](https://github.com/FlowCrypt/).
+Our source code is publicly available for review at [github.com/FlowCrypt&nbsp;<i class='fa fa-external-link'></i>](https://github.com/FlowCrypt/).
 
 ## What's next
 
