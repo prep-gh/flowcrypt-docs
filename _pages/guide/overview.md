@@ -16,12 +16,8 @@ We currently offer the following versions of FlowCrypt (see [downloads](https://
 
 ## FlowCrypt Browser Extension Screenshots
 
-[ ... ]
-
-[ ... ]
+[...]
 
 ## FlowCrypt Android App Screenshots
 
-[ ... ]
-
-[ ... ]
+[...]

@@ -1,3 +1,5 @@
+
+@import "global/lavish_bootstrap";
 @import "global/variables";
 @import "global/mixins";
 @import "global/type";
@@ -12,7 +14,7 @@
 @import "components/buttons";
 @import "components/algolia";
 
-@import "cayman";
+@import "global/cayman";
 
 html {
   height: 100%;

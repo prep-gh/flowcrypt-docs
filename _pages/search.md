@@ -45,6 +45,6 @@ contribute: false
       div.append($('<p>No results.</p>'));
     }
     $('.post-content').html(div);
-    $('.post-content').append('<img class="search-by-algolia" src="{{ 'images/algolia.svg' | relative_url }}" />');
+    $('.post-content').append('<img class="search-by-algolia" src="{{ 'assets/images/algolia.svg' | relative_url }}" />');
   });
 </script>

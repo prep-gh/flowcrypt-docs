@@ -1,5 +1,5 @@
 <div class="col-sidebar">
-  <script src="{{ 'js/initSidebar.js' | relative_url }}"></script>
+  <script src="{{ 'assets/js/initSidebar.js' | relative_url }}"></script>
   <ul id="sidebar" class="nav {% if page.name == 'index.md' %}nav--home{% endif %}{% if page.url == '/search.html'%}nav--search{% endif %}"
     style="display: none">
     <div class="sidenav-arrow">
@@ -121,7 +121,7 @@
       }) ();
     </script>
   </ul>
-  <script src="{{ 'js/searchInputRendering.js' | relative_url }}"></script>
+  <script src="{{ 'assets/js/searchInputRendering.js' | relative_url }}"></script>
 </div>
 
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above.-->

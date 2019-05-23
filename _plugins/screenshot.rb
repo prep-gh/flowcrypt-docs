@@ -6,7 +6,7 @@ module Jekyll
 
     def screenshot(src)
       alt = src.gsub(/[^a-zA-Z0-9]/, ' ')
-      return "<div class='screenshot'><img src='/docs/images/screenshots/#{src}.png' alt='#{alt}'></div>"
+      return "<div class='screenshot'><img src='/docs/assets/images/screenshots/#{src}.png' alt='#{alt}'></div>"
     end
 
   end

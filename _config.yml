@@ -5,6 +5,9 @@ homepage_title: FlowCrypt Docs
 baseurl: "/docs"
 destination: _site/docs
 
+sass:
+  style: compact
+
 collections:
   pages:
     output: true

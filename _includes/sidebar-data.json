@@ -1,12 +1,5 @@
 [
   {
-    "title": "Docs Home",
-    "is_top_level": true,
-    "urls": [
-      "/"
-    ]
-  },
-  {
     "title": "Getting Started",
     "is_top_level": true,
     "items": [
