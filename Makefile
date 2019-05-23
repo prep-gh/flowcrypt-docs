@@ -37,12 +37,10 @@ all: bootstrap
 
 .PHONY: build
 build: bootstrap
-	scss css/customstyles.scss css/customstyles.css
 	bundle exec jekyll build
 
 .PHONY: serve
 serve: bootstrap
-	scss css/customstyles.scss css/customstyles.css
 	bundle exec jekyll serve --port 4000 --trace
 
 .PHONY: test
