@@ -10,7 +10,7 @@ Below please find foundational steps to take if you'd like to stay safer.
 
 Even before you embrace encryption, one of the most important things is to make sure to use Two-Factor Authentication (2FA, or also 2-Step Verification) on every online account that supports it, but especially your email account. When set up, you will need more than just your password to log into your Google account (and so will hackers).
 
-Depending on your settings, this second form of verification could be a temporary security code from a 2FA app (such as [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_us) or [Authy](https://authy.com/)), or a verification code that you received as a text message. See [Google 2-Step Verification](https://www.google.com/landing/2step/).
+Depending on your settings, this second form of verification could be a temporary security code from a 2FA app (such as [Google Authenticator](https://support.google.com/accounts/answer/1066447) or [Authy](https://authy.com/)), or a verification code that you received as a text message. See [Google 2-Step Verification](https://www.google.com/landing/2step/).
 
 We cannot overstate the importance of 2FA, it is the first thing you should do to protect all your online accounts. Don't just stop at your email account - most online services these days offer 2FA setup. Check their settings or ask their support.
 

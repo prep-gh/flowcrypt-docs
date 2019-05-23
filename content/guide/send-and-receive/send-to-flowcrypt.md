@@ -1,8 +1,14 @@
 ---
-title: Send to FlowCrypt recipient
+title: Send encrypted email to FlowCrypt user
 summary: Sending to someone who has FlowCrypt
 toc: true
 ---
+
+You can use this guide to send encrypted emails to other FlowCrypt recipients. The process is the same as sending any other email, except you will use `Secure Compose` button instead of the standard Gmail Compose button.
+
+{{site.data.box.tip}}
+Same applies if your recipient has compatible OpenPGP software other than FlowCrypt, [if their Public Key is already loaded](send-to-other-pgp-software.html).
+{{site.data.box.end}}
 
 Open [https://mail.google.com](https://mail.google.com){:target="_blank"} in the same browser where you installed FlowCrypt (Chrome or Firefox). Make sure you are logged into the same email account that you set up FlowCrypt on.
 

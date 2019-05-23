@@ -8,7 +8,7 @@ Contact page allows anyone to send you encrypted messages and files without havi
 
 ## Enable Encrypted Contact Page
 
-Go to [FlowCrypt Settings](open-settings.html) -> `Encrypted Contact Page`:
+Go to [FlowCrypt Settings](../common-tasks/open-settings.html) -> `Encrypted Contact Page`:
 
 {{ "contact-page/settings-button" | screenshot }}
 
