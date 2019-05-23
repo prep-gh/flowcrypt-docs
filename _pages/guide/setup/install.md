@@ -4,7 +4,7 @@ summary: Installing FlowCrypt Browser Extension
 toc: true
 ---
 
-This assumes you already have Google Chrome browser installed. The instructions are very similar if you use Firefox.
+This assumes you already have Google Chrome (or Firefox) installed.
 
 With FlowCrypt, encrypting and decrypting happens on your device. This means that you will have to install FlowCrypt on each device you want to send and receive encrypted messages from.
 
