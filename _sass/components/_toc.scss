@@ -17,7 +17,6 @@
   max-width: 500px;
   padding-left: 0px;
   margin: 0;
-
   @include at-query($min, 1072px) {
     display: none;
   }
@@ -28,26 +27,31 @@
   padding-right: 15px;
   background: #ffffff;
   overflow-y: hidden;
-  font-family: monospace;
+  color: black;
   font-size: 80%;
   letter-spacing: -1px;
-  opacity: 0.75;
+  min-height: 80%;
   
   &:hover,
   &:active,
   &:focus {
     overflow-y: auto;
   }
+
+  > ul {
+    min-height: 300px;
+  }
 }
 
 #toc,
 #toc-right {
+  opacity: 0.75;
 
   > ul {
     list-style-type: none;
     width: 100%;
     padding: 0 0 0 10px;
-    border-left: 5px solid $cl_gray_light;
+    border-left: 2px solid #eaeaea;
 
     li {
       margin: 6px 0 7px;
@@ -57,7 +61,7 @@
 
       a {
 
-        color: $cl_blue;
+        color: black;
 
         &:hover {
           color: $cl_green;
@@ -88,8 +92,8 @@
     }
 
     &:before {
-      content: "Contents";
-
+      content: "Page Contents";
+      font-weight: bold;
       line-height: 30px;
       color: $cl_blue;
       display: block;
