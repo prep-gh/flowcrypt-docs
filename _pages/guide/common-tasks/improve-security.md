@@ -14,9 +14,13 @@ Depending on your settings, this second form of verification could be a temporar
 
 We cannot overstate the importance of 2FA, it is the first thing you should do to protect all your online accounts. Don't just stop at your email account - most online services these days offer 2FA setup. Check their settings or ask their support.
 
-## FlowCrypt Settings
+## FlowCrypt settings
 
 You should set all your devices to [require your pass phrase](require-pass-phrase.html) before you open encrypted email. This way, when you lose your device or it gets stolen, whoever has your device will not have access to your encrypted email.
+
+## Security updates
+
+You should check for any updates on your Operating System as well as your browser. If it's prompting you to install updates, do it without delay to keep your system safe.
 
 ## Full Disk Encryption
 

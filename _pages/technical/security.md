@@ -4,6 +4,8 @@ summary: FlowCrypt Security
 toc: true
 ---
 
+This page is rather technical. See [Improve security of your system](/docs/guide/common-tasks/improve-security.html) for a more user-focused guide.
+
 ## Security overview
 
 FlowCrypt uses OpenPGP to encrypt messages and attachments on user's device before transferring it over the network or storing with email provider, providing end-to-end encryption at rest as well as in transit.
