@@ -33,7 +33,7 @@ Loading..
       console.error(err);
       const ddgLink = escape(`https://duckduckgo.com/?q=${encodeURIComponent(query + ' site:flowcrypt.com/docs')}`);
       const pre = '<pr' + 'e>' + escape(err) + '</pr' + 'e>'; // else my IDE gets confused at the < pre >
-      $('.post-content').html(`<p>Error searching docs: ${pre}</p><br><p>Try a search engine instead:<br><a href="${ddgLink}" target="_blank">${ddgLink}&nbsp;<i class='fa fa-external-link'></i></a></p>`);
+      $('.post-content').html(`<p>Error searching docs: ${pre}</p><br><p>Try a search engine instead:<br><a href="${ddgLink}" target="_blank">${ddgLink}{{site.data.i.external}}</a></p>`);
     }
   });
 

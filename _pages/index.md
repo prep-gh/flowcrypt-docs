@@ -32,8 +32,8 @@ FlowCrypt is an email solution that lets you work with end-to-end encrypted mess
       <div class="landing-column-content">
       <p><a href="business/enterprise.html">Enterprise</a></p>
         <p><a href="business/group-management.html">Group management</a></p>
-        <p><a href="https://flowcrypt.com/pricing">Pricing&nbsp;<i class='fa fa-external-link'></i></a></p>
-        <p><a href="https://flowcrypt.com/privacy#gdpr">GDPR&nbsp;<i class='fa fa-external-link'></i></a></p>
+        <p><a href="https://flowcrypt.com/pricing">Pricing{{site.data.i.external}}</a></p>
+        <p><a href="https://flowcrypt.com/privacy#gdpr">GDPR{{site.data.i.external}}</a></p>
       </div>
     </div>
   </div>

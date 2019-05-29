@@ -24,6 +24,6 @@ We will be improving this so that users don't have to go through the trial signu
 
 When done, you will see a link to your Encrypted Contact Page that you can share with others. You will also be able to customize the name, picture and description showing on your contact page.
 
-Example at [https://flowcrypt.com/me/tom&nbsp;<i class='fa fa-external-link'></i>](https://flowcrypt.com/me/tom):
+Example at [https://flowcrypt.com/me/tom{{site.data.i.external}}](https://flowcrypt.com/me/tom):
 
 {{ "browser/contact-page/contact-page" | screenshot }}

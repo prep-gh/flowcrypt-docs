@@ -42,11 +42,11 @@ Please help us complete the table above if you have tested any combinations that
 | Import Private Key | {{site.data.i.ok}} | {{site.data.i.ok}} | |
 | Import Public Key | {{site.data.i.ok}} | {{site.data.i.ok}} | |
 | Sign a message | {{site.data.i.ok}} | {{site.data.i.not}} | |
-| Sign encrypted message | {{site.data.i.not}} | {{site.data.i.not}} | [issue tracker&nbsp;<i class='fa fa-external-link'></i>](https://github.com/FlowCrypt/flowcrypt-browser/issues/1080) |
-| Send pgp/mime | {{site.data.i.not}} | {{site.data.i.not}} | [issue tracker&nbsp;<i class='fa fa-external-link'></i>](https://github.com/FlowCrypt/flowcrypt-browser/issues/1620) |
+| Sign encrypted message | {{site.data.i.not}} | {{site.data.i.not}} | [issue tracker{{site.data.i.external}}](https://github.com/FlowCrypt/flowcrypt-browser/issues/1080) |
+| Send pgp/mime | {{site.data.i.not}} | {{site.data.i.not}} | [issue tracker{{site.data.i.external}}](https://github.com/FlowCrypt/flowcrypt-browser/issues/1620) |
 | 2048bit, 4096bit RSA | {{site.data.i.ok}} | {{site.data.i.ok}} | |
 | ECC keys | {{site.data.i.ok}} | {{site.data.i.ok}} | |
-| Use of public keys without a self signature | {{site.data.i.not}} | {{site.data.i.not}} | [issue tracker&nbsp;<i class='fa fa-external-link'></i>](https://github.com/FlowCrypt/flowcrypt-browser/issues/1158) |
+| Use of public keys without a self signature | {{site.data.i.not}} | {{site.data.i.not}} | [issue tracker{{site.data.i.external}}](https://github.com/FlowCrypt/flowcrypt-browser/issues/1158) |
 | Decrypt messages without MDC | <span style="color: gray">●</span> | <span style="color: gray">●</span> | Only manually, after a warning |
 
 

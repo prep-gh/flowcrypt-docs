@@ -65,10 +65,10 @@ The email access tokens are kept strictly on your device, and will not be shared
 
 *The tokens are then exclusively stored in Local App on user’s Local Machine, no exceptions. Access Token is used solely within Local App for user authentication, sending and receiving of Encrypted Messages and other related actions that make Local App work smoothly.*
 
-The privacy policy puts into words what our code does. The code is available for your review: [github.com/FlowCrypt&nbsp;<i class='fa fa-external-link'></i>](https://github.com/FlowCrypt/)
+The privacy policy puts into words what our code does. The code is available for your review: [github.com/FlowCrypt{{site.data.i.external}}](https://github.com/FlowCrypt/)
 
 ### Will this plugin send my data to your server?
 
-Your email data [stays on your device&nbsp;<i class='fa fa-external-link'></i>](https://flowcrypt.com/privacy) except: when you use Secure Compose to [write someone who doesn't use encryption](/docs/guide/send-and-receive/send-password-protected.html), such messages are relayed through FlowCrypt servers. We don't have access to the content, because only you (and your recipient) will know the password it was protected with. Additionally, we only store them temporarily and delete them on a regular basis.
+Your email data [stays on your device{{site.data.i.external}}](https://flowcrypt.com/privacy) except: when you use Secure Compose to [write someone who doesn't use encryption](/docs/guide/send-and-receive/send-password-protected.html), such messages are relayed through FlowCrypt servers. We don't have access to the content, because only you (and your recipient) will know the password it was protected with. Additionally, we only store them temporarily and delete them on a regular basis.
 
-Also, when you write someone using Secure Compose, FlowCrypt software will check with our servers to see if the other person is using encryption. The same way, when you installed it, it noted that your email is capable of receiving encrypted messages. See [FlowCrypt Attester&nbsp;<i class='fa fa-external-link'></i>](https://flowcrypt.com/attester/).
+Also, when you write someone using Secure Compose, FlowCrypt software will check with our servers to see if the other person is using encryption. The same way, when you installed it, it noted that your email is capable of receiving encrypted messages. See [FlowCrypt Attester{{site.data.i.external}}](https://flowcrypt.com/attester/).

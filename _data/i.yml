@@ -1,3 +1,4 @@
 ok: '<span style="color: green">✓</span>'
 maybe: '<span style="color: #aaa">●</span>'
 not: '<span style="color: red">✕</span>'
+external: '&nbsp;<i class="fa fa-external-link"></i>'
