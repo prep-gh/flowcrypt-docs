@@ -13,7 +13,7 @@ If you discover a compatibility issue when receiving email sent by other PGP sof
 | to         | `flowcrypt.compatibility@gmail.com`                           |
 | subject    | encrypted message [software name] description of issue |
 | text       | whatever content is causing the issues                    |
-| public key | [https://flowcrypt.com/attester/pub/flowcrypt.compatibility@gmail.com&nbsp;<i class='fa fa-external-link'></i>](https://flowcrypt.com/attester/pub/flowcrypt.compatibility@gmail.com) |
+| public key | [https://flowcrypt.com/attester/pub/flowcrypt.compatibility@gmail.com{{site.data.i.external}}](https://flowcrypt.com/attester/pub/flowcrypt.compatibility@gmail.com) |
 
 Compatibility issues commonly manifest as:
  - FlowCrypt does not even attempt to decrypt a message
