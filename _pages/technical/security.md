@@ -68,6 +68,10 @@ $('form#waitlist > button').click(function() {
 
 If you are an enterprise customer looking to deploy FlowCrypt and you are blocked on missing hardware token support, please email us at `human@flowcrypt.com` about your organization, amount of seats required and what kind of smartcard and opearating system you use. We will do our best to cater to your needs.
 
+## EFAIL mitigation
+
+Published in 2018, EFAIL describes a class of attacks affecting email encryption software. FlowCrypt is safe from these attacks. When user receives a modified (potentially dangerous) encrypted message, such message will not be automatically rendered. Instead, user will see a security warning, and an option to decrypt such message manually.
+
 ## Public Source Code
 
 Our source code is publicly available for review at [github.com/FlowCrypt{{site.data.i.external}}](https://github.com/FlowCrypt/).
