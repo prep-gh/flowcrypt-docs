@@ -27,6 +27,8 @@ The following table shows which email parts are encrypted for outgoing messages.
 | Email footer | {{site.data.i.not}} | [Enterprise customers](../business/enterprise.html) can customize |
 | Recipients and other headers | {{site.data.i.not}} | |
 
+The same applies to encrypted drafts. Drafts are encrypted using sender's Public Key.
+
 ## Key strength and default options
 
 Currently, when creating a new key, the default is `4096bit RSA` on FlowCrypt Browser Extension and `2048bit RSA` for keys created in the Android App.
