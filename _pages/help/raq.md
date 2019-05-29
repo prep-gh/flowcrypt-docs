@@ -60,3 +60,17 @@ Some use cases require that the message is available longer then standard 3 day 
 Messages sent between people who use encryption don't expire, because they are delivered over email like any other message, plus typically encrypted in a more secure way.
 
 For more details and screenshots see [Sending and receiving encrypted email](/docs/guide/send-and-receive/index.html).
+
+## Uninstall FlowCrypt
+
+You can remove the extension from Chrome or Firefox (by right-clicking the icon in your browser and choosing `Remove Extension` or `Remove from Chrome`). Google access tokens are stored in your browser locally, and will be removed with the extension.
+
+{{ "browser/remove-from-chrome" | screenshot }}
+
+## Deleting account
+
+If you have not enabled the 30 day trial and have not subsribed for a paid subscription, you don't have any account with us. We only create accounts when needed for billing purposes. To have your account deleted, please email `human@flowcrypt.com`.
+
+Google permission tokens are removed along with the app when you [uninstall FlowCrypt](#uninstall-flowcrypt). You can also revoke the access tokens at [https://myaccount.google.com/permissions{{site.data.i.external}}](https://myaccount.google.com/permissions).
+
+If you don't plan to continue using encryption, you can [hide your public key records{{site.data.i.external}}](https://flowcrypt.com/attester/update-public-keys?intention=delete).
