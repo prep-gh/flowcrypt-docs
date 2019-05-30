@@ -21,12 +21,14 @@ White spaces mean we have not tested this or did not hear from any user who test
 | Import Private Key from | {{site.data.i.ok}} | <small>n/a<small> | {{site.data.i.ok}} | {{site.data.i.ok}} |  |  |  |  |  | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | |
 | Import Public Key from | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | |
 | Read messages by | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}}
-| Send messages to | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.not}} | {{site.data.i.ok}} | {{site.data.i.not}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.not}} |
+| Send messages to | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.not}} | {{site.data.i.ok}} | {{site.data.i.not}} | {{site.data.i.ok}} | {{site.data.i.ok}}* | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.not}} |
 | Send attachment to | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} |  | {{site.data.i.ok}} |  | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} |  | |
 | Receive attachment from | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} |  | {{site.data.i.ok}} |  | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} |  | |
 | Unicode interoperability | {{site.data.i.ok}}* | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} |  |  |  |  | | {{site.data.i.ok}} | | |
 
 **Unicode compatibility between Enigmail and FlowCrypt is well tested, but we have heard of one instance where our Android app was not able to read Japanese text produced by Enigmail, that we were not able to properly investigate. If you experience any issues, please read [compatibility issue - incoming email](/docs/help/compatibility.html#incoming-email-from-other-software) and see if you can get us a sample.*
+
+**One user was reporting issues with K-9 not recognizing encrypted messages from FlowCrypt, which we plan to investigate.*
 
 Please help us complete the table above if you have tested any combinations that we haven't. You can use the `Contribute` button, or email us at `human@flowcrypt.com`.
 
