@@ -42,7 +42,7 @@ You can restrict FlowCrypt usage to pre-approved set of functionality, such as:
 
 We will help make FlowCrypt compatible with your (or customer/vendor) current systems for interoperability.
 
-Integration or enforcement of use of your current key management mechanisms, LDAP servers, etc.
+Integration or enforcement of use of your current key management mechanisms, LDAP servers, etc. See [Keyserver integration](../technical/keyserver-integration.html).
 
 ## Custom security rules
 

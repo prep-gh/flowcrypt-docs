@@ -155,6 +155,12 @@
         ]
       },
       {
+        "title": "Keyserver Integration",
+        "urls": [
+          "/technical/keyserver-integration.html"
+        ]
+      },
+      {
         "title": "FlowCrypt Attester&nbsp;<i class='fa fa-external-link'></i>",
         "urls": [
           "https://flowcrypt.com/attester/"

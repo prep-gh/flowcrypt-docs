@@ -33,7 +33,7 @@ You have to manage your recipient's Public Keys separately on each device, witho
 
 ## Enterprise Public Key management
 
-If you already have your own mechanism for keeping track of Public Keys of your employees and their contacts, FlowCrypt can integrate with your key server to offer a smooth and secure experience. See [FlowCrypt for Enterprise](../business/enterprise.html)
+If you already have your own mechanism for keeping track of Public Keys of your employees and their contacts, FlowCrypt can integrate with your key server to offer a smooth and secure experience. See [Keyserver integration](keyserver-integration.html) and [FlowCrypt for Enterprise](../business/enterprise.html).
 
 ## Export all Public Keys from GPG (gnupg)
 
