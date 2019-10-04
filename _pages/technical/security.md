@@ -31,10 +31,11 @@ The same applies to encrypted drafts. Drafts are encrypted using sender's Public
 
 ## Key strength and default options
 
-Currently, when creating a new key, the default is `4096bit RSA` on FlowCrypt Browser Extension and `2048bit RSA` for keys created in the Android App.
+Currently, when creating a new key, the default is `4096bit RSA` on FlowCrypt Browser Extension and `ECC curve25519` for keys created in the Android or iOS Apps.
 
 {{site.data.box.info}}
-We are planning to change the default to `2048bit RSA` + `ECC curve25519` combo for newly created keys, with an option to adjust it during setup. [Enterprise customers](../business/enterprise.html) may choose their desired key type and strength across their organisation.
+We are planning to allow user to choose key type during setup.
+[Enterprise customers](../business/enterprise.html) may choose their desired key type and strength across their organisation.
 {{site.data.box.end}}
 
 When importing a key, FlowCrypt will use any compatible key supplied by user.
