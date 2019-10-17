@@ -23,7 +23,7 @@ FlowCrypt is an email solution that lets you work with end-to-end encrypted mess
       <div class="landing-column-content">
         <p><a href="technical/openpgp-compatibility.html">OpenPGP Compatibility</a></p>
         <p><a href="technical/manage-public-keys.html">Public Key management</a></p>
-        <p><a href="technical/manage-public-keys.html">Manage Private Keys</a></p>
+        <p><a href="technical/manage-private-keys.html">Manage Private Keys</a></p>
         <p><a href="technical/security.html">Security</a></p>
       </div>
     </div>
