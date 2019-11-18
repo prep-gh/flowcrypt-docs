@@ -19,3 +19,5 @@ Depending on your settings, you may be asked to enter your pass phrase first.
 {{ "browser/openingemailwithFC/readingencryptedemail" | screenshot }}
 
 Next, take a look at [Send and receive overview](index.html)
+
+If you are having trouble opening encrypted email with FlowCrypt, see [Cannot read email](/docs/help/cannot-read-email.html).
