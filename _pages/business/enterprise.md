@@ -25,7 +25,7 @@ FlowCrypt servers customers of all sizes, from SMB to deployments within enterpr
 | Customization | {{site.data.i.not}} | {{site.data.i.not}} | {{site.data.i.ok}} |
 | Auditing | {{site.data.i.not}} | {{site.data.i.not}} | {{site.data.i.ok}} |
 | [SLA](#sla) | {{site.data.i.not}} | {{site.data.i.not}} | {{site.data.i.ok}} |
-| Pricing | free | [$5/mon/user](https://flowcrypt.com/pricing)<br>+ discounts | [Contact us](#contact-us) |
+| Pricing | free | [US$5/mon/user](https://flowcrypt.com/pricing)<br>+ discounts | [Contact us](#contact-us) |
 
 ## Domain-wide settings and restrictions
 
