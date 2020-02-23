@@ -13,6 +13,7 @@ We currently offer the following versions of FlowCrypt (see [downloads{{site.dat
 |:------+:----+:----|
 | FlowCrypt Browser Extension | Chrome and Firefox | Gmail only |
 | FlowCrypt Android App | Android | Any email provider |
+| FlowCrypt iOS App | iOS | Gmail only |
 
 <div class="overview">
   <h2>FlowCrypt Browser Extension Screenshots</h2>
