@@ -32,7 +32,7 @@ Click allow on the next screen:
 
 {{ "browser/settingup/flowcryptbrowserextensionapprove" | screenshot }}
 
-If this is your very first time using FlowCrypt, you will be presented with two choices
+If this is your very first time using FlowCrypt, you will be presented with two choices add see screenshot below:
 
 {{site.data.box.info}}
 If this is not your first time setting up FlowCrypt on this account, you may see a recovery prompt instead. See [Setting up FlowCrypt on another device](another-device.html).
