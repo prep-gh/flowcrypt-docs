@@ -4,7 +4,7 @@ summary: How to Open FlowCrypt Settings
 toc: true
 ---
 
-The settings should be accessible using the green button on the top right of the browser:
+The settings are accessible using the green FlowCrypt logo button on the top right of the browser:
 
 {{ "browser/settings/browser-button" | screenshot }}
 
