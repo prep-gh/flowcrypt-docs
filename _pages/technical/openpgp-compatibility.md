@@ -24,9 +24,7 @@ White spaces mean we have not tested this or did not hear from any user who test
 | Send messages to | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.not}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.not}} |
 | Send attachment to | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} |  | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | | |
 | Receive attachment from | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} |  | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} |  | |
-| Unicode interoperability | {{site.data.i.ok}}* | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}}  |  |  |  | | {{site.data.i.ok}} | | |
-
-**Unicode compatibility between Enigmail and FlowCrypt is well tested, but we have heard of one instance where our Android app was not able to read Japanese text produced by Enigmail, that we were not able to properly investigate. If you experience any issues, please read [compatibility issue - incoming email](/docs/help/compatibility.html#incoming-email-from-other-software) and see if you can get us a sample.*
+| Unicode interoperability | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}}  |  |  |  | | {{site.data.i.ok}} | | |
 
 Please help us complete the table above if you have tested any combinations that we haven't. You can use the `Contribute` button, or email us at `human@flowcrypt.com`.
 
@@ -34,26 +32,26 @@ Please help us complete the table above if you have tested any combinations that
 
 | Software | Notes |
 |---|---|
-| Mutt | To read PGP/inline messages that FlowCrypt sends, please add "set pgp_auto_decode=yes" option in .muttrc |
+| Mutt | To read PGP/inline messages, add `set pgp_auto_decode=yes` line in `.muttrc` |
 
 ## Feature availability
 
 {:class="vertical"}
-|  | <span><span>FlowCrypt Browser Ext.</span></span> | <span><span>FlowCrypt Android App</span></span> | |
+|  | <span><span>FlowCrypt Browser Ext.</span></span> | <span><span>FlowCrypt Android App</span></span> | <span><span>FlowCrypt iOS App</span></span> | |
 |---|---|
-| Encrypt messages | {{site.data.i.ok}} | {{site.data.i.ok}} | |
-| Decrypt inline | {{site.data.i.ok}} | {{site.data.i.ok}} | |
-| Decrypt pgp/mime | {{site.data.i.ok}} | {{site.data.i.ok}} | |
-| Attachments | {{site.data.i.ok}} | <span style="color: gray">●</span> | Android attachments limited to 3MB for the time being |
-| Import Private Key | {{site.data.i.ok}} | {{site.data.i.ok}} | |
-| Import Public Key | {{site.data.i.ok}} | {{site.data.i.ok}} | |
-| Sign a message | {{site.data.i.ok}} | {{site.data.i.not}} | |
-| Sign encrypted message | {{site.data.i.ok}} | {{site.data.i.not}} |  |
-| Send pgp/mime | {{site.data.i.not}} | {{site.data.i.not}} | Planned on Android |
-| 2048bit, 4096bit RSA | {{site.data.i.ok}} | {{site.data.i.ok}} | |
-| ECC keys | {{site.data.i.ok}} | {{site.data.i.ok}} | |
-| Use of public keys without a self signature | {{site.data.i.not}} | {{site.data.i.not}} | [issue tracker{{site.data.i.external}}](https://github.com/FlowCrypt/flowcrypt-browser/issues/1158) |
-| Decrypt messages without MDC | <span style="color: gray">●</span> | <span style="color: gray">●</span> | Only manually, after a warning |
+| Encrypt messages | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | |
+| Decrypt inline | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | |
+| Decrypt pgp/mime | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | |
+| Attachments | {{site.data.i.ok}} | <span style="color: gray">●</span> | {{site.data.i.not}} | Android attachments up to 3MB for now |
+| Import Private Key | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | |
+| Import Public Key | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.not}} | Planned on iOS |
+| Sign a message | {{site.data.i.ok}} | {{site.data.i.not}} | {{site.data.i.not}} | |
+| Sign encrypted message | {{site.data.i.ok}} | {{site.data.i.not}} | {{site.data.i.not}} |  |
+| Send pgp/mime | {{site.data.i.not}} | {{site.data.i.not}} | {{site.data.i.not}} | Planned on Android and iOS |
+| 2048bit, 4096bit RSA | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | |
+| ECC keys | {{site.data.i.ok}} | {{site.data.i.ok}} | {{site.data.i.ok}} | |
+| Use of public keys without a self signature | {{site.data.i.not}} | {{site.data.i.not}} | {{site.data.i.not}} | [issue tracker{{site.data.i.external}}](https://github.com/FlowCrypt/flowcrypt-browser/issues/1158) |
+| Decrypt messages without MDC | <span style="color: gray">●</span> | <span style="color: gray">●</span> | {{site.data.i.not}} | Only manually, after a warning |
 
 
 ## Implementation
