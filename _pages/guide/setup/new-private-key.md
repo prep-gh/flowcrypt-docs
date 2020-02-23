@@ -16,8 +16,7 @@ Create a pass phrase of your own to protect your encrypted email:
 
 {{ "browser/settingup/setupchooseownpassphrase" | screenshot }}
 
-Repeat your new pass phrase once more time:
-
+Repeat your new pass phrase one more time:
 
 {{ "browser/settingup/typeownpassphrase" | screenshot }}
 
