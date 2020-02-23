@@ -30,6 +30,12 @@ White spaces mean we have not tested this or did not hear from any user who test
 
 Please help us complete the table above if you have tested any combinations that we haven't. You can use the `Contribute` button, or email us at `human@flowcrypt.com`.
 
+### Special settings to improve compatibility 
+
+| Software | Notes |
+|---|---|
+| Mutt | To read PGP/inline messages that FlowCrypt sends, please add "set pgp_auto_decode=yes" option in .muttrc |
+
 ## Feature availability
 
 {:class="vertical"}
@@ -38,12 +44,12 @@ Please help us complete the table above if you have tested any combinations that
 | Encrypt messages | {{site.data.i.ok}} | {{site.data.i.ok}} | |
 | Decrypt inline | {{site.data.i.ok}} | {{site.data.i.ok}} | |
 | Decrypt pgp/mime | {{site.data.i.ok}} | {{site.data.i.ok}} | |
-| Attachments | {{site.data.i.ok}} | <span style="color: gray">●</span> | Android attachments limited to 3MB while in Beta|
+| Attachments | {{site.data.i.ok}} | <span style="color: gray">●</span> | Android attachments limited to 3MB for the time being |
 | Import Private Key | {{site.data.i.ok}} | {{site.data.i.ok}} | |
 | Import Public Key | {{site.data.i.ok}} | {{site.data.i.ok}} | |
 | Sign a message | {{site.data.i.ok}} | {{site.data.i.not}} | |
 | Sign encrypted message | {{site.data.i.ok}} | {{site.data.i.not}} |  |
-| Send pgp/mime | {{site.data.i.not}} | {{site.data.i.not}} | [issue tracker{{site.data.i.external}}](https://github.com/FlowCrypt/flowcrypt-browser/issues/1620) |
+| Send pgp/mime | {{site.data.i.not}} | {{site.data.i.not}} | Planned on Android |
 | 2048bit, 4096bit RSA | {{site.data.i.ok}} | {{site.data.i.ok}} | |
 | ECC keys | {{site.data.i.ok}} | {{site.data.i.ok}} | |
 | Use of public keys without a self signature | {{site.data.i.not}} | {{site.data.i.not}} | [issue tracker{{site.data.i.external}}](https://github.com/FlowCrypt/flowcrypt-browser/issues/1158) |
