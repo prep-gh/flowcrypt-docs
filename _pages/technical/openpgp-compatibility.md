@@ -58,4 +58,4 @@ Please help us complete the table above if you have tested any combinations that
 
 ## Implementation
 
-Our software is uses on [OpenPGP.js](https://github.com/openpgpjs/openpgpjs) on all platforms.
+Our software uses [OpenPGP.js](https://github.com/openpgpjs/openpgpjs) on all platforms.
