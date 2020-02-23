@@ -36,6 +36,8 @@ You can restrict FlowCrypt usage to pre-approved set of functionality, such as:
  - enforce message signing
  - enforce entering pass phrase for every session
  - forbid or enforce pass phrase changes
+ - disable publishing of your Public Keys
+ - use custom keyservers based on recipient domain
  - tell us what you need: `human@flowcrypt.com`
 
 ## Legacy systems compatibility
