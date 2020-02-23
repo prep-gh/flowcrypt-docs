@@ -9,11 +9,11 @@ Your encrypted messages are protected by a Private Key, and the Private Key is p
 To be able to read encrypted messages on more than one device, you need a way to manage a backup of your Private Key. You can manage your backup:
  - automatically (FlowCrypt will store your pass phrase protected key in inbox)
  - manually (you save a file and take care of it yourself)
- - [enteprise customers](../business/enterprise.html): through your own key management system
+ - [enterprise customers](../business/enterprise.html): through your own key management system
 
 ## Default backup methods
 
-If you have improrted your Private Key from other software, it is assumed you will do your own Private Key management, and FlowCrypt will not perform any backups unless you exlicitly ask it to.
+If you have imported your Private Key from other software, it is assumed you will do your own Private Key management, and FlowCrypt will not perform any backups unless you explicitly ask it to.
 
 If you let FlowCrypt create a key for you, the default option is to back up a protected key in your inbox, so that you can use FlowCrypt on another device just with your secret Pass Phrase. You can click `Show Advanced Settings` during setup for more options.
 
@@ -34,4 +34,4 @@ To export it: `FlowCrypt Settings` -> `Backup` -> `As a file`
 | FlowCrypt Browser Extension | Browser local extension storage ([Chrome{{site.data.i.external}}](https://developer.chrome.com/apps/storage), [Firefox{{site.data.i.external}}](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/local)) |
 | FlowCrypt Android App | Encrypted app storage |
 
-Depending how you set up FlowCrypt, there may also be a backup, see [default backup methods](#default-backup-methods) above.
+Depending on how you set up FlowCrypt, there may also be a backup, see [default backup methods](#default-backup-methods) above.
