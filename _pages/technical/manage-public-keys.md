@@ -25,7 +25,7 @@ You may need to do this if your recipient uses other OpenPGP software. See [send
 
 ## Trust on First Use
 
-Our software uses `TOFU: Trust on First Use` mechanism. From the moment you first load (set) your recipeint's Public Key (whether manually or automatically), it will not be replaced until you manually assign another public key to that recipient by clicking `Update Contact` on a receoved Public Key (or in FlowCrypt Settings).
+Our software uses `TOFU: Trust on First Use` mechanism. From the moment you first load (set) your recipeint's Public Key (whether manually or automatically), it will not be replaced until you manually assign another public key to that recipient by clicking `Update Contact` on a recovered Public Key (or in FlowCrypt Settings).
 
 Keys may however be automatically updated if a newer version of the same key was found on FlowCrypt Attester (for example, when key owner extends expiration of the key, or updates key users).
 
