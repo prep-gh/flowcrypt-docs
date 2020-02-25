@@ -48,26 +48,13 @@ See [Public Key Management](manage-public-keys.html) and [Manage Private Keys](m
 
 We are planning to add support for hardware tokens (smartcards) such as Yubikey, ZeitControl or any other pkcs#11 compatible security token that can handle OpenPGP keys.
 
-<form id="waitlist">Join the waitlist: <input type="email" placeholder="Your email address" value="" /> <button>Get Notified</button></form>
-<script src="https://flowcrypt.com/js/common.js?version=59"></script>
-<script>
-$('form#waitlist').submit(false);
-$('form#waitlist > button').click(function() {
-  const email = $(this).siblings('input').val().trim().toLowerCase();
-  if(tool.str.is_email_valid(email)) {
-    tool.api.cryptup.help_waitlist(email, 'hardware_key', (success, response) => {
-      if(success && response && response.saved) {
-        $(this).parent().html('<b>We\'ll keep you posted.</b>');
-      } else {
-        alert('There was an error, please try again.');
-        console.log(response);
-      }
-    });
-  } else {
-    alert('Error: This does not look like a valid email.');
-  }
-});
-</script>
+<form class="waitlist">
+  Join the waitlist: 
+  <input type="email" class="input_email" placeholder="Your email address" value="" />
+  <input type="hidden" class="input_waitlist" value="hardware_key" />
+  <button>Get Notified</button>
+</form>
+<script src="https://flowcrypt.com/js/pages/waitlist.js?version=60"></script>
 
 If you are an enterprise customer looking to deploy FlowCrypt and you are blocked on missing hardware token support, please email us at `human@flowcrypt.com` about your organization, amount of seats required and what kind of smartcard and opearating system you use. We will do our best to cater to your needs.
 
