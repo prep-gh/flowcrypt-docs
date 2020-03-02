@@ -54,7 +54,7 @@ We are planning to add support for hardware tokens (smartcards) such as Yubikey,
   <input type="hidden" class="input_waitlist" value="hardware_key" />
   <button>Get Notified</button>
 </form>
-<script src="https://flowcrypt.com/js/pages/waitlist.js?version=67"></script>
+<script src="https://flowcrypt.com/js/pages/waitlist.js?version=68"></script>
 
 If you are an enterprise customer looking to deploy FlowCrypt and you are blocked on missing hardware token support, please email us at `human@flowcrypt.com` about your organization, amount of seats required and what kind of smartcard and opearating system you use. We will do our best to cater to your needs.
 
