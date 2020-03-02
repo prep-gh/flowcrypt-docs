@@ -32,7 +32,7 @@ FlowCrypt Email Key Manager is distributed as a zip file containing:
 |:--- |:--- |
 | `flowcrypt-email-key-manager.jar` | Runnable Java JAR
 | `flowcrypt-email-key-manager.properties` | Default config
-| `flowcrypt-email-key-manager-documentation.md` | This documentation
+| `flowcrypt-email-key-manager-docs.md` | This documentation
 | `LICENSE.txt` | License file (proprietary software)
 
 For deployment, install OpenJDK JRE, unpack all files in a folder, and edit the properties file before running.
@@ -55,7 +55,7 @@ Command line arguments:
 
 | Argument | Default | Description |
 |:---------|:---------|:------------ |
-| `--config=<cfg.properties>` | `flowcrypt-gsuite-encryption-key-manager.properties` | config file path |
+| `--config=<cfg.properties>` | `flowcrypt-email-key-manager.properties` | config file path |
 | `--log-level=<level>` | `INFO` | Use one of `ERROR`, `WARNING`, `INFO`, `FINE` |
 
 
