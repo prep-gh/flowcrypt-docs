@@ -95,6 +95,12 @@ Store options other than `Pkcs11Store` and `KmipStore` are only meant for early 
 | `store.db.folder` | `./data` | (valid only if `store.type=EncryptedDbStore`) Path to folder where data will be stored. |
 | `store.db.encryption.key` | `changeit` | (valid only if `store.type=EncryptedDbStore`) This key becomes the AES symmetric key for database file is encrypted with. |
 
+To test that the EKM can communicate with the store, run:
+
+```shell
+java -jar flowcrypt-email-key-manager.jar --test-store-connection
+```
+
 #### PKCS#11 integration
 
 We develop and test our implementation against Equinix SmartKey (Fortanix SDKMS). For this we used their PKCS#11 shared library module (.so), accessed through `iaik.pkcs.pkcs11.wrapper` Java library. To connect our software to your PKCS#11 HSM, update `store.pkcs11.module` to point to module provided by your HSM vendor. 
@@ -105,8 +111,6 @@ To test your pkcs module, you can use pkcs11-tool on Ubuntu 18.04:
 $ sudo apt-get -y install opensc
 $ pkcs11-tool --module vendor-pkcs11.so --show-info
 ```
-
-To test your overall store settings, run `java -jar flowcrypt-email-key-manager.jar --test-store-connection`
 
 #### KMIP integration
 
@@ -163,18 +167,52 @@ Only supported when using `Pkcs11Store` or `KmipStore`. In such configuration, t
 
 The scaling/HA approach is the same as scaling a stateless web app backend - you scale by adding instances, with a http load balancer (such as HAProxy or NGINX) in front of them.
 
-### Node health monitoring
-
-There are two endpoints for health checks, where you can issue HTTP GET:
-
-1) `http(s)://localhost:32356/` return status `code 200` if node is running, regardless if it can access data store
-2) `http(s)://localhost:32356/health` returns `code 200` if node is running AND it can access data store (tested by issuing a LOCATE store call). If the node is functional but cannot access the store, it will return `code 503`
-
-If a node is reliably returning `code 200` on `/` but `code 503` on `/health`, then the store properties may be misconfigured or the store is unreachable. 
-
 ### Performance, throughput
 
 TBD
+
+## Deployment checklist
+
+Follow the list below as you deploy the software, to ensure it is configured and monitored properly.
+
+### Test data store connection
+
+Once you [configure the Data Store](#section-store), you should test that the connection works:
+
+```shell
+java -jar flowcrypt-email-key-manager.jar --test-store-connection
+```
+
+This will connect to to the data store and issue one locate command to test that the connection between EKM and HSM is well configured. Successful output:
+
+```
+08:19:31.085 INFO  com.flowcrypt.utils.Reflection - Registering Pkcs11Store as Store implementation
+08:19:31.101 INFO  c.f.keymanager.TestStoreConnection - initiating test
+08:19:31.611 INFO  c.f.keymanager.TestStoreConnection - store session started successfully
+08:19:31.616 INFO  c.f.keymanager.TestStoreConnection - testing store search command
+08:19:33.007 INFO  c.f.keymanager.TestStoreConnection - round trip latency: 8ms
+08:19:33.007 INFO  c.f.keymanager.TestStoreConnection - closing session
+08:19:33.123 INFO  c.f.keymanager.TestStoreConnection - success
+```
+
+### Monitor node health
+
+There are two endpoints for health checks, where you can issue HTTP GET:
+
+1) `https://localhost:32356/` return status `code 200` if node is running, regardless if it can access data store
+2) `https://localhost:32356/health` returns `code 200` if node is running AND it can access data store (tested by issuing a LOCATE store call). If the node is functional but cannot access the store, it will return `code 503`
+
+If a node is reliably returning `code 200` on `/` but `code 503` on `/health`, then the store properties may be misconfigured or the store is unreachable. 
+
+### Monitor error logs
+
+After [setting up Logging](#section-logger), make sure to configure your existing logging infrastructure to alert you on error. To test the alerts, you can issue a HTTP GET request to `https://localhost:32356/error`
+
+### Check API access safety
+
+The API endpoint must NOT be accessible from public internet.
+
+The client must be able to access the API over HTTPS. No part of your network should be transferring these API requests over plain HTTP. This means either using `api.https.enabled=true` directly, or `false` combined with a HTTPS-terminating reverse proxy on the same machine. 
 
 ## Troubleshooting
 
