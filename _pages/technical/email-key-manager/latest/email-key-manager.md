@@ -236,10 +236,9 @@ You can debug more complex issues by running with a `logger.default.level=FINE` 
 
 api.hostname=localhost
 api.port=32356
-api.https.enabled=false
-#api.https.key.file=localhost.p12
-#api.https.key.password=password
-# Optional - comment out line to enable CORS for all origins
+api.https.enabled=true
+api.https.key.file=flowcrypt-email-key-manager.p12
+api.https.key.password=password
 api.cors.origins=chrome-extension://bnjglocicdkmhmoohhfkfkbbkejdhdgc,moz-extension://39553fca-76d4-4791-bf00-b4dfede6fd45
 org.id=evaluation.org
 # Truststore is optional - if you want to override default JRE truststore, to verify KMIP server with custom cert
