@@ -214,6 +214,31 @@ The API endpoint must NOT be accessible from public internet.
 
 The client must be able to access the API over HTTPS. No part of your network should be transferring these API requests over plain HTTP. This means either using `api.https.enabled=true` directly, or `false` combined with a HTTPS-terminating reverse proxy on the same machine. 
 
+### OpenJDK JVM options tuning
+
+Since EKM is written in Kotlin running on the JVM, you may utilize any standard JVM args, such as: 
+
+#### Proxy for outbound http traffic
+
+This will [proxy all outgoing http requests](https://cr.openjdk.java.net/~iris/se/11/latestSpec/api/java.base/java/net/doc-files/net-properties.html). It should not affect backend connections over KMIP or PKCS#11 because they don't use the http protocol.
+
+```shell
+java -jar flowcrypt-email-key-manager.jar \
+    -Dhttps.proxyHost=your-proxy-host \
+    -Dhttps.proxyPort=443 \
+    -Dhttp.nonProxyHosts="localhost|127.0.0.1|[::1]|someotherhost.dontproxyme.com"
+```
+
+Alternatively you can use `http.proxyHost` and `http.proxyPort` if your proxy does not use SSL. 
+
+#### JVM Heap Size
+
+Setting memory heap size with [-Xms and -Xmx](https://wiki.openjdk.java.net/display/zgc/Main) allows you to tune the resources available to the JVM.
+
+```shell
+java -jar flowcrypt-email-key-manager.jar -Xms16G -Xmx16G 
+```  
+
 ## Troubleshooting
 
 Below are common startup problems and how to resolve them.
@@ -234,13 +259,15 @@ You can debug more complex issues by running with a `logger.default.level=FINE` 
 ```
 ### General ###
 
+org.id=evaluation.org
+
 api.hostname=localhost
 api.port=32356
 api.https.enabled=true
 api.https.key.file=flowcrypt-email-key-manager.p12
 api.https.key.password=password
 api.cors.origins=chrome-extension://bnjglocicdkmhmoohhfkfkbbkejdhdgc,moz-extension://39553fca-76d4-4791-bf00-b4dfede6fd45
-org.id=evaluation.org
+
 # Truststore is optional - if you want to override default JRE truststore, to verify KMIP server with custom cert
 #truststore.file=truststore-to-verify-kmip-server.p12
 #truststore.password=password
@@ -284,7 +311,7 @@ logger.default.level=info
 auth.type=OpenIDConnectAuthenticator
 auth.openid.issuer=https://accounts.google.com
 auth.openid.jwks=https://www.googleapis.com/oauth2/v3/certs
-
+auth.openid.audience=717284730244-ostjo2fdtr3ka4q9td69tdr9acmmru2p.apps.googleusercontent.com
 
 ### ACL ###
 
