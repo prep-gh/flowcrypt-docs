@@ -214,31 +214,6 @@ The API endpoint must NOT be accessible from public internet.
 
 The client must be able to access the API over HTTPS. No part of your network should be transferring these API requests over plain HTTP. This means either using `api.https.enabled=true` directly, or `false` combined with a HTTPS-terminating reverse proxy on the same machine. 
 
-### OpenJDK JVM options tuning
-
-Since EKM is written in Kotlin running on the JVM, you may utilize any standard JVM args, such as: 
-
-#### Proxy for outbound http traffic
-
-This will [proxy all outgoing http requests](https://cr.openjdk.java.net/~iris/se/11/latestSpec/api/java.base/java/net/doc-files/net-properties.html). It should not affect backend connections over KMIP or PKCS#11 because they don't use the http protocol.
-
-```shell
-java -jar flowcrypt-email-key-manager.jar \
-    -Dhttps.proxyHost=your-proxy-host \
-    -Dhttps.proxyPort=443 \
-    -Dhttp.nonProxyHosts="localhost|127.0.0.1|[::1]|someotherhost.dontproxyme.com"
-```
-
-Alternatively you can use `http.proxyHost` and `http.proxyPort` if your proxy does not use SSL. 
-
-#### JVM Heap Size
-
-Setting memory heap size with [-Xms and -Xmx](https://wiki.openjdk.java.net/display/zgc/Main) allows you to tune the resources available to the JVM.
-
-```shell
-java -jar flowcrypt-email-key-manager.jar -Xms16G -Xmx16G 
-```  
-
 ## Troubleshooting
 
 Below are common startup problems and how to resolve them.
