@@ -165,7 +165,10 @@ To create/edit a Java keystore file we'd recommend using [KeyStore Explorer](htt
 
 Only supported when using `Pkcs11Store` or `KmipStore`. In such configuration, the EKM does not keep any local state on the machine it runs on. All actual data is stored on the configured data store.
 
-The scaling/HA approach is the same as scaling a stateless web app backend - you scale by adding instances, with a http load balancer (such as HAProxy or NGINX) in front of them.
+The scaling/HA approach is the same as scaling any stateless internal REST API running on the JVM. To scale:
+1) make sure that the JVM is fully utilizing the hardware you give it
+2) add more machines with one instance per machine (we recommend three machines for redundancy)
+3) add a http load balancer / reverse proxy (such as HAProxy or NGINX) / WAF in front of the machines
 
 ### Performance, throughput
 
@@ -213,6 +216,31 @@ After [setting up Logging](#section-logger), make sure to configure your existin
 The API endpoint must NOT be accessible from public internet.
 
 The client must be able to access the API over HTTPS. No part of your network should be transferring these API requests over plain HTTP. This means either using `api.https.enabled=true` directly, or `false` combined with a HTTPS-terminating reverse proxy on the same machine. 
+
+### OpenJDK JVM options tuning
+
+Since EKM is written in Kotlin running on the JVM, you may utilize any standard JVM args, such as: 
+
+#### Proxy for outbound http traffic
+
+This will [proxy all outgoing http requests](https://cr.openjdk.java.net/~iris/se/11/latestSpec/api/java.base/java/net/doc-files/net-properties.html). It should not affect backend connections over KMIP or PKCS#11 because they don't use the http protocol.
+
+```shell
+java -jar flowcrypt-email-key-manager.jar \
+    -Dhttps.proxyHost=your-proxy-host \
+    -Dhttps.proxyPort=443 \
+    -Dhttp.nonProxyHosts="localhost|127.0.0.1|[::1]|someotherhost.dontproxyme.com"
+```
+
+Alternatively you can use `http.proxyHost` and `http.proxyPort` if your proxy does not use SSL. 
+
+#### JVM Heap Size
+
+Setting memory heap size with [-Xms and -Xmx](https://wiki.openjdk.java.net/display/zgc/Main) allows you to tune the resources available to the JVM.
+
+```shell
+java -jar flowcrypt-email-key-manager.jar -Xms16G -Xmx16G 
+```  
 
 ## Troubleshooting
 
