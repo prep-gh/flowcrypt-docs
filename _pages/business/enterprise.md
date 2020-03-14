@@ -41,6 +41,8 @@ You can restrict FlowCrypt usage to pre-approved set of functionality, such as:
  - custom keyservers based on recipient domain
  - tell us what you need: `human@flowcrypt.com`
 
+See [Enterprise customization with OrgRules](./org-rules.html).
+
 ## Legacy systems compatibility
 
 We will help make FlowCrypt compatible with your (or customer/vendor) current systems for interoperability.
