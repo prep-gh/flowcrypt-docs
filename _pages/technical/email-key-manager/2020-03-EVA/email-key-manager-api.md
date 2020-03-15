@@ -5,7 +5,7 @@ toc: true
 ---
 
 
-Default host is `http://localhost:32356`. This API is meant to be called by FlowCrypt client apps:
+Default host is `https://localhost:32356`. This API is meant to be called by FlowCrypt client apps:
  - FlowCrypt Browser Extension
  - FlowCrypt Android App
  - FlowCrypt iOS App
@@ -20,15 +20,15 @@ Authenticated users may access their own private material. Anyone may access any
 
 ## Endpoints
 
-This is a HTTP REST API, that accepts JSON (when request body is expected) and responds with JSON.
+This is an HTTP REST API accepting JSON (when request body is expected) and responding with JSON.
 
 ### EKM Environment Info: `GET /`
 
-Check this endpoint to verify that the service is up. It will return HTTP 200 OK regardless if data store can be reached.
+Check this endpoint to verify that the service is up. It will return HTTP 200 OK regardless if data store can be reached or not.
 
 ```shell
 curl \
-  http://localhost:32356/
+  https://localhost:32356/
 ```
 
 ```json
@@ -47,7 +47,7 @@ Check this endpoint to verify that data store is reachable, in which case it wil
 
 ```shell
 curl \
-  http://localhost:32356/health
+  https://localhost:32356/health
 ```
 
 ```json
@@ -63,7 +63,7 @@ Manually call this endpoint to verify that your own logging and monitoring infra
 
 ```shell
 curl \
-  http://localhost:32356/error
+  https://localhost:32356/error
 ```
 
 ```json
@@ -76,14 +76,13 @@ curl \
 
 Standard http status codes are used in HTTP response code as well as in response body, commonly `200`, `404`, `400`, `401`, `403`, `503`.
 
-Every error `500`, except when calling `/error` endpoint, is undesired and should be reported to us, so that we can either address it or return a more appropriate error code.
-
+Every error `500` - except when calling `/error` endpoint - is undesired. You should set up an alert for such errors, and report them to us. That way we can either fix the error or return a more appropriate error code.
 
 ### Retrieve public keys: `GET /keys/public/:email`
 
 ```shell
 curl \
-  http://localhost:32356/keys/public/user@evaluation.org
+  https://localhost:32356/keys/public/user@evaluation.org
 ```
 
 ```json
@@ -94,14 +93,14 @@ curl \
 }
 ```
 
-When no keys are found: `{"publicKeys":[]}` with http status `200`.
+When no public keys are found the EKM returns `{"publicKeys":[]}` with http status `200`.
 
 ### Retrieve private keys: `GET /keys/private` (authenticated)
 
 ```shell
 curl \
   -H 'Authorization: Bearer ey...' \
-  http://localhost:32356/keys/private
+  https://localhost:32356/keys/private
 ```
 
 ```json
@@ -112,7 +111,7 @@ curl \
 }
 ```
 
-When no keys are found: `{"privateKeys":[]}` with http status `200`.
+When no private keys are found the EKM returns `{"privateKeys":[]}` with http status `200`.
 
 ### Store or update key pair: `PUT /keys/private` (authenticated)
 
@@ -123,9 +122,11 @@ curl \
   -XPUT \
   -H 'Authorization: Bearer ey...' \
   --data '{"decryptedPrivateKey": "-----BEGIN PGP PRIV..", "publicKey": "-----BEGIN PGP PUB..", "fingerprint": "..."}' \
-  http://localhost:32356/keys/private
+  https://localhost:32356/keys/private
 ```
 
 ```json
 {}
 ```
+
+Http status 200 means key pair was stored or updated.
