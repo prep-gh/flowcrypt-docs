@@ -13,16 +13,19 @@ Recommended deployment is to store actual key data on your existing key storage 
 
 The EKM REST JSON API is accessed by FlowCrypt Email Encryption client apps, internally within your network.
 
+
 ## Requirements
 
 | Type | Requirement |
 |:--------|:----------|
-| OS | Ubuntu 18.04 (runs on other systems but not officially supported) |
+| OS | Ubuntu 18.04 (soon will also support CentOS) |
 | Runtime | Java JRE 8+ (OpenJDK) |
 | [Key Storage](#section-store) | Any PKCS#11 or KMIP-1.0 compatible Key Store (such as Gemalto Safenet KeySecure over KMIP, Fortanix SDKMS and Equinix SmartKey over PKCS#11) |
 | Hardware | minimum 4GB RAM and one full CPU core per instance | 
 | Networking | EKM must be accessible on an internal URL from client devices, with TLS cert trusted by client. The instance should not be accessible from public internet, but it needs limited outward access to the internet to fetch Google JWK for user authentication |
 | [Cluster deployment](#high-availability--cluster-deployment) | When deploying more than one instance as a cluster, a load balancer is needed to distribute the load evenly among running instances. Cluster deployment is only supported when using external storage over KMIP. | 
+| License | Active software licensing subscription for any production use |
+
 
 ## Distribution and deployment
 
@@ -36,6 +39,7 @@ FlowCrypt Email Key Manager is distributed as a zip file containing:
 | `LICENSE.txt` | License file (proprietary software)
 
 For deployment, install OpenJDK JRE, unpack all files in a folder, and edit the properties file before running.
+
 
 ## Running the application
 
@@ -62,20 +66,23 @@ Command line options:
 
 The sample configuration file appropriate for your software version will come distributed along with the jar file. It consists of several sections: Common, Store, Logger, Authentication, ACL. Each is described in detail below.
 
+
 ### Section: Common
 
 General properties relating to basic configuration and how the app REST API is accessed.
 
 | Property | Example | Description |
 |:---------|:---------|:------------ |
+| `org.id` | `evaluation.org` | An identifier for your business that comes with your license. We will assign this to you. |
 | `api.hostname` | `localhost` | The host where the EKM will be deployed. |
 | `api.port` | `443` | The listening port of EKM. |
 | `api.https.enabled` | `true` | `true` to listen on https, `false` to listen on http (in which case you MUST use a HTTPS-enabled load balancer so that there are no API calls made in plain http, even over internal network.) |
 | `api.https.key.file` | `keystore.p12` | (valid only if `api.https.enabled=true`) The keystore file containing the certificate to present to https requests. |
 | `api.https.key.password` | `changeit` | (valid only if `api.https.enabled=true`) The password to access the keystore file. |
 | `api.cors.origins` | `chrome-extension://...` | (Optional) CORS valid origins, comma separated. Comment out to accept requests from all origins. |
-| `org.id` | `evaluation.org` | An identifier for your business that comes with your license. We will assign this to you. |
 | `truststore.file` | `truststore.p12` | (Optional) Java trust store which holds public certificates/keys used to validate the cert of the server on the other end of the KMIP connection for key storage. Comment out line to use the JRE default trust store. |
+| `truststore.password` | `password` | (Optional) Password for the truststore file |
+
 
 ### Section: Store
 
@@ -189,13 +196,13 @@ java -jar flowcrypt-email-key-manager.jar --test-store-connection
 This will connect to to the data store and issue one locate command to test that the connection between EKM and HSM is well configured. Successful output:
 
 ```
-08:19:31.085 INFO  com.flowcrypt.utils.Reflection - Registering Pkcs11Store as Store implementation
-08:19:31.101 INFO  c.f.keymanager.TestStoreConnection - initiating test
-08:19:31.611 INFO  c.f.keymanager.TestStoreConnection - store session started successfully
-08:19:31.616 INFO  c.f.keymanager.TestStoreConnection - testing store search command
-08:19:33.007 INFO  c.f.keymanager.TestStoreConnection - round trip latency: 8ms
-08:19:33.007 INFO  c.f.keymanager.TestStoreConnection - closing session
-08:19:33.123 INFO  c.f.keymanager.TestStoreConnection - success
+INFO  com.flowcrypt.utils.Reflection - Registering Pkcs11Store as Store implementation
+INFO  c.f.keymanager.TestStoreConnection - initiating test
+INFO  c.f.keymanager.TestStoreConnection - store session started successfully
+INFO  c.f.keymanager.TestStoreConnection - testing store search command
+INFO  c.f.keymanager.TestStoreConnection - round trip latency: 8ms
+INFO  c.f.keymanager.TestStoreConnection - closing session
+INFO  c.f.keymanager.TestStoreConnection - success
 ```
 
 ### Monitor node health
@@ -259,7 +266,7 @@ You can debug more complex issues by running with a `logger.default.level=FINE` 
 
 ## Sample config file
 
-```
+```properties
 ### General ###
 
 org.id=evaluation.org
@@ -267,23 +274,24 @@ org.id=evaluation.org
 api.hostname=localhost
 api.port=32356
 api.https.enabled=true
-api.https.key.file=flowcrypt-email-key-manager.p12
+api.https.key.file=flowcrypt-ekm-https-cert.p12
 api.https.key.password=password
 api.cors.origins=chrome-extension://bnjglocicdkmhmoohhfkfkbbkejdhdgc,moz-extension://39553fca-76d4-4791-bf00-b4dfede6fd45
 
-# Truststore is optional - if you want to override default JRE truststore, to verify KMIP server with custom cert
+# Truststore is optional - if you want to override default JRE truststore
+# to verify KMIP server with custom cert
 #truststore.file=truststore-to-verify-kmip-server.p12
 #truststore.password=password
 
 
 ### Store ###
 
-# keys stored in secure key storage over PKCS#11 protocol (eg Fortanix SDKMS or Equinix SmartKey or any compatible HSM)
+# keys stored over PKCS#11 protocol (Fortanix SDKMS, Equinix SmartKey or any compatible HSM)
 # store.type=Pkcs11Store
 # store.pkcs11.module=./vendor-pkcs11.so
 # store.pkcs11.pin=file://vendor-pkcs11.cfg
 
-# keys stored in secure key storage over KMIP protocol (eg Gemalto Safenet KeySecure or any compatible HSM)
+# keys stored over KMIP protocol (eg Gemalto Safenet KeySecure or any compatible KMS)
 # remember to also set `truststore.file` above if KMIP server uses certs with custom CA
 #store.type=KmipStore
 #store.kmip.hostname=localhost
@@ -291,7 +299,7 @@ api.cors.origins=chrome-extension://bnjglocicdkmhmoohhfkfkbbkejdhdgc,moz-extensi
 #store.kmip.key.file=localhost.p12
 #store.kmip.key.password=password
 
-# keys stored in local file encrypted database - NOT SUPPORTED FOR PROD, DO NOT RUN MORE THAN 1 INSTANCE
+# keys stored in local file encrypted db - NOT SUPPORTED FOR PROD, DO NOT RUN MORE THAN 1 INSTANCE
 store.type=EncryptedDbStore
 store.db.folder=./data
 store.db.encryption.key=
