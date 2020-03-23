@@ -12,6 +12,7 @@ FlowCrypt allows enterprises to customize behavior of the FlowCrypt client with 
 | `key_manager_url` | `string`: url pointing to an internal [Email Key Manager](/docs/technical/email-key-manager/latest/email-key-manager.html) |
 | <span style="white-space:nowrap;">`disallow_attester_search_for_domains`</span> | `string[]`: do not search public keys of emails on these domains on FlowCrypt Attester (useful when you expect these public keys to be available on internal key server or key manager) |
 | `enforce_keygen_algo` | `rsa2048,rsa4096,ecc25519`: Which key algorithm to use for new private key generation |
+| `enforce_keygen_expire_months` | Choose to have keys expire within certain amount of time, commonly 24 months |
 | `NO_PRV_CREATE` | Forbid creating new keypairs. User will be expected to import their key (manually import from a file or auto-import from [EKM](/docs/technical/email-key-manager/latest/email-key-manager.html) |
 | `NO_PRV_BACKUP` | Do not allow any for of automatic or user-generated key backup except to an internal [EKM](/docs/technical/email-key-manager/latest/email-key-manager.html) if available |
 | `PRV_AUTOIMPORT_OR_AUTOGEN` | If key is available on [EKM](/docs/technical/email-key-manager/latest/email-key-manager.html), import it automatically during setup. If not, generate one and store it onto [EKM](/docs/technical/email-key-manager/latest/email-key-manager.html) automatically |
