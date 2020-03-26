@@ -20,7 +20,7 @@ FlowCrypt allows enterprises to customize behavior of the FlowCrypt client with 
 | `ENFORCE_ATTESTER_SUBMIT` | Public key must be successfully submitted to Attester during setup |
 | `NO_ATTESTER_SUBMIT` | Public key can never be submitted to Attester |
 | `NO_KEY_MANAGER_PUB_LOOKUP` | Do not look up public keys on [EKM](/docs/technical/email-key-manager/latest/email-key-manager.html) even when available (useful if you expect that your users will need to use FlowCrypt from external network, without a VPN to reach EKM which runs on internal network) |
-| `DEFAULT_REMEMBER_PASS_PHRASE` | Changes a setup checkbox default, in a way that browser will not remember user pass phrase |
+| `DEFAULT_REMEMBER_PASS_PHRASE` | Changes a setup checkbox default, in a way that browser will remember user pass phrase |
 | `USE_LEGACY_ATTESTER_SUBMIT` | Deprecated |
 
 All of the OrgRules above are available for FlowCrypt Browser Extension. Support on Android and iOS apps varies.
