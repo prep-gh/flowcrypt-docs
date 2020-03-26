@@ -1,0 +1,24 @@
+/* on LINUX, list your available fonts with 
+   $ fc-list
+*/
+
+body {
+   margin-top: 0;
+   margin-right: 0px;
+   padding: 0px;
+   background-color: #ffffff; /* #fafffa;*/
+   font: "DejaVu Sans";
+ }
+
+
+h1 { color: #008000; } 
+h2 { color: #0000ff; }
+h3 { color: #ff00ff; }
+
+code {
+  color: #660000;
+  background-color: #e0e0e0;
+  font: courier-new;
+  padding: 0.01em;
+}
+
