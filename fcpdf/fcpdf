@@ -1,0 +1,47 @@
+#!/bin/bash
+# =========================================
+#  March 25, 2020
+#  Bill Shadish
+#  Usage:   $ . fcpdf.sh filename
+#  ( you can name this script without the .sh extension)
+#  (.md will be assumed on the filename provided)
+#  A .pdf of the same name will be created.
+#  Make sure to make this script executable: $ chmod +x fcpdf
+#
+#  Notes:
+#  You will get a warning if you do not supply a title.
+#  This is fine and can be ignored, but if you want to add
+#  a title, it *will* take up space at the top of the .pdf.
+#  To add a title, add this parm:
+#  --metadata=title:YourChosenTitle
+#
+#  headers and footers are added with the header.md and
+#  footer.md files. Edit these to taste.  MD within HTML 
+#  does not work well, so md is not recommended   
+#  in any of the centering options shown in
+#  footer.md.  Instead, either use graphics; or regular text; or
+#  just left align things in the header and footer.
+#
+#  Please see readme.md for further notes on 
+#  usage and md capabilities.
+# =========================================
+
+if [ -z "$1" ]; then 
+   echo "Usage:  $ . fcpdf filename"
+   echo "See readme.md for additional usage notes." 
+   return
+fi
+
+echo -e '\033[1m------------------------------------------------------------------------\033[0m'
+echo -e '\033[1mfcpdf\033[0m' converting "$1".md to "$1".pdf... 
+echo " - You can ignore the 'title' warning, or see notes in this script to add one."
+echo " - For a non-css pdf, comment (\"#\") out the --css line in this script."
+echo " - There are many more usage notes within readme.md."
+echo " - To change the header:  $ nano header.md"
+echo " - To change the footer:  $ nano footer.md"
+echo -e '\033[1m------------------------------------------------------------------------\033[0m'
+
+pandoc header.md "$1".md footer.md \
+  --from=gfm --pdf-engine=wkhtmltopdf \
+  --css=./flowcrypt.css \
+  --output "$1".pdf
