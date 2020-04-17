@@ -1,5 +1,6 @@
 #!/bin/bash
-# =========================================
+
+# ================================================================
 #  March 25, 2020
 #  Bill Shadish
 #  Usage:   $ . fcpdf.sh filename
@@ -16,24 +17,45 @@
 #  --metadata=title:YourChosenTitle
 #
 #  headers and footers are added with the header.md and
-#  footer.md files. Edit these to taste.  MD within HTML 
-#  does not work well, so md is not recommended   
+#  footer.md files. Edit these to taste.  MD within HTML
+#  does not work well, so md is not recommended
 #  in any of the centering options shown in
 #  footer.md.  Instead, either use graphics; or regular text; or
 #  just left align things in the header and footer.
 #
-#  Please see readme.md for further notes on 
+#  Please see readme.md for further notes on
 #  usage and md capabilities.
-# =========================================
+#
+#  April 7, 2020 Bill Shadish
+#
+#  01. Modified fcpdf so that it self-determines where it
+#  is running from; and can therefore attach the header
+#  and footer from that directory. This allows you to run
+#  fcpdf from any other directory; as long as fcpdf is
+#  either on your path; or if you specify the full path
+#  fcpdf is in.
+#  For example $ fcpdf md_file -OR- ~/scripts/fcpdf md_file
+#
+#  02. check to see if user supplied a ".md" on the
+#  markdown file and do not auto-attach ".md" if they did so.
+#
+#  03.  By default a .pdf of the same name as the markdown
+#  input file  is created. This mod allows the user to override this.
+#  Allow user to add a second parameter, to create a
+#  differently-named output .pdf.
+#  usage:  $ fcpdf md_file  [full][path][to]pdf_file
+#  .pdf will be appended to the output, if it is not supplied.
+# ================================================================
 
-if [ -z "$1" ]; then 
+if [ -z "$1" ]; then
    echo "Usage:  $ . fcpdf filename"
-   echo "See readme.md for additional usage notes." 
+   echo "See readme.md for additional usage notes."
    return
 fi
 
 echo -e '\033[1m------------------------------------------------------------------------\033[0m'
-echo -e '\033[1mfcpdf\033[0m' converting "$1".md to "$1".pdf... 
+echo -e '\033[1mfcpdf\033[0m' is converting "$1".md to "$1".pdf,
+echo -e " using BASH version: \033[1m${BASH_VERSION}\033[0m."
 echo " - You can ignore the 'title' warning, or see notes in this script to add one."
 echo " - For a non-css pdf, comment (\"#\") out the --css line in this script."
 echo " - There are many more usage notes within readme.md."
@@ -41,7 +63,36 @@ echo " - To change the header:  $ nano header.md"
 echo " - To change the footer:  $ nano footer.md"
 echo -e '\033[1m------------------------------------------------------------------------\033[0m'
 
-pandoc header.md "$1".md footer.md \
+# Find out where I am running from:
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+MD_FILE="$1"
+MD_FILE_EXT_CHECK=$(echo "$MD_FILE" | awk '{print tolower($0)}')
+
+# if .md was supplied, remove it.
+# (prevents "filename.md.md" and "filename.md.pdf" types of issues) 
+EXT=${MD_FILE_EXT_CHECK##*.}
+if [ ".$EXT" = ".md" ]; then 
+   echo "... extension \"$EXT\" found on the input $MD_FILE" 
+   echo "... removing the \".md\" from the filename, for just a moment."
+   MD_FILE=${MD_FILE%.*}; echo "... the trimmed filename: " $MD_FILE
+fi
+
+
+# Determine output name.
+if [ -z "$2" ]; then 
+   # No second parm provided.
+   # Output should be named the same as the input.
+   PDF_FILE="$MD_FILE.pdf"
+else
+   # Second parm provided.
+   # Use this as the output pdf name.
+   PDF_FILE="$2"
+   # if lcase left of $PDF_FILE ne ".pdf" add that.
+fi
+echo "... outputting: $PDF_FILE"
+
+pandoc "$DIR/header.md" "$MD_FILE".md "$DIR"/footer.md \
   --from=gfm --pdf-engine=wkhtmltopdf \
-  --css=./flowcrypt.css \
-  --output "$1".pdf
+  --css="$DIR/flowcrypt.css" \
+  --output "$PDF_FILE"
