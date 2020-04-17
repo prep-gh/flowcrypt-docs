@@ -54,7 +54,7 @@ if [ -z "$1" ]; then
 fi
 
 echo -e '\033[1m------------------------------------------------------------------------\033[0m'
-echo -e '\033[1mfcpdf\033[0m' is converting "$1".md to "$1".pdf,
+echo -e '\033[1mfcpdf\033[0m' is converting "$1".md,
 echo -e " using BASH version: \033[1m${BASH_VERSION}\033[0m."
 echo " - You can ignore the 'title' warning, or see notes in this script to add one."
 echo " - For a non-css pdf, comment (\"#\") out the --css line in this script."
