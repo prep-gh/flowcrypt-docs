@@ -1,5 +1,6 @@
 # FlowCrypt .md to .pdf converter 
-Bill Shadish, March 20, 2020
+Bill Shadish, March 20, 2020 
+Updated: April 17, 2020
 
 ## Goals:
 * A bash script .md to .pdf conversion tool, including FlowCrypt
@@ -12,7 +13,6 @@ Bill Shadish, March 20, 2020
 * Ability to add page breaks from the .md-side.
 
 ## (Tom) Optional, if desired?
-* Create a full FlowCrypt .md & .css combo for a "FlowCrypt" template style
 * Add a layer for it to be done from a web page
 * Add the ability to do a directory at a time
   * Within this, add the ability to pick and choose between the files to run.
@@ -39,6 +39,19 @@ edit the **flowcrypt.css** file as desired.
 run it.
  
 ```$ fcpdf readme.md readme.pdf```
+
+
+You can include, or not, the .md on the first parm.
+If omitted, ".md" will be added.
+
+You can create a different output .pdf file, by supplying the second parm.
+
+If you leave off the 2nd pdf parm, it defaults to creating a pdf of the same name as the input.
+
+You can now run fcpdf from different folders; just by having fcpdf on your path; 
+or by providing the full path to the script (~/Flowcrypt/fcpdf parm1 parm2). 
+The other pieces needed, such as the header or css file, 
+will be picked up from the spot that fcpdf physically resides in.
 
 
 ## TESTING
